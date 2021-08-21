@@ -97,10 +97,10 @@ time:
   label: 'Time'
   class: 'far fa-alarm-clock'
 
-spring:
-  label: 'Spring Break'
-  class: 'far fa-flower-tulip'
+fall:
+  label: 'Fall Break'
+  class: 'far fa-campfire'
 
-easter:
-  label: 'Easter Holiday'
-  class: 'far fa-rabbit'
+thanksgiving:
+  label: 'Thanksgiving Holiday'
+  class: 'far fa-pumpkin'
