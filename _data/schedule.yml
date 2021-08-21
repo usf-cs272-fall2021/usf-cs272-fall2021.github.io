@@ -489,8 +489,9 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Exam 1'
+                icon: 'exam'
+                type: 'has-text-danger has-text-weight-bold'
 
           - <<: *assignments
             items:
@@ -902,8 +903,9 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Exam 2'
+                icon: 'exam'
+                type: 'has-text-danger has-text-weight-bold'
 
           - <<: *assignments
             items:
