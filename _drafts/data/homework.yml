@@ -1,0 +1,72 @@
+argumentmap: &default
+  text: 'ArgumentMap'
+  date: 2021-09-03
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115402'
+  type: ''
+  icon: 'homework'
+
+simplejsonwriter:
+  <<: *default
+  text: 'SimpleJsonWriter'
+  date: 2021-02-12
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043822'
+
+textfilestemmer:
+  <<: *default
+  text: 'TextFileStemmer'
+  date: 2021-02-19
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043823'
+
+textfileindex:
+  <<: *default
+  text: 'TextFileIndex'
+  date: 2021-02-26
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043824'
+
+textfilefinder:
+  <<: *default
+  text: 'TextFileFinder'
+  date: 2021-03-05
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043825'
+
+loggingsetup:
+  <<: *default
+  text: 'LoggingSetup'
+  date: 2021-03-12
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043826'
+
+linkparser:
+  <<: *default
+  text: 'LinkParser'
+  date: 2021-04-02
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043829'
+
+readwritelock:
+  <<: *default
+  text: 'ReadWriteLock'
+  date: 2021-04-16
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043827'
+
+primefinder:
+  <<: *default
+  text: 'PrimeFinder'
+  date: 2021-04-16
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043828'
+
+htmlfetcher:
+  <<: *default
+  text: 'HtmlFetcher'
+  date: 2021-04-30
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043831'
+
+htmlcleaner:
+  <<: *default
+  text: 'HtmlCleaner'
+  date: 2021-04-23
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043833'
+
+headserver:
+  <<: *default
+  text: 'HeaderServer (Optional)'
+  date: 2021-05-07
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7043835'

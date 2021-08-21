@@ -1,0 +1,80 @@
+intros: &default
+  text: 'Introductions'
+  date: 2021-02-02
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7041369'
+  icon: 'participation'
+
+forum_setup:
+  <<: *default
+  text: 'Forum Setup'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040987'
+  date: 2021-02-02
+
+homework_setup:
+  <<: *default
+  text: 'Homework Setup'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040988'
+  date: 2021-02-05
+
+lecture_setup:
+  <<: *default
+  text: 'Lecture Setup'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7060771'
+  date: 2021-02-19
+
+project_setup:
+  <<: *default
+  text: 'Project Setup'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040990'
+  date: 2021-03-05
+
+forum_post:
+  <<: *default
+  text: 'Forum Post'
+  show: true
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040991'
+  date: 2021-05-14
+
+forum_response:
+  <<: *default
+  text: 'Forum Response'
+  show: true
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040992'
+  date: 2021-05-14
+
+midterm_survey:
+  <<: *default
+  text: 'Midterm Survey'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7068377'
+  date: 2021-04-09
+
+thread_demos:
+  <<: *default
+  text: 'Thread Demos'
+  link: 'https://usfca.instructure.com/courses/1597848/discussion_topics/7985259'
+  date: 2021-04-01
+
+indexedset:
+  <<: *default
+  text: 'IndexedSet Demo'
+  link: 'https://usfca.instructure.com/courses/1597848/discussion_topics/7986466'
+  date: 2021-04-08
+
+message_server:
+  <<: *default
+  text: 'MessageServer Demo'
+  link: 'https://usfca.instructure.com/courses/1597848/discussion_topics/7990327'
+  date: 2021-04-23
+
+sql_discussion:
+  <<: *default
+  text: 'SQL Discussion'
+  link: 'https://usfca.instructure.com/courses/1597848/discussion_topics/7991385'
+  date: 2021-04-30
+
+course_evaluation:
+  <<: *default
+  text: 'Course Evaluation'
+  show: true
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7079043'
+  date: 2021-05-19

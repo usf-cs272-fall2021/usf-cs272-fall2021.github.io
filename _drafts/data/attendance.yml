@@ -1,0 +1,133 @@
+class1: &default_class
+  text: 'Attendance (Class)'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040728'
+  date: 2021-01-28
+  icon: 'attendance'
+
+other1: &default_other
+  text: 'Attendance (Other)'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040770'
+  date: 2021-01-29
+  icon: 'attendance'
+
+class2:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040731'
+  date: 2021-02-04
+
+other2:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040914'
+  date: 2021-02-05
+
+class3:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040732'
+  date: 2021-02-11
+
+other3:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040915'
+  date: 2021-02-12
+
+class4:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040733'
+  date: 2021-02-18
+
+other4:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040916'
+  date: 2021-02-19
+
+class5:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040734'
+  date: 2021-02-25
+
+other5:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040918'
+  date: 2021-02-26
+
+class6:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040735'
+  date: 2021-03-04
+
+other6:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040917'
+  date: 2021-03-05
+
+extra1:
+  <<: *default_other
+  text: 'Attendance (Extra)'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040950'
+  date: 2021-03-12
+
+class9:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040736'
+  date: 2021-03-25
+
+other9:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040919'
+  date: 2021-03-26
+
+class10:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040737'
+  date: 2021-04-01
+
+class11:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040738'
+  date: 2021-04-08
+
+other11:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040920'
+  date: 2021-04-09
+
+class12:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040739'
+  date: 2021-04-15
+
+other12:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040921'
+  date: 2021-04-16
+
+class13:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040740'
+  date: 2021-04-22
+
+other13:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040922'
+  date: 2021-04-23
+
+class14:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040741'
+  date: 2021-04-29
+
+other14:
+  <<: *default_other
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040923'
+  date: 2021-04-30
+
+extra2:
+  <<: *default_other
+  text: 'Attendance (Extra)'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040951'
+  date: 2021-05-07
+
+class16:
+  <<: *default_class
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7040742'
+  date: 2021-05-13

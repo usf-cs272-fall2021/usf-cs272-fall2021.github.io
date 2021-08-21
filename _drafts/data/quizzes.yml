@@ -1,0 +1,167 @@
+syllabus: &default
+  text: 'Course Syllabus'
+  date: 2021-02-02
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7044809'
+  icon: 'quiz'
+
+paths:
+  <<: *default
+  text: 'Paths and Files'
+  link: 'https://usfca.instructure.com/courses/1597848/assignments/7044811'
+  date: 2021-02-04
+
+data:
+  <<: *default
+  text: 'Data Structures'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375244'
+  date: 2021-02-04
+
+maps:
+  <<: *default
+  text: 'Using Maps'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375248'
+  date: 2021-02-11
+
+static:
+  <<: *default
+  text: 'Static vs Instance'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375260'
+  date: 2021-02-11
+
+identifier:
+  <<: *default
+  text: 'Instance vs Identifier'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375262'
+  date: 2021-02-11
+
+mutable1:
+  <<: *default
+  text: 'Mutability, Part 1'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375246'
+  date: 2021-02-18
+
+mutable2:
+  <<: *default
+  text: 'Mutability, Part 2'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375266'
+  date: 2021-02-18
+
+casting:
+  <<: *default
+  text: 'Casting'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375261'
+  date: 2021-02-18
+
+collections:
+  <<: *default
+  text: 'Collections Revisited'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375255'
+  date: 2021-02-18
+
+keywords:
+  <<: *default
+  text: 'Inheritance Keywords'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375263'
+  date: 2021-02-18
+
+nested:
+  <<: *default
+  text: 'Nested Classes'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375253'
+  date: 2021-02-25
+
+history:
+  <<: *default
+  text: 'Java Features'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375259'
+  date: 2021-02-25
+
+lambda:
+  <<: *default
+  text: 'Lambda Expressions'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375267'
+  date: 2021-03-04
+
+stream:
+  <<: *default
+  text: 'Stream Pipelines'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375264'
+  date: 2021-03-04
+
+asserts:
+  <<: *default
+  text: 'Assertions'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375265'
+  date: 2021-03-04
+
+logging:
+  <<: *default
+  text: 'Logging'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375249'
+  date: 2021-03-04
+
+regex:
+  <<: *default
+  text: 'Regex Basics'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375254'
+  date: 2021-03-25
+
+testing:
+  <<: *default
+  text: 'Unit Testing'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375251'
+  date: 2021-04-01
+
+threads:
+  <<: *default
+  text: 'Thread Basics'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375256'
+  date: 2021-04-01
+
+synchronization:
+  <<: *default
+  text: 'Synchronization'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375252'
+  date: 2021-04-08
+
+queues:
+  <<: *default
+  text: 'Work Queues'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375241'
+  date: 2021-04-08
+
+web:
+  <<: *default
+  text: 'Web Basics'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375247'
+  date: 2021-04-16
+
+http:
+  <<: *default
+  text: 'HTTP Basics'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375243'
+  date: 2021-04-16
+
+dynamic:
+  <<: *default
+  text: 'Dynamic Pages'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375250'
+  date: 2021-04-16
+
+contexts:
+  <<: *default
+  text: 'Servlet Contexts'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375245'
+  date: 2021-04-23
+
+joins:
+  <<: *default
+  text: 'SQL Joins'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375268'
+  date: 2021-04-30
+
+groups:
+  <<: *default
+  text: 'SQL Groups'
+  link: 'https://usfca.instructure.com/courses/1597848/quizzes/2375242'
+  date: 2021-04-30
