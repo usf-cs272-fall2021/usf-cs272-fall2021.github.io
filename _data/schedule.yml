@@ -52,7 +52,10 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - text: 'Classes Begin'
+                date: 2021-08-24
+                show: true
+                icon: 'date'
                 type: *pending
 
       - date: 2021-08-26
@@ -94,6 +97,11 @@ weeks:
             items:
               - text: 'Pending'
                 type: *pending
+
+              - text: 'Add Deadline'
+                date: 2021-08-30
+                icon: 'date'
+                type: ['bump', 'has-text-warning']
 
   - week: 2
     days:
@@ -156,6 +164,11 @@ weeks:
             items:
               - text: 'Pending'
                 type: *pending
+
+              - text: 'Labor Day (No Classes)'
+                date: 2021-09-06
+                icon: 'date'
+                type: ['bump', 'has-text-grey-light']
 
   - week: 3
     days:
@@ -533,23 +546,12 @@ weeks:
     days:
       - date: 2021-10-19
         sections:
-          - <<: *lectures
-
-          - label: 'Agenda'
+          - label: 'No Class'
             date: false
             items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *assignments
-            items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Fall Break'
+                icon: 'fall'
+                type: ['bump', 'has-text-grey-light']
 
       - date: 2021-10-21
         sections:
@@ -715,6 +717,12 @@ weeks:
               - text: 'Pending'
                 type: *pending
 
+              - text: 'Withdraw Deadline'
+                date: 2021-11-05
+                show: true
+                icon: 'date'
+                type: ['bump', 'has-text-warning']
+
   - week: 12
     days:
       - date: 2021-11-09
@@ -736,6 +744,12 @@ weeks:
             items:
               - text: 'Pending'
                 type: *pending
+
+              - text: 'Registration Begins'
+                date: 2021-11-09
+                show: true
+                icon: 'date'
+                type: ['bump', 'has-text-grey-light']
 
       - date: 2021-11-11
         sections:
@@ -863,43 +877,21 @@ weeks:
 
       - date: 2021-11-25
         sections:
-          - <<: *lectures
-
-          - label: 'Agenda'
+          - label: 'No Class'
             date: false
             items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *assignments
-            items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Thanksgiving Break'
+                icon: 'thanksgiving'
+                type: ['bump', 'has-text-grey-light']
 
       - date: 2021-11-26
         sections:
-          - <<: *labs
-
-          - label: 'Agenda'
+          - label: 'No Class'
             date: false
             items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *assignments
-            items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Thanksgiving Break'
+                icon: 'thanksgiving'
+                type: ['bump', 'has-text-grey-light']
 
   - week: 15
     days:
@@ -984,6 +976,12 @@ weeks:
             items:
               - text: 'Pending'
                 type: *pending
+
+              - text: 'Classes End'
+                date: 2021-12-07
+                show: true
+                icon: 'date'
+                type: ['bump', 'has-text-grey-light']
 
       - date: ''
         sections:
