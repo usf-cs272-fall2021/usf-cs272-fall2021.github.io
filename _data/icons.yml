@@ -30,7 +30,7 @@ video:
 
 project:
   label: 'Project'
-  class: 'far fa-code-branch'
+  class: 'far fa-project-diagram'
   shown: true
 
 homework:
@@ -64,6 +64,10 @@ date:
   shown: true
 
 # not included in legend
+
+review:
+  label: 'Code Review'
+  class: 'far fa-code-branch'
 
 warning:
   label: 'Warning'
