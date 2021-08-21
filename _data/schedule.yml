@@ -390,8 +390,8 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'projects'
+                name: 'project1f'
 
       - date: 2021-09-30
         sections:
@@ -513,8 +513,8 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'projects'
+                name: 'project1d'
 
   - week: 8
     days:
@@ -667,8 +667,8 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'projects'
+                name: 'project2f'
 
       - date: 2021-10-28
         sections:
@@ -787,8 +787,8 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'projects'
+                name: 'project2d'
 
               - text: 'Withdraw Deadline'
                 date: 2021-11-05
@@ -895,8 +895,8 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'projects'
+                name: 'project3f'
 
       - date: 2021-11-18
         sections:
@@ -1059,8 +1059,8 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'projects'
+                name: 'project3d'
 
   - week: 16
     days:
@@ -1081,8 +1081,8 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'projects'
+                name: 'project4f'
 
               - text: 'Classes End'
                 date: 2021-12-07
@@ -1104,10 +1104,14 @@ weeks:
               - text: 'Pending'
                 type: *pending
 
+              - file: 'projects'
+                name: 'project4d'
+
           - label: 'Finals Week 12/10 &ndash; 12/16'
             dates: true
             items:
-              - text: 'Pending'
+              - text: 'Final Code Reviews'
+                icon: 'review'
                 type: *pending
 
   # - week: 2
