@@ -29,7 +29,7 @@ links:
   forums:
     name: 'Piazza'
     icon: 'far fa-comments'
-    link: 'https://piazza.com/class/ksf9o7z4y917gr'
+    link: 'https://piazza.com/usfca/fall2021/cs272/home'
     info: 'course announcements, upcoming events, lecture Q&amp;A, homework help, and general discussion'
     line: true
 
