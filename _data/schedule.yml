@@ -96,8 +96,8 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'argumentmap'
 
           - <<: *deadlines
             items:
@@ -163,13 +163,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'textfilestemmer'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'argumentmap'
 
               - text: 'Labor Day (No Classes)'
                 date: 2021-09-06
@@ -230,13 +230,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'simplejsonwriter'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'textfilestemmer'
 
   - week: 4
     days:
@@ -292,13 +292,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'textfileindex'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'simplejsonwriter'
 
   - week: 5
     days:
@@ -363,13 +363,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'textfilesorter'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'textfileindex'
 
   - week: 6
     days:
@@ -434,13 +434,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'textfilefinder'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'textfilesorter'
 
   - week: 7
     days:
@@ -508,11 +508,14 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'linkparser'
 
           - <<: *deadlines
             items:
+              - file: 'homework'
+                name: 'textfilefinder'
+
               - file: 'projects'
                 name: 'project1d'
 
@@ -580,13 +583,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'htmlcleaner'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'linkparser'
 
   - week: 9
     days:
@@ -640,13 +643,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'loggingsetup'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'htmlcleaner'
 
   - week: 10
     days:
@@ -711,13 +714,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'readwritelock'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'loggingsetup'
 
   - week: 11
     days:
@@ -782,11 +785,14 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'primefinder'
 
           - <<: *deadlines
             items:
+              - file: 'homework'
+                name: 'readwritelock'
+
               - file: 'projects'
                 name: 'project2d'
 
@@ -868,13 +874,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'htmlfetcher'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'primefinder'
 
   - week: 13
     days:
@@ -942,13 +948,13 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'headserver'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'homework'
+                name: 'htmlfetcher'
 
   - week: 14
     days:
@@ -1059,6 +1065,9 @@ weeks:
 
           - <<: *deadlines
             items:
+              - file: 'homework'
+                name: 'headserver'
+
               - file: 'projects'
                 name: 'project3d'
 

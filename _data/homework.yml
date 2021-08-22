@@ -1,0 +1,78 @@
+argumentmap: &default
+  text: 'ArgumentMap'
+  date: 2021-09-03
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115402'
+  type: ''
+  icon: 'homework'
+
+textfilestemmer:
+  <<: *default
+  text: 'TextFileStemmer'
+  date: 2021-09-10
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115403'
+
+simplejsonwriter:
+  <<: *default
+  text: 'SimpleJsonWriter'
+  date: 2021-09-17
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115404'
+
+textfileindex:
+  <<: *default
+  text: 'TextFileIndex'
+  date: 2021-09-24
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115405'
+
+textfilesorter:
+  <<: *default
+  text: 'TextFileSorter'
+  date: 2021-10-01
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115406'
+
+textfilefinder:
+  <<: *default
+  text: 'TextFileFinder'
+  date: 2021-10-08
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115407'
+
+linkparser:
+  <<: *default
+  text: 'LinkParser'
+  date: 2021-10-15
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115408'
+
+htmlcleaner:
+  <<: *default
+  text: 'HtmlCleaner'
+  date: 2021-10-22
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115409'
+
+loggingsetup:
+  <<: *default
+  text: 'LoggingSetup'
+  date: 2021-10-29
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115410'
+
+readwritelock:
+  <<: *default
+  text: 'ReadWriteLock'
+  date: 2021-11-05
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115411'
+
+primefinder:
+  <<: *default
+  text: 'PrimeFinder'
+  date: 2021-11-12
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115412'
+
+htmlfetcher:
+  <<: *default
+  text: 'HtmlFetcher'
+  date: 2021-11-19
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115413'
+
+headserver:
+  <<: *default
+  text: 'HeaderServer (Optional)'
+  date: 2021-12-03
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115414'
