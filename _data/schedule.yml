@@ -554,8 +554,10 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Exam 1 Retake'
+                date: 2021-10-21
+                icon: 'exam'
+                type: 'has-text-danger has-text-weight-bold'
 
           - <<: *deadlines
             items:
@@ -619,8 +621,10 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Exam 1 Retake'
+                date: 2021-10-21
+                icon: 'exam'
+                type: 'has-text-danger has-text-weight-bold'
 
       - date: 2021-10-22
         sections:
@@ -1031,8 +1035,10 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Exam 2 Retake'
+                date: 2021-12-09
+                icon: 'exam'
+                type: 'has-text-danger has-text-weight-bold'
 
           - <<: *deadlines
             items:
@@ -1105,6 +1111,12 @@ weeks:
             items:
               - text: 'Pending'
                 type: *pending
+
+              - text: 'Exam 2 Retake'
+                date: 2021-12-09
+                icon: 'exam'
+                show: true
+                type: 'bump has-text-danger has-text-weight-bold'
 
       - date: ''
         sections:
