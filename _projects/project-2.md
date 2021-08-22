@@ -9,6 +9,12 @@ tags:
   - text: 'Pending'
     type: 'is-muted'
 
+assignments:
+  - text: 'Project 2 Functionality'
+    link: 'https://usfca.instructure.com/courses/1602551/assignments/7118292'
+
+  - text: 'Project 2 Design'
+    link: 'https://usfca.instructure.com/courses/1602551/assignments/7118298'
 ---
 
 Pending

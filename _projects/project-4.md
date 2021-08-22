@@ -9,6 +9,13 @@ tags:
   - text: 'Pending'
     type: 'is-muted'
 
+assignments:
+  - text: 'Project 4 Web Crawler'
+    link: 'project-4a.html'
+
+  - text: 'Project 4 Search Engine'
+    link: 'project-4b.html'
+    
 ---
 
 Pending
