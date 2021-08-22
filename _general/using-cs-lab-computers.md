@@ -3,18 +3,13 @@ title: Using CS Lab Computers
 navbar: Guides
 layout: guides
 key: 1.5
-bump: true
-
-tags:
-  - text: 'New'
-    type: 'is-primary'    
 ---
 
-You must use your CS account and CS lab computers to connect to our MariaDB database on campus.
+You must use your CS account and CS lab computers to connect to our MariaDB database on campus. If you are on campus, you may also want to physically log into a computer in one of the CS classrooms.
 
 ## Account Basics
 
-Your CS account shares the same username as your myUSF account, but different passwords. You should use your CS account for the following purposes:
+Your CS account shares the same username as your myUSF account, but **different** passwords. You should use your CS account for the following purposes:
 
   - Logging into the computers in the CS classrooms (Harney 142 and LS G12).
   - Logging into the computers in the CS labs (Harney 413).
@@ -30,9 +25,9 @@ Your initial password will be the LAST six digits of your student ID. Since your
 
 You should [change your password](https://myusf.usfca.edu/arts-sciences/computer-science/technical-resources#q3) after logging in for the first time.
 
-## ~~Local Access~~
+## Local Access
 
-~~If you are physically in one of the CS Labs, you can log into one of the lab computers running Linux directly using your username and password.~~
+If you are physically in one of the CS Labs, you can log into one of the lab computers running Linux directly using your username and password.
 
 ## Remote Access
 

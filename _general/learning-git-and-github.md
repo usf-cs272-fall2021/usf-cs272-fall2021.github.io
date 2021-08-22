@@ -18,7 +18,7 @@ When creating an account for this class (including accounts already created), ke
 
 You can see the [instructor's profile page](https://github.com/sjengle) for an example. When done with this class, you'll be able to show off your Github profile to potential employers.
 
-If you are unfamiliar with `git` and GitHub, I recommend watching this workshop put together by two CS 212 teacher assistants:
+If you are unfamiliar with `git` and GitHub, I recommend watching this workshop put together by two past CS 272 teacher assistants:
 
 - [Git 101 Workshop, Part 1](https://www.cs.usfca.edu/~tutoring/git_workshop_part_1.mp4)
 - [Git 101 Workshop, Part 2](https://www.cs.usfca.edu/~tutoring/git_workshop_part_2.mp4)
@@ -31,14 +31,11 @@ Here are some other fantastic guides you can look at to learn more:
 - [**GitHub Training and Guides (Videos)**](https://www.youtube.com/githubguides)  
   Videos produced by Github for learning Git and Github.
 
-- [**Code School**](https://try.github.io/)  
-  Interactive exercises for learning Git by Code School (sponsored by GitHub).
+- [**GitHub Learning Lab**](https://lab.github.com/)  
+  Hands-on GitHub lessons taught by the friendly GitHub Learning Lab bot.
 
 - [**Git-SCM**](https://git-scm.com/)  
   Official Git project site (includes tutorials, a reference manual, and the free "Pro Git" ebook).
-
-- [**Learn Git**](https://www.codecademy.com/learn/learn-git)  
-  Interactive exercises for learning Git by Codecademy.
 
 Here are a couple resources that will help use `git` with Eclipse:
 

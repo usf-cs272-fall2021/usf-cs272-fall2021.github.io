@@ -49,6 +49,19 @@ Here are a few guides on the topic,
 
 Once you start branching, it is likely you will run into merge conflicts.
 
+<p>
+  <a href="https://commons.wikimedia.org/wiki/File:Paragraph-based_prototype_%E2%80%93_rough_visualization_of_the_functionality.png#/media/File:Paragraph-based_prototype_–_rough_visualization_of_the_functionality.png">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Paragraph-based_prototype_%E2%80%93_rough_visualization_of_the_functionality.png/1200px-Paragraph-based_prototype_%E2%80%93_rough_visualization_of_the_functionality.png" alt="Paragraph-based prototype – rough visualization of the functionality.png" style="max-width: 600px; height: auto; background-color: whitesmoke; border-radius: 4px; padding: 0.25ex;">
+  </a>
+
+  <br>
+    <small><em class="has-text-grey">
+      By <a href="//commons.wikimedia.org/wiki/User:Johanna_Strodt_(WMDE)" title="User:Johanna Strodt (WMDE)">Johanna Strodt (WMDE)</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=66362904">Link</a>
+    </em></small>
+</p>
+
+There are several guides dedicated to resolving these conflicts:
+
 - [About Merge Conflicts](https://help.github.com/articles/about-merge-conflicts/) (Github Help Article)
 
 - [Managing Merge Conflicts](https://lab.github.com/githubtraining/managing-merge-conflicts) (Github Training)
@@ -57,4 +70,4 @@ Once you start branching, it is likely you will run into merge conflicts.
 
 - [Merging](https://wiki.eclipse.org/EGit/User_Guide#Merging) (Eclipse EGit User Guide)
 
-Do not get discouraged! Dealing with a merge conflict (or other repository issue) is like a rite-of-passage for software developers. It is frustrating for everyone! (There are many jokes and comics on this topic that are not necessarily appropriate to share in a classroom setting.)
+**Do not get discouraged!** Dealing with a merge conflict (or other repository issue) is like a rite-of-passage for software developers. It is frustrating for everyone! (There are many jokes/comics/memes on this topic that are not necessarily appropriate to share in a classroom setting.)
