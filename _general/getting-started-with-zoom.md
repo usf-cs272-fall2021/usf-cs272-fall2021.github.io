@@ -3,9 +3,14 @@ title: Getting Started with Zoom
 navbar: Guides
 layout: guides
 key: 1.2
+
 blurb: |
   <p align="center"><img src="/images/zoomlogo.png" width="350"/></p>
   <p>Most remote learning and activities will use Zoom meetings. This often includes remote lectures, office hours, appointments with on-campus student services, and advising. If you have not used Zoom with your USF account before, this guide will walk you through how to get setup for the first time.</p>
+
+tags:
+  - text: 'New'
+    type: 'is-primary'
 ---
 
 ## System Requirements
@@ -20,7 +25,7 @@ Using Zoom effectively requires:
   - preferably **headphones** to prevent microphone feedback or **speakers** to hear audio
   - a reliable **high-speed internet** connection to actively participate in live discussions (not required to watch recordings)
 
-These are not all required, but can greatly impact your remote learning experience. If you are concerned about your access, please see the "Access to Technology" section of the [USF Remote Learning FAQ](https://myusf.usfca.edu/covid/remote/students/faq).
+These are not all required, but can greatly impact your remote learning experience. If you are concerned about your access, please see the "Access to Technology" section of the [USF Remote Learning FAQ](https://myusf.usfca.edu/usf-together/students/faq).
 
 ## Installing Zoom
 
