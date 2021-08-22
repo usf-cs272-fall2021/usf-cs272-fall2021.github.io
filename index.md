@@ -3,9 +3,9 @@ title: Welcome
 navbar: Home
 ---
 
-Welcome to <strong class="has-text-usf-green">CS {{ site.data.info.code }} {{ site.data.info.name }}</strong> for <strong class="has-text-usf-green">{{ site.data.info.term }}</strong>. {{ site.data.info.blurb }}
+Welcome to <strong class="has-text-usf-green">{{ site.data.info.code }} {{ site.data.info.name }}</strong> for <strong class="has-text-usf-green">{{ site.data.info.term }}</strong>. {{ site.data.info.blurb }}
 
-[Course Syllabus](syllabus.html){: .button .is-primary } &nbsp; [Getting Started Guide](/guides/general/getting-started.html){: .button .is-primary }
+[Course Syllabus]({{ site.data.info.links.syllabus.link }}){: .button .is-primary } &nbsp; [Getting Started Guide](/guides/general/getting-started.html){: .button .is-primary }
 
 ## Upcoming Schedule
 
@@ -61,10 +61,10 @@ ul.icons > li > i {
 
 ## Weekly Overview
 
-Find the regular weekly schedule below. Always check the [Canvas]({{ side.data.info.links.canvas.link }}) calendar for the most recent deadlines.
+Find the regular weekly schedule below. Always check the [Canvas]({{ site.data.info.links.canvas.link }}) calendar for the most recent deadlines.
 
 <div class="has-text-centered">
-<iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Y3MudXNmY2EuZWR1XzNnaDZiMmkybDM0cnNoNm1iY29zOHFyYXBnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Y3MudXNmY2EuZWR1X200cGZ1Z2l2ZXM5ODI0c3ZtcWk5NHZ1Y2hrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=YTk5dTFqamFoZjhpajRjMmJxbWZ0cmJuNXIwZXI3NG1AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23B39DDB&amp;color=%230B8043&amp;color=%230B8043&amp;title=CS%20212%20Fall%202021&amp;mode=WEEK&amp;showCalendars=0&amp;showTabs=0&amp;showPrint=0&amp;showNav=1&amp;showDate=1&amp;showTitle=0" style="border: none;" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=ZHRoM2U3ZzFvZmhsajRrY2d1bm8zZXY5cjJsc2FjbHRAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23009688&title=CS%20272%20Fall%202021&showPrint=0&showCalendars=0&showTabs=1&mode=WEEK&showTitle=0" style="border: none;" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
 </div>
 
 ## Navigation
