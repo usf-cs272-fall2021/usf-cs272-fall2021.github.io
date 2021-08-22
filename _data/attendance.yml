@@ -1,0 +1,180 @@
+class1: &default_class
+  text: 'Week 01 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115506'
+  date: 2021-08-31
+  icon: 'attendance'
+
+other1: &default_other
+  text: 'Week 01 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115587'
+  date: 2021-08-31
+  icon: 'attendance'
+
+class2:
+  <<: *default_class
+  text: 'Week 02 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115507'
+  date: 2021-09-07
+
+other2:
+  <<: *default_other
+  text: 'Week 02 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115588'
+  date: 2021-09-07
+
+class3:
+  <<: *default_class
+  text: 'Week 03 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115508'
+  date: 2021-09-14
+
+other3:
+  <<: *default_other
+  text: 'Week 03 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115590'
+  date: 2021-09-14
+
+class4:
+  <<: *default_class
+  text: 'Week 04 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115509'
+  date: 2021-09-21
+
+other4:
+  <<: *default_other
+  text: 'Week 04 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115591'
+  date: 2021-09-21
+
+class5:
+  <<: *default_class
+  text: 'Week 05 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115510'
+  date: 2021-09-28
+
+other5:
+  <<: *default_other
+  text: 'Week 05 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115592'
+  date: 2021-09-28
+
+class6:
+  <<: *default_class
+  text: 'Week 06 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115512'
+  date: 2021-10-05
+
+other6:
+  <<: *default_other
+  text: 'Week 06 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115593'
+  date: 2021-10-05
+
+class7:
+  <<: *default_class
+  text: 'Week 07 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115513'
+  date: 2021-10-12
+
+other7:
+  <<: *default_other
+  text: 'Week 07 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115594'
+  date: 2021-10-12
+
+class8:
+  <<: *default_class
+  text: 'Week 08 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115514'
+  date: 2021-10-21
+
+other8:
+  <<: *default_other
+  text: 'Week 08 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115657'
+  date: 2021-10-21
+
+class9:
+  <<: *default_class
+  text: 'Week 09 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115515'
+  date: 2021-10-26
+
+other9:
+  <<: *default_other
+  text: 'Week 09 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115658'
+  date: 2021-10-26
+
+class10:
+  <<: *default_class
+  text: 'Week 10 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115516'
+  date: 2021-11-02
+
+other10:
+  <<: *default_other
+  text: 'Week 10 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115659'
+  date: 2021-11-02
+
+class11:
+  <<: *default_class
+  text: 'Week 11 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115517'
+  date: 2021-11-09
+
+other11:
+  <<: *default_other
+  text: 'Week 11 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115660'
+  date: 2021-11-09
+
+class12:
+  <<: *default_class
+  text: 'Week 12 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115518'
+  date: 2021-11-16
+
+other12:
+  <<: *default_other
+  text: 'Week 12 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115661'
+  date: 2021-11-16
+
+class13:
+  <<: *default_class
+  text: 'Week 13 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115519'
+  date: 2021-11-23
+
+other13:
+  <<: *default_other
+  text: 'Week 13 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115662'
+  date: 2021-11-23
+
+class14:
+  <<: *default_class
+  text: 'Week 14 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115520'
+  date: 2021-11-30
+
+class15:
+  <<: *default_class
+  text: 'Week 15 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115521'
+  date: 2021-12-07
+
+other15:
+  <<: *default_other
+  text: 'Week 15 Participation'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115664'
+  date: 2021-12-07
+
+class16:
+  <<: *default_class
+  text: 'Week 16 Lecture'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7115522'
+  date: 2021-12-09
+  show: true

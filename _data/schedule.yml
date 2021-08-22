@@ -50,8 +50,11 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class1'
+
+              - file: 'attendance'
+                name: 'other1'
 
           - <<: *deadlines
             items:
@@ -123,13 +126,19 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class2'
+
+              - file: 'attendance'
+                name: 'other2'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class1'
+
+              - file: 'attendance'
+                name: 'other1'
 
       - date: 2021-09-02
         sections:
@@ -190,13 +199,19 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class3'
+
+              - file: 'attendance'
+                name: 'other3'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class2'
+
+              - file: 'attendance'
+                name: 'other2'
 
       - date: 2021-09-09
         sections:
@@ -252,13 +267,19 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class4'
+
+              - file: 'attendance'
+                name: 'other4'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class3'
+
+              - file: 'attendance'
+                name: 'other3'
 
       - date: 2021-09-16
         sections:
@@ -314,13 +335,19 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class5'
+
+              - file: 'attendance'
+                name: 'other5'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class4'
+
+              - file: 'attendance'
+                name: 'other4'
 
       - date: 2021-09-23
         sections:
@@ -385,13 +412,23 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class6'
+
+              - file: 'attendance'
+                name: 'other6'
 
           - <<: *deadlines
             items:
+              - file: 'attendance'
+                name: 'class5'
+
+              - file: 'attendance'
+                name: 'other5'
+
               - file: 'projects'
                 name: 'project1f'
+                type: 'bump'
 
       - date: 2021-09-30
         sections:
@@ -456,13 +493,19 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class7'
+
+              - file: 'attendance'
+                name: 'other7'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class6'
+
+              - file: 'attendance'
+                name: 'other6'
 
       - date: 2021-10-07
         sections:
@@ -534,13 +577,19 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class8'
+
+              - file: 'attendance'
+                name: 'other8'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class7'
+
+              - file: 'attendance'
+                name: 'other7'
 
       - date: 2021-10-14
         sections:
@@ -616,15 +665,24 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class9'
+
+              - file: 'attendance'
+                name: 'other9'
 
           - <<: *deadlines
             items:
+              - file: 'attendance'
+                name: 'class8'
+
+              - file: 'attendance'
+                name: 'other8'
+
               - text: 'Exam 1 Retake'
                 date: 2021-10-21
                 icon: 'exam'
-                type: 'has-text-danger has-text-weight-bold'
+                type: 'bump has-text-danger has-text-weight-bold'
 
       - date: 2021-10-22
         sections:
@@ -669,13 +727,23 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class10'
+
+              - file: 'attendance'
+                name: 'other10'
 
           - <<: *deadlines
             items:
+              - file: 'attendance'
+                name: 'class9'
+
+              - file: 'attendance'
+                name: 'other9'
+
               - file: 'projects'
                 name: 'project2f'
+                type: 'bump'
 
       - date: 2021-10-28
         sections:
@@ -740,13 +808,19 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class11'
+
+              - file: 'attendance'
+                name: 'other11'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class10'
+
+              - file: 'attendance'
+                name: 'other10'
 
       - date: 2021-11-04
         sections:
@@ -823,13 +897,19 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class12'
+
+              - file: 'attendance'
+                name: 'other12'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class11'
+
+              - file: 'attendance'
+                name: 'other11'
 
               - text: 'Registration Begins'
                 date: 2021-11-09
@@ -900,13 +980,23 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class13'
+
+              - file: 'attendance'
+                name: 'other13'
 
           - <<: *deadlines
             items:
+              - file: 'attendance'
+                name: 'class12'
+
+              - file: 'attendance'
+                name: 'other12'
+
               - file: 'projects'
                 name: 'project3f'
+                type: 'bump'
 
       - date: 2021-11-18
         sections:
@@ -974,13 +1064,16 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class14'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class13'
+
+              - file: 'attendance'
+                name: 'other13'
 
       - date: 2021-11-25
         sections:
@@ -1015,13 +1108,16 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class15'
+
+              - file: 'attendance'
+                name: 'other15'
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class14'
 
       - date: 2021-12-02
         sections:
@@ -1091,13 +1187,20 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class16'
 
           - <<: *deadlines
             items:
+              - file: 'attendance'
+                name: 'class15'
+
+              - file: 'attendance'
+                name: 'other15'
+
               - file: 'projects'
                 name: 'project4f'
+                type: 'bump'
 
               - text: 'Classes End'
                 date: 2021-12-07
@@ -1109,8 +1212,8 @@ weeks:
         sections:
           - label: 'End of Semester Deadlines'
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'attendance'
+                name: 'class16'
 
               - text: 'Exam 2 Retake'
                 date: 2021-12-09
