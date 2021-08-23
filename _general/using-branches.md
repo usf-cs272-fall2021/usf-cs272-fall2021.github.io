@@ -51,7 +51,7 @@ Once you start branching, it is likely you will run into merge conflicts.
 
 <p>
   <a href="https://commons.wikimedia.org/wiki/File:Paragraph-based_prototype_%E2%80%93_rough_visualization_of_the_functionality.png#/media/File:Paragraph-based_prototype_–_rough_visualization_of_the_functionality.png">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Paragraph-based_prototype_%E2%80%93_rough_visualization_of_the_functionality.png/1200px-Paragraph-based_prototype_%E2%80%93_rough_visualization_of_the_functionality.png" alt="Paragraph-based prototype – rough visualization of the functionality.png" style="max-width: 600px; height: auto; background-color: whitesmoke; border-radius: 4px; padding: 0.25ex;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Paragraph-based_prototype_%E2%80%93_rough_visualization_of_the_functionality.png/1200px-Paragraph-based_prototype_%E2%80%93_rough_visualization_of_the_functionality.png" alt="Paragraph-based prototype – rough visualization of the functionality.png" class="is-600">
   </a>
 
   <br>

@@ -5,7 +5,7 @@ layout: guides
 key: 1.2
 
 blurb: |
-  <p align="center"><img src="/images/zoomlogo.png" width="350"/></p>
+  <p align="center"><img src="/images/zoomlogo.png" width="275" style="max-width: 100%;"/></p>
   <p>Most remote learning and activities will use Zoom meetings. This often includes remote lectures, office hours, appointments with on-campus student services, and advising. If you have not used Zoom with your USF account before, this guide will walk you through how to get setup for the first time.</p>
 
 tags:
@@ -31,7 +31,7 @@ These are not all required, but can greatly impact your remote learning experien
 
 To start, go to <https://usfca.zoom.us/> and click the "Download Zoom" button or link. You want to download the installer for "Zoom Client for Meetings" on that page:
 
-![Zoom Client](/images/zoomclient.png){: width="350" class="is-bordered" }
+![Zoom Client](/images/zoomclient.png){: .is-400 }
 
 Open the downloaded file and follow the prompts to install.
 
@@ -41,7 +41,7 @@ Most Zoom meetings and webinars will require you to sign in using your USF accou
 
 To sign in, click the "Sign in with SSO" button, enter `usfca` when prompted for a domain, and then click "Continue" to sign in using your USF account:
 
-![Zoom SSO Signon](/images/zoomsignin.gif){: width="400" class="is-bordered" }
+![Zoom SSO Signon](/images/zoomsignin.gif){: .is-400 }
 
 If you are having trouble logging in with your USF account, see the [Student Quick Start Guide](https://usf.service-now.com/kburl.do?article=KB13682) from ITS.
 
@@ -71,7 +71,7 @@ https://usfca.zoom.us/j/meetingid
 
 ...except `meetingid` will be replaced with the actual Zoom meeting ID. Alternatively, you can also join by directly entering the meeting ID in the Zoom client:
 
-![Join Zoom Meeting](/images/zoomjoin.png){: width="350" class="is-bordered" }
+![Join Zoom Meeting](/images/zoomjoin.png){: .is-400 }
 
 If your audio is lagging, you can also call into most Zoom meetings using a mobile device or telephone. Those telephone numbers are usually included in your Zoom invite. If not, you can look up the phone numbers here:
 
@@ -91,13 +91,13 @@ For interaction with the instructor and other students, it will be important to 
 
   - The [raise hand](https://support.zoom.us/hc/en-us/articles/200941109-Attendee-Controls-in-a-Meeting) feature allows you to virtually raise your hand to get the instructor's attention:
 
-      ![Zoom Actions](/images/zoomactions.png){: width="350" class="is-bordered" }
+      ![Zoom Actions](/images/zoomactions.png){: .is-400 }
 
       The instructor will see hands in the order they are raised. Some meetings might have other features (like responding "Yes") as well. Since your video might not always be visible to the instructor, this is usually the preferred method for getting the host's attention.
 
       Note: This is different from [nonverbal reactions](https://support.zoom.us/hc/en-us/articles/115001286183-Non-verbal-feedback-and-reactions-), which shows an emoji in the corner of your screen for a short time:
 
-      ![Zoom Reactions](/images/zoomreactions.png){: width="100" class="is-bordered" }
+      ![Zoom Reactions](/images/zoomreactions.png){: .is-bordered }
 
       Since these reactions quickly fade, the "raise hand" feature is often preferred to get the instructor's attention.
 

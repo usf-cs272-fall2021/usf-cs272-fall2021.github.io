@@ -9,17 +9,6 @@ tags:
     type: 'is-primary'
 ---
 
-<style>
-img {
-  max-width: 100%;
-  height: auto;
-
-  background-color: whitesmoke;
-  border-radius: 4px;
-  padding: 0.25ex;
-}
-</style>
-
 This guide will walkthrough the steps necessary to install the latest versions of Java and Eclipse on your local system.
 
 ## Install Java 16
@@ -38,7 +27,7 @@ To install the Java SE 16 JDK, go to:
 
 Download the appropriate file for your system. Run the installer and follow the prompts.
 
-![Java Installer]({{ "/images/java-installer.png" | relative_url }}){: style="width: 400px;"}
+![Java Installer]({{ "/images/java-installer.png" | relative_url }}){: .is-400 }
 
 Once done, open a terminal window and verify the version using `java -version` and `javac -version`. The output will be similar to:
 
@@ -62,7 +51,7 @@ Java [removed auto-update capability](https://www.oracle.com/technetwork/java/ja
 
 ## Install Eclipse
 
-![About Eclipse]({{ "/images/abouteclipse.png" | relative_url }}){: style="width: 400px;"}
+![About Eclipse]({{ "/images/eclipse-about.png" | relative_url }}){: .is-400 }
 
 You need to make sure you have the latest **Eclipse IDE for Java Developers** package for **Eclipse 2021-06**. The direct download link is:
 
@@ -84,6 +73,6 @@ I recommend you create a `CS 272` or `cs272` folder, and within it create these 
 
     You can configure Eclipse to always save your CS 272 code in this folder in the "Version Control (Team) » Git" settings:
 
-    ![Git Settings]({{ "/images/config-team-git-default.png" | relative_url }}){: style="width: 600px;"}  
+    ![Git Settings]({{ "/images/eclipse-version-control-git.png" | relative_url }}){: .is-600 }
 
 Eclipse does not behave well when you combine or nest the `Workspace` and `Repositories` folders. **Keep these separate!**
