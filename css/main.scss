@@ -126,10 +126,29 @@ li p {
   }
 }
 
-img.is-bordered {
+// img.is-bordered {
+//   border: 1px solid $grey-light;
+//   border-radius: 0.8rem;
+//   padding: 1rem;
+// }
+
+img.is-400, img.is-600, img.is-bordered {
+  background-color: $grey-lightest;
   border: 1px solid $grey-light;
   border-radius: 0.8rem;
-  padding: 1rem;
+  padding: 0.4rem;
+}
+
+img.is-400 {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+}
+
+img.is-600 {
+  max-width: 100%;
+  height: auto;
+  width: 600px;
 }
 
 /* custom classes */
