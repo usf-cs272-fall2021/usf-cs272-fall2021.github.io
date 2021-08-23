@@ -3,6 +3,10 @@ layout: guides
 navbar: Guides
 title: Configuring Eclipse
 key: 2
+
+tags:
+  - text: 'New'
+    type: 'is-primary'
 ---
 
 Eclipse is a free, powerful, open-source, and configurable IDE. I recommend you spend some time configuring Eclipse to meet your needs.
