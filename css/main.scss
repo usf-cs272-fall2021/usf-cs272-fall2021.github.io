@@ -126,29 +126,28 @@ li p {
   }
 }
 
-// img.is-bordered {
-//   border: 1px solid $grey-light;
-//   border-radius: 0.8rem;
-//   padding: 1rem;
-// }
-
-img.is-400, img.is-600, img.is-bordered {
+img.is-400, img.is-600, img.is-800, img.is-bordered {
   background-color: $grey-lightest;
   border: 1px solid $grey-light;
   border-radius: 0.8rem;
   padding: 0.4rem;
 }
 
-img.is-400 {
+img.is-400, img.is-600, img.is-800 {
   max-width: 100%;
   height: auto;
+}
+
+.is-400 {
   width: 400px;
 }
 
-img.is-600 {
-  max-width: 100%;
-  height: auto;
+.is-600 {
   width: 600px;
+}
+
+.is-800 {
+  width: 800px;
 }
 
 /* custom classes */
