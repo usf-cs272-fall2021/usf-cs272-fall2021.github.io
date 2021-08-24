@@ -43,15 +43,38 @@ weeks:
             date: false
             items:
               - text: 'Introduction'
-                type: *pending
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQDphQQnbDWoW_bHfUDFH9StFEjM1KFHYeF8zDZq3BDnWYqD-YiLows6UwzYbQ5z7i-LgbW5G--0zv6/pub?start=false&loop=false&delayms=3000'
 
               - text: 'Syllabus'
-                type: *pending
+                icon: 'website'
+                link: 'https://usfca.simplesyllabus.com/doc/63k541zg8/Fall-2021-CS-272-01-Software-Development?mode=view'
+
+          - label: 'Resources'
+            dates: ''
+            items:
+              - text: 'Getting Started'
+                link: '/guides/general/getting-started.html'
+                icon: 'website'
+
+              - text: 'Java and Eclipse Setup'
+                link: '/guides/eclipse/java-and-eclipse-setup.html'
+                icon: 'website'
 
           - <<: *assignments
             items:
+              - file: 'participation'
+                name: 'introduction'
+
+              - file: 'participation'
+                name: 'forum_setup'
+
+              - file: 'quizzes'
+                name: 'syllabus'
+
               - file: 'attendance'
                 name: 'class1'
+                type: 'bump'
 
               - file: 'attendance'
                 name: 'other1'
@@ -104,8 +127,14 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'participation'
+                name: 'introduction'
+
+              - file: 'participation'
+                name: 'forum_setup'
+
+              - file: 'quizzes'
+                name: 'syllabus'
 
               - text: 'Add Deadline'
                 date: 2021-08-30
