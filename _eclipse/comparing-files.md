@@ -6,22 +6,11 @@ key: 4
 
 ---
 
-<style>
-img {
-  max-width: 100%;
-  height: auto;
-
-  background-color: whitesmoke;
-  border-radius: 4px;
-  padding: 0.25ex;
-}
-</style>
-
 For homework and projects, it may be useful to compare actual and expected output files side-by-side. Eclipse has a nice comparison view that will align the files and highlight the differences, even differences in whitespaces that may be otherwise difficult to see.
 
 ## Opening Compare View
 
-![Compare With]({{ "/images/comparewith.gif" | relative_url }})
+![Compare With]({{ "/images/comparewith.gif" | relative_url }}){: .is-800 }
 
 To open this view, follow these steps:
 
@@ -35,7 +24,7 @@ To open this view, follow these steps:
 
 ## Comparison View
 
-![Compare With]({{ "/images/compareview.png" | relative_url }})
+![Compare With]({{ "/images/compareview.png" | relative_url }}){: .is-600 }
 
 The two files will be displayed side-by-side. If it is a long file, Eclipse will synchronize scrolling of the files.
 
