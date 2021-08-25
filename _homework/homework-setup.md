@@ -22,7 +22,7 @@ For every homework assignment, you will need to repeat these steps:
 
   1. **Setup your Github repository.**
 
-      1. Find the homework assignment on Canvas. For example, go to the [ArgumentMap](https://usfca.instructure.com/courses/1597848/assignments/7043821) assignment on Canvas for the first homework of the semester.
+      1. Find the homework assignment on Canvas. For example, go to the [ArgumentMap](https://usfca.instructure.com/courses/1602551/assignments/7115402) assignment on Canvas for the first homework of the semester.
 
       1. Click the Github Classroom invitation link and follow the instructions.
 
@@ -36,9 +36,9 @@ For every homework assignment, you will need to repeat these steps:
 
       When done, the "Package Explorer" view of your homework should look something like this:
 
-      ![Screenshot]({{ "/images/homework-imported.png" | relative_url }}){: style="width: calc(654px * 0.5);"}
+      ![Screenshot]({{ "/images/homework-imported.png" | relative_url }}){: .is-400 }
 
-      Make sure you are in the "Java" perspective before moving on. This perspective allows you to run Java code. The "Git" perspective lets you view, but not run, Java code.
+      Make sure the correct Java version is showing up and that you are in the "Java" perspective before moving on. This perspective allows you to run Java code. The "Git" perspective lets you view, but not run, Java code.
 
   - **Verify you can run the JUnit tests on Eclipse locally.**
 
@@ -46,7 +46,7 @@ For every homework assignment, you will need to repeat these steps:
 
       That should open up the "JUnit" view automatically, which will look similar to this:
 
-      ![Screenshot]({{ "/images/homework-junit.png" | relative_url }}){: style="width: calc(734px * 0.5);"}
+      ![Screenshot]({{ "/images/homework-junit.png" | relative_url }}){: .is-400 }
 
       These are the tests you will need to pass for the homework. Most of the tests will fail the first time.
 
@@ -56,7 +56,7 @@ For every homework assignment, you will need to repeat these steps:
 
       Make sure to drag files from the "Unstaged" to the "Staged" box and add a commit message. For example:
 
-      ![Screenshot]({{ "/images/homework-staging.png" | relative_url }}){: style="width: calc(654px * 0.5);"}
+      ![Screenshot]({{ "/images/homework-staging.png" | relative_url }}){: .is-600 }
 
       Click "Commit and Push" to make a checkpoint and push that checkpoint to Github. If you click "Commit" you only make a local checkpoint on your system.
 
@@ -66,13 +66,17 @@ For every homework assignment, you will need to repeat these steps:
 
       Make sure the action finishes running. Here is an example of what a completed action looks like:
 
-      <https://github.com/usf-cs212-spring2021/homework-ArgumentMap-template/actions/runs/520215983>
+      *Pending*
 
       Scroll down in the "Summary" view to see the "Annotations" section. That will report the number of points your homework has earned so far:
 
-      ![Screenshot]({{ "/images/homework-annotation.png" | relative_url }}){: style="width: calc(1162px * 0.5);"}
+      ![Screenshot]({{ "/images/homework-annotation.png" | relative_url }}){: .is-400 }
 
-      For details on which tests failed, you need to drill into the "Autograding" output.
+      For details on which tests failed, you need to drill into the "Autograding" output. You can also see the number of points on the README.md file as well:
+
+      ![Screenshot]({{ "/images/homework-readme.png" | relative_url }}){: .is-400 }
+
+      You may need to refresh your view on Github to see the latest result.
 
 At this point, you should be able to start filling in the missing code, committing changes, and pushing those changes to Github.
 
@@ -104,6 +108,6 @@ To receive full credit on any homework assignment, you must:
 
   - **Follow the `TODO` directions.** For example, if the `TODO` comment stated you must use a `HashSet` and your code does not, you could lose points even if you are passing all of the unit tests.
 
-  - **Properly submit your homework on time.** Remember, there are [no late homework](/syllabus.html#late-policy) submissions unless you apply for a [policy exception](/syllabus.html#policy-exceptions).
+  - **Properly submit your homework on time.** Remember, there are no late homework submissions unless you apply for a policy exception. See the syllabus for details.
 
-Post on [CampusWire]({{ site.data.info.links.forums.link }}) if you have any questions regarding what must be done for a homework assignment or a question about your homework grade.
+Post on [Piazza]({{ site.data.info.links.forums.link }}) if you have any questions regarding what must be done for a homework assignment or a question about your homework grade.
