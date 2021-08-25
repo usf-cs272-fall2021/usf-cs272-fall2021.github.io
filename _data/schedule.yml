@@ -37,7 +37,10 @@ weeks:
     days:
       - date: 2021-08-24
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
 
           - label: 'Agenda'
             date: false
