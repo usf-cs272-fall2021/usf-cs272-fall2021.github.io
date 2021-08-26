@@ -302,6 +302,11 @@ weeks:
               - file: 'homework'
                 name: 'textfilestemmer'
 
+              - text: 'Drop Deadline'
+                date: 2021-09-10
+                icon: 'date'
+                show: true
+                type: ['bump', 'has-text-warning']
   - week: 4
     days:
       - date: 2021-09-14
