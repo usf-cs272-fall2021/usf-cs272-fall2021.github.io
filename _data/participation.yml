@@ -9,3 +9,8 @@ forum_setup:
   text: 'Forum Setup'
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7122544'
   date: 2021-08-27
+
+homework_setup:
+  <<: *default
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7125754'
+  date: 2021-09-03

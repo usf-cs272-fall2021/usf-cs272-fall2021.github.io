@@ -118,13 +118,25 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
-              - text: 'Homework Setup'
-                type: *pending
+              - text: 'Learning Git and Github'
+                link: '/guides/general/learning-git-and-github.html'
+                icon: 'website'
+
+              - text: 'Java and Eclipse Setup'
+                link: '/guides/eclipse/java-and-eclipse-setup.html'
+                icon: 'website'
+
+              - text: 'Homework Guides'
+                link: 'https://usf-cs272-fall2021.github.io/guides/homework/'
+                icon: 'website'
 
           - <<: *assignments
             items:
               - file: 'homework'
                 name: 'argumentmap'
+
+              - file: 'participation'
+                name: 'homework_setup'
 
           - <<: *deadlines
             items:
@@ -209,6 +221,9 @@ weeks:
             items:
               - file: 'homework'
                 name: 'argumentmap'
+
+              - file: 'participation'
+                name: 'homework_setup'
 
               - text: 'Labor Day (No Classes)'
                 date: 2021-09-06
