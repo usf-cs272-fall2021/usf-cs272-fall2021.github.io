@@ -38,9 +38,9 @@ Here are the Zoom links for office hours:
 | Person | Date/Time | Zoom Meeting |
 |:--------|:----------|:------------|
 | Sophie Engle | Tue/Thu 2:45-3:45p | [{{ site.data.info.streams.instructor.room }}]({{ site.data.info.streams.instructor.link }}) |
-| Teacher Assistant | Pending | Pending |
-| Teacher Assistant | Pending | Pending |
-| Teacher Assistant | Pending | Pending |
+| Bae Sung K. | Tue/Wed/Thu 8:30–10:00a | [{{ site.data.info.streams.baesung.room }}]({{ site.data.info.streams.instructor.link }})  |
+| Michelle Q. | Tue/Thu 6:30–7:30p | [{{ site.data.info.streams.michelle.room }}]({{ site.data.info.streams.instructor.link }})  |
+| Yordanos S. | Mon/Wed 3:30–5:00p | [{{ site.data.info.streams.yordanos.room }}]({{ site.data.info.streams.instructor.link }})  |
 {: class="table is-hoverable" style="width: auto;" }
 
 Office hours are first-come first-serve.

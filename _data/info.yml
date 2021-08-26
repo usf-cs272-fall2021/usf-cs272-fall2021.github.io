@@ -91,12 +91,26 @@ streams:
     link: 'https://usfca.zoom.us/j/84548077146'
     line: true
 
-  # taname:
-  #   name: 'Office Hours (Name)'
-  #   icon: 'far fa-user-clock'
-  #   info: 'teacher assistant office hours'
-  #   room: ''
-  #   link: ''
+  yordanos:
+    name: 'TA Hours w/ Yordanos'
+    icon: 'far fa-user-clock'
+    info: 'teacher assistant office hours'
+    room: '856 5615 3829'
+    link: 'https://usfca.zoom.us/j/85656153829'
+
+  baesung:
+    name: 'TA Hours w/ Bae Sung'
+    icon: 'far fa-user-clock'
+    info: 'teacher assistant office hours'
+    room: '840 9918 8151'
+    link: 'https://usfca.zoom.us/j/84099188151'
+
+  michelle:
+    name: 'TA Hours w/ Michelle'
+    icon: 'far fa-user-clock'
+    info: 'teacher assistant office hours'
+    room: '880 0893 3587'
+    link: 'https://usfca.zoom.us/j/88008933587'
 
 pages:
   - name: 'Schedule'
