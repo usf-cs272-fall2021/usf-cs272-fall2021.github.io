@@ -250,6 +250,10 @@ weeks:
               - file: 'attendance'
                 name: 'other3'
 
+              - file: 'projects'
+                name: 'project1f'
+                type: 'bump'
+
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -462,6 +466,10 @@ weeks:
 
               - file: 'attendance'
                 name: 'other6'
+
+              - file: 'projects'
+                name: 'project2f'
+                type: 'bump'
 
           - <<: *deadlines
             items:
@@ -778,6 +786,10 @@ weeks:
               - file: 'attendance'
                 name: 'other10'
 
+              - file: 'projects'
+                name: 'project3f'
+                type: 'bump'
+
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -1030,6 +1042,10 @@ weeks:
 
               - file: 'attendance'
                 name: 'other13'
+
+              - file: 'projects'
+                name: 'project4f'
+                type: 'bump'
 
           - <<: *deadlines
             items:
