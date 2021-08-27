@@ -58,9 +58,13 @@ For every homework assignment, you will need to repeat these steps:
 
   1. **Commit and push changes to Github.**
 
-      In Eclipse, make a minor change and [commit and push](http://wiki.eclipse.org/EGit/User_Guide#Committing_Changes) that change to Github. I recommend placing the [Git Staging View](http://wiki.eclipse.org/EGit/User_Guide#Git_Staging_View) somewhere on your Eclipse layout to make this process more convenient.
+      In Eclipse, make a minor change and [commit and push](http://wiki.eclipse.org/EGit/User_Guide#Committing_Changes) that change to Github.
 
-      Make sure to drag files from the "Unstaged" to the "Staged" box and add a commit message. For example:
+      I recommend placing the [Git Staging View](http://wiki.eclipse.org/EGit/User_Guide#Git_Staging_View) somewhere on your Eclipse layout to make this process more convenient. You can access that view via the "Window" » "Show View" » "Other..." option in the menu. Open the "Git" folder to find the "Git Staging View" option to add it to your layout:
+
+      ![Screenshot]({{ "/images/eclipse-show-view.png" | relative_url }}){: class="is-size is-bordered" style="width: 300px;" }
+
+      Make sure to drag files from the "Unstaged" to the "Staged" box and add a commit message. Sometimes, you need to click the "Refresh" <i class="far fa-sync"></i> button in the upper right corner of the view to update. For example:
 
       ![Screenshot]({{ "/images/homework-staging.png" | relative_url }}){: .is-600 }
 
