@@ -46,9 +46,9 @@
             {%- elsif item.link %}
             <a href="{{ item.link }}">{{ item.text }}</a>
             {%- else %}
-            <span>{{ item.text }}</span> WHAT
+            <span>{{ item.text }}</span>
             {%- endif %}
-            {%- if item.file %}
+            {%- if item.save %}
             <a href="/files/{{ item.text }}.pdf"><i class="fa fas fa-download"></i></a>
             {%- endif %}
             {%- if item.more %}

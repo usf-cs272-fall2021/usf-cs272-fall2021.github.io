@@ -49,7 +49,7 @@ weeks:
               - text: 'Introduction'
                 icon: 'slides'
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vQDphQQnbDWoW_bHfUDFH9StFEjM1KFHYeF8zDZq3BDnWYqD-YiLows6UwzYbQ5z7i-LgbW5G--0zv6/pub?start=false&loop=false&delayms=3000'
-                file: true
+                save: true
 
               - text: 'Syllabus'
                 icon: 'website'
@@ -110,7 +110,7 @@ weeks:
               - text: 'Exception Handling'
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vQM5vFKGToq-lR4ehKMyp-14AxkQQJBaXjv_aB8-Asa-cLP5gq_fAYa3b4K2BXQxIupoNptKZxfqUPF/pub?start=false&loop=false&delayms=3000'
                 icon: 'slides'
-                file: true
+                save: true
                 type: 'bump'
 
               - text: 'Exception Handling'
