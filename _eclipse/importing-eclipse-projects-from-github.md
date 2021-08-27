@@ -12,13 +12,31 @@ Follow these steps to import an Eclipse project from your Github repository. The
 There might be slight differences with the images below at the latest version of Eclipse, and the URLs may have changed to reflect the current term.
 {: .notification }
 
+## Configure Authentication Method
+
+You will need to authenticate to Github within Eclipse to access your private repositories. There are two options based on the underlying protocol you want to use:
+
+  1. HTTP using a username and personal authentication token
+
+  2. SSH using ssh keys (and optionally a password)
+
+Using your Github username and password authentication [no longer an option for authentication](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/) via the command-line.
+
+#### Option 1: HTTP and Tokens
+
+Pending
+
+#### Option 2: SSH and SSH Keys
+
+Pending
+
 ## Import Project into Eclipse (New Repository)
 
 Follow these steps if you do not yet have the Github repository on your system locally. This includes the *first* time you import the lecture code, homework assignments, and *first* time you import the project.
 
 Log into Github, open Eclipse, and follow these steps:
 
-  1. Copy the SSH link to clone your repository in Github. If you setup your SSH keys, make sure you are getting the SSH link. Otherwise, copy the HTTPS link.
+  1. Copy the HTTPS or SSH link to clone your repository in Github (based on what you configured earlier):
 
       ![Screenshot]({{ "/images/github-clone-or-download.png" | relative_url }}){: .is-400 }
 
@@ -36,7 +54,7 @@ Log into Github, open Eclipse, and follow these steps:
 
       ![Screenshot]({{ "/images/eclipse-import-uri.png" | relative_url }}){: .is-400 }
 
-  1. On the next "Branch Selection" screen, keep everyting as-is and click the "Next" button again.
+  1. On the next "Branch Selection" screen, keep everything as-is and click the "Next" button again.
 
       ![Screenshot]({{ "/images/eclipse-import-branches.png" | relative_url }}){: .is-400 }
 
