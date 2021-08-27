@@ -11,6 +11,7 @@ tags:
 
 Eclipse is a free, powerful, open-source, and configurable IDE. I recommend you spend some time configuring Eclipse to meet your needs.
 
+<!--
 ## SSH Configuration
 
 You will access your private repositories on Github from Eclipse frequently. It helps if you setup your SSH keys with Github ahead of time to reduce the number of times you have to enter a username and password.
@@ -27,6 +28,7 @@ You will access your private repositories on Github from Eclipse frequently. It 
 At this point, you should be able to clone, fetch, and push to your repositories from Eclipse without having to enter a password each time.
 
 *Sometimes*, Eclipse does not know where your SSH keys are located. If you are running into issues, reach out to us. We will help you with the setup.
+-->
 
 ## Compiler Configuration
 
