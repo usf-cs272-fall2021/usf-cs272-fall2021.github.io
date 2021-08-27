@@ -15,3 +15,9 @@ homework_setup:
   text: 'Setup Homework'
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7125754'
   date: 2021-09-03
+
+github_resource:
+  <<: *default
+  text: 'Git/Github Resource'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7126537'
+  date: 2021-09-03

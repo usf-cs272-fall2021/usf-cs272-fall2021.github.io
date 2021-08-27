@@ -144,6 +144,9 @@ weeks:
               - file: 'participation'
                 name: 'homework_setup'
 
+              - file: 'participation'
+                name: 'github_resource'
+
           - <<: *deadlines
             items:
               - file: 'participation'
@@ -230,6 +233,9 @@ weeks:
 
               - file: 'participation'
                 name: 'homework_setup'
+
+              - file: 'participation'
+                name: 'github_resource'
 
               - text: 'Labor Day (No Classes)'
                 date: 2021-09-06
