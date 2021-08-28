@@ -13,6 +13,7 @@ There might be slight differences with the images below at the latest version of
 {: .notification }
 
 ## Configure Authentication Method
+{: .page-header}
 
 You will need to authenticate to Github within Eclipse to access your private repositories. There are two options based on the underlying protocol you want to use:
 
@@ -22,15 +23,39 @@ You will need to authenticate to Github within Eclipse to access your private re
 
 Using your Github username and password authentication [no longer an option for authentication](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/) via the command-line.
 
+**This only needs to be completed once.** You will be able to use this same method of authentication for all your repositories in class.
+
 #### Option 1: HTTP and Tokens
 
-Pending
+For this option, you need to generate a **personal access token** in Github. This guide from Github walks through the steps:
+
+  - [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+Choose a long enough expiration date to last the entire semester. You must select the `repo` option under the "Select scopes" section. You may also want to check `workflow` as well (optional).
+
+![Screenshot]({{ "/images/github-token-scope.png" | relative_url }}){: .is-600 }
+
+Make sure to save this token somewhere safe (as safe as you store any password).
+
+Whenever you are using the HTTPS link to clone your code and prompted for a password, enter this access token instead.
 
 #### Option 2: SSH and SSH Keys
 
-Pending
+For this option, you need to generate **SSH keys** on your system (or use existing ones if you already have them). To set these up:
+
+  1. Follow the Github [Generating a New SSH Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) guide for your operating system to generate SSH keys for the first time. Before you start:
+
+      1. When prompted for a passphrase for your key, you can press <kbd>Enter</kbd> without entering anything to skip adding a passphrase. Either is fine. It is more secure to enter a passphrase, but less convenient. See the [Working with SSH Key Passphrases](https://help.github.com/articles/working-with-ssh-key-passphrases/) guide from Github for more information.
+
+      1. Do **NOT** forget to complete the [Add the SSH Key to Github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) step at the very end!
+      {: style="list-style-type: lower-alpha;" }
+
+  2. Follow the Github [Testing Your SSH Connection](https://help.github.com/articles/testing-your-ssh-connection/) guide from your computer to make sure everything is setup properly.
+
+*Sometimes*, Eclipse does not know where your SSH keys are located. If you are running into issues, reach out to us. We will help you with the setup.
 
 ## Import Project into Eclipse (New Repository)
+{: .page-header}
 
 Follow these steps if you do not yet have the Github repository on your system locally. This includes the *first* time you import the lecture code, homework assignments, and *first* time you import the project.
 
@@ -74,6 +99,7 @@ Log into Github, open Eclipse, and follow these steps:
 You only need to add this repository once, even if there are multiple Eclipse projects within that repository. For example, you only need to import the [lectures](https://github.com/usf-cs212-spring2021/lectures) repository once. However, since each homework assignment has its own repository, you will have to import each repository separately.
 
 ## Import Project into Eclipse (Existing Repository)
+{: .page-header}
 
 If you already have the repository on your system locally, double-check that you have the latest version of the remote repository by performing a "Pull" action. You can do this in Eclipse [(Help)](http://wiki.eclipse.org/EGit/User_Guide#Pulling_New_Changes_from_Upstream_Branch), via the command-line, or any other `git` tool.
 
@@ -86,6 +112,7 @@ If the repository is already listed, make sure it is selected. Otherwise, click 
 This will then skip to the wizard in step 7. Follow the prompts as before.
 
 ## Troubleshooting
+{: .page-header}
 
 If you notice several errors, don't panic! It takes some time for everything to update in Eclipse when you first import a new project. If you notice a progress bar in the lower-right corner, wait for it to finish first.
 
