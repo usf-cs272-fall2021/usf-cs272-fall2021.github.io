@@ -172,8 +172,10 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
-              - text: 'File IO'
-                type: *pending
+              - text: 'Paths and Files'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSbFVadVrwGBGRuzFDB1MEGnj3iOk8UGS87vbBlyeK3rKmphDUZITxUMI6ZUBMipLYVQJ2wFU-v5mKo/pub?start=false&loop=false&delayms=3000'
+                save: true
+                icon: 'slides'
 
           - <<: *assignments
             items:
