@@ -133,7 +133,7 @@ weeks:
                 icon: 'website'
 
               - text: 'Homework Guides'
-                link: 'https://usf-cs272-fall2021.github.io/guides/homework/'
+                link: '/guides/homework/'
                 icon: 'website'
 
           - <<: *assignments
@@ -179,6 +179,21 @@ weeks:
 
               - text: 'File I/O'
                 icon: 'code'
+                type: 'bump'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/FileIO'
+
+              - text: '– PathDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/FileIO/src/main/java/PathDemo.java'
+
+              - text: '– EliteFileConverter'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/FileIO/src/main/java/EliteFileConverter.java'
+
+              - text: '– DirectoryStreamDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/FileIO/src/main/java/DirectoryStreamDemo.java'
+
 
           - <<: *assignments
             items:
@@ -215,6 +230,20 @@ weeks:
 
               - text: 'Data Structures'
                 icon: 'code'
+                type: 'bump'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/DataStructures'
+
+              - text: '– CollectionDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/CollectionDemo.java'
+
+              - text: '– MapDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/MapDemo.java'
+
+              - text: '– NestedMapDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/NestedMapDemo.java'
 
           - <<: *assignments
             items:
@@ -233,8 +262,18 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
-              - text: 'Homework Testing'
-                type: *pending
+              - text: 'Configuring Eclipse'
+                link: '/guides/eclipse/configuring-eclipse.html'
+                icon: 'website'
+
+              - text: 'Completing Homework'
+                link: '/guides/homework/complete-homework.html'
+                icon: 'website'
+                type: 'bump'
+
+              - text: 'Testing Homework'
+                link: '/guides/homework/test-homework.html'
+                icon: 'website'
 
           - <<: *assignments
             items:
