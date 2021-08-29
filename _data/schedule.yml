@@ -210,6 +210,8 @@ weeks:
 
               - text: 'Collections Framework'
                 icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQ47_2Y7F29dDWW0RDQmqaPqdRDaRhFuSjaRV87xn8_JhYuLriLVrYntUNvCVCMekl0X979DFy0qEtL/pub?start=false&loop=false&delayms=3000'
+                save: true
 
               - text: 'Data Structures'
                 icon: 'code'
