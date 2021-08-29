@@ -203,8 +203,10 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
-              - text: 'Data Structures'
+              - text: 'Abstract Data Types'
                 icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQgpvOAAqjNV5liUyu6g655xlL6J3QFLGSMfz_-sgfc9hjdVnpPFFT6UkkuIVuJuY1jbBho_bEf9ZAx/pub?start=false&loop=false&delayms=3000'
+                save: true
 
               - text: 'Collections Framework'
                 icon: 'slides'
