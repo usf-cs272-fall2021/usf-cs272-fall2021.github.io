@@ -177,6 +177,9 @@ weeks:
                 save: true
                 icon: 'slides'
 
+              - text: 'File I/O'
+                icon: 'code'
+
           - <<: *assignments
             items:
               - file: 'attendance'
@@ -201,7 +204,13 @@ weeks:
             date: false
             items:
               - text: 'Data Structures'
-                type: *pending
+                icon: 'slides'
+
+              - text: 'Collections Framework'
+                icon: 'slides'
+
+              - text: 'Data Structures'
+                icon: 'code'
 
           - <<: *assignments
             items:
