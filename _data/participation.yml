@@ -21,3 +21,9 @@ github_resource:
   text: 'Git/Github Resource'
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7126537'
   date: 2021-09-03
+
+cs_event:
+  <<: *default
+  text: 'CS Event'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7127389'
+  date: 2021-12-07
