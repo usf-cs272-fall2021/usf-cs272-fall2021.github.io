@@ -203,6 +203,9 @@ weeks:
               - file: 'attendance'
                 name: 'other2'
 
+              - file: 'quizzes'
+                name: 'paths'
+
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -247,13 +250,8 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'quizzes'
+                name: 'data'
 
       - date: 2021-09-03
         sections:
@@ -327,6 +325,12 @@ weeks:
 
               - file: 'attendance'
                 name: 'other2'
+
+              - file: 'quizzes'
+                name: 'paths'
+
+              - file: 'quizzes'
+                name: 'data'
 
       - date: 2021-09-09
         sections:

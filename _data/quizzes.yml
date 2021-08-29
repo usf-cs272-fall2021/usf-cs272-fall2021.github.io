@@ -1,5 +1,17 @@
 syllabus: &default
   text: 'Course Syllabus'
   date: 2021-08-27
-  link: 'https://usfca.instructure.com/courses/1602551/assignments/7122000'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2390230'
   icon: 'quiz'
+
+paths:
+  <<: *default
+  text: 'Paths and Files'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391037'
+  date: 2021-09-07
+
+data:
+  <<: *default
+  text: 'Data Structures'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391039'
+  date: 2021-09-07
