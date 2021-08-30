@@ -45,22 +45,10 @@ javac 16.0.2
 
 Note that `%` above indicates the command prompt, and the lines below that are the output.
 
+If when you verify the version of `java` and `javac`, it does not default to your new installation, then you might need to do some extra setup in Eclipse. See the "Verify Eclipse Java Settings" section below.
+
 <i class="fas fa-info-circle"></i>
 Java [removed auto-update capability](https://www.oracle.com/technetwork/java/javase/11-relnote-issues-5012449.html#Important_Changes) for Windows and MacOS systems. You will need to manually check when new versions of Java 16 are released.
-{: .notification }
-
-## Install Eclipse
-
-![About Eclipse]({{ "/images/eclipse-about.png" | relative_url }}){: .is-400 }
-
-You need to make sure you have the latest **Eclipse IDE for Java Developers** package for **Eclipse 2021-06**. The direct download link is:
-
-<https://www.eclipse.org/downloads/packages/release/2021-06/r/eclipse-ide-java-developers>
-
-Do NOT download the IDE for Java EE Developers, as we are using Java SE in class. There are installers available for Windows, Mac OSX, and Linux. Once downloaded, double-click the installer.
-
-<i class="fas fa-info-circle"></i>
-Mac Users: I recommend you move the Eclipse.app file into your "Applications" folder for easy access.
 {: .notification }
 
 ## Setup Folders (Optional)
@@ -76,3 +64,39 @@ I recommend you create a `CS 272` or `cs272` folder, and within it create these 
     ![Git Settings]({{ "/images/eclipse-version-control-git.png" | relative_url }}){: .is-600 }
 
 Eclipse does not behave well when you combine or nest the `Workspace` and `Repositories` folders. **Keep these separate!**
+
+## Install Eclipse
+
+![About Eclipse]({{ "/images/eclipse-about.png" | relative_url }}){: .is-400 }
+
+You need to make sure you have the latest **Eclipse IDE for Java Developers** package for **Eclipse 2021-06**. The direct download link is:
+
+<https://www.eclipse.org/downloads/packages/release/2021-06/r/eclipse-ide-java-developers>
+
+Do NOT download the IDE for Java EE Developers, as we are using Java SE in class. There are installers available for Windows, Mac OSX, and Linux. Once downloaded, double-click the installer.
+
+<i class="fas fa-info-circle"></i>
+Mac Users: I recommend you move the Eclipse.app file into your "Applications" folder for easy access.
+{: .notification }
+
+## Verify Eclipse Java Settings
+
+If you installed the latest version of Java before Eclipse, Eclipse will usually use that version of Java automatically. Otherwise, you may need to change the Java settings within Eclipse.
+
+The first step is to make sure Eclipse is aware of your new Java installation. Open the Eclipse preferences and go to the "Java" » "Installed JREs" settings:
+
+![Eclipse Screenshot]({{ "/images/eclipse-installed-jres.png" | relative_url }}){: .is-400 }
+
+If you do not see your newly installed version of Java, click the "Search" button to tell Eclipse where to find it. Then, I recommend removing any other installations from this window.
+
+The next step is to configure Eclipse to use this version when **running** Java code. Open the "Java" » "Installed JREs" » "Execution Environments" panel:
+
+![Eclipse Screenshot]({{ "/images/eclipse-execution-environments.png" | relative_url }}){: .is-400 }
+
+Click on "JavaSE-16" and make sure your newest installation is selected. If you do not see "JavaSE-16" listed, you need to update your version of Eclipse.
+
+After that, the final step is to configure Eclipse to use this version when **compiling** Java code. Go to the "Java" » "Compiler" settings in the Eclipse preferences:
+
+![Eclipse Screenshot]({{ "/images/eclipse-java-compiler.png" | relative_url }}){: .is-400 }
+
+Make sure `16` is selected from the dropdown menu. Make sure to apply those changes!
