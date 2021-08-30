@@ -205,6 +205,10 @@ weeks:
 
               - file: 'quizzes'
                 name: 'paths'
+                type: 'bump'
+
+              - file: 'participation'
+                name: 'lecture_setup'
 
               - file: 'participation'
                 name: 'cs_event'
@@ -381,6 +385,9 @@ weeks:
             items:
               - file: 'homework'
                 name: 'textfilestemmer'
+
+              - file: 'participation'
+                name: 'lecture_setup'
 
               - text: 'Drop Deadline'
                 date: 2021-09-10
