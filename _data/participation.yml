@@ -26,4 +26,19 @@ cs_event:
   <<: *default
   text: 'CS Event'
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7127389'
-  date: 2021-12-07
+  date: 2021-12-09
+  show: true
+
+piazza_post:
+  <<: *default
+  text: 'Piazza Post'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7127537'
+  date: 2021-12-09
+  show: true
+
+piazza_response:
+  <<: *default
+  text: 'Piazza Response'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7127539'
+  date: 2021-12-09
+  show: true
