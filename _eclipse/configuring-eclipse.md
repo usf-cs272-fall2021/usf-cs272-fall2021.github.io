@@ -39,6 +39,10 @@ The homework and project code should not have warnings, including Javadoc warnin
 <caption><a href="https://gist.github.com/sjengle/c7d572a4d0eaf0be618f95d761d49a08">https://gist.github.com/sjengle/c7d572a4d0eaf0be618f95d761d49a08</a></caption>
 </figure>
 
+To use the above configuration, scroll to the "view raw" link and open it in a new window. Save the output as `eclipse-compiler-settings.epf` to your system. (Alternatively, copy and paste the text into a file with this name.)
+
+In the Eclipse Preferences view, click the "Import" button near the bottom left and select the `epf` file. Or, [follow these steps](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftimpandexp.htm) to import the `epf` Eclipse preferences file. Follow the prompts to import the compiler settings.
+
 Note that it is not *exactly* the same---the autograding feature uses the `javac` compiler and Eclipse uses its own built-in Java compiler instead.
 
 ## Javadoc Configuration
