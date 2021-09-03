@@ -18,7 +18,9 @@ Refer to the `TODO` comments in the template code for specifics on what code to 
 
   - **Do not modify the test code.** This includes any input or output files utilized by the test code.
 
-  - You MAY add additional members, methods, and classes as needed to the code.
+  - You MAY add additional members and methods as needed to the code.
+
+  - You MAY add additional classes and imports for those classes as long as they are a part of core Java or one of the pre-approved third-party libraries (Apache OpenNLP, Apache Commons Text, Apache Log4j2, Jetty, MariaDB).
 
   - You MAY add comments to clarify code for yourself. You can add comments to already defined methods if you want.
 
