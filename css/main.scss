@@ -115,6 +115,10 @@ li p {
   color: inherit;
 }
 
+a code {
+  text-decoration: currentColor underline dotted;
+}
+
 @media print {
   .noprint, .noprint * {
       display: none !important;
