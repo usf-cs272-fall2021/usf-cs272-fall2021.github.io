@@ -324,7 +324,29 @@ weeks:
             date: false
             items:
               - text: 'Data Structures'
-                type: *pending
+                icon: 'code'
+                type: 'bump'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/DataStructures'
+
+              - text: '– NestedMapDemo (Revisited)'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/NestedMapDemo.java'
+
+              - text: '– IterationDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/IterationDemo.java'
+
+              - text: '– RemoveDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/RemoveDemo.java'
+
+              - text: '– MutableSetDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/MutableSetDemo.java'
+
+              - text: '– FindDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/FindDemo.java'
 
           - <<: *assignments
             items:
