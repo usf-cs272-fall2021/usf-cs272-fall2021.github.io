@@ -5,8 +5,8 @@ layout: guides
 key: 0.1
 
 tags:
-  - text: 'Pending'
-    type: 'is-muted'
+  - text: 'New'
+    type: 'is-primary'
 
 ---
 
@@ -39,7 +39,7 @@ The version of Java and appearance of Eclipse may be slightly different between 
 
 Below is a quick summary of the **one-time setup** needed for the project:
 
-  1. Visit the [Project Setup](#) assignment in Canvas and click the Github Classroom link. This will setup a private repository named `project-username` where `username` is your Github username. You will use this same repository the *entire* semester for all of the projects.
+  1. Visit the [Project Setup](https://usfca.instructure.com/courses/1602551/assignments/7129460) assignment in Canvas and click the Github Classroom link. This will setup a private repository named `project-username` where `username` is your Github username. You will use this same repository the *entire* semester for all of the projects.
 
   1. If needed, follow the [Configuring Eclipse](/guides/eclipse/configuring-eclipse.html) guide to setup your compiler and Javadoc settings.
 
@@ -69,7 +69,7 @@ Once you have everything imported into Eclipse, try these steps to verify everyt
 
   1. Create your first release. Enter `v1.0.0` as the tag version and leave the other fields unchanged. There is an [example release]({{ site.data.info.links.github.link }}/project-template/releases/tag/v1.0.0) in the `project-template` repository.
 
-  1. Go to the "Actions" tab and make sure the verification script ran for the `v1.0.0` release. There is an [example action]({{ site.data.info.links.github.link }}/project-template/actions/runs/) in the `project-template` repository. It *should* fail, since you don't have any code yet.
+  1. Go to the "Actions" tab and make sure the verification script ran for the `v1.0.0` release. There is an [example action]({{ site.data.info.links.github.link }}/project-template/actions/runs/1207184188) in the `project-template` repository. It *should* fail, since you don't have any code yet.
 
 If you are able to complete all of the above, you should be ready to start your project!
 
