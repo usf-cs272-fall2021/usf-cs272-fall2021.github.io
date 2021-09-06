@@ -323,6 +323,15 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
+              - text: 'Project Overview'
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSjinSQQ1L-8OZCLnEnem30HUOHufhymweynhhl4_tCQ2hAy1GF5CIJfinJAghvmXcETTf4--V4fWKl/pub?start=false&loop=false&delayms=3000'
+                save: true
+
+              - text: 'Project 1 Inverted Index'
+                icon: 'website'
+                link: '/guides/projects/project-1.html'
+
               - text: 'Data Structures'
                 icon: 'code'
                 type: 'bump'
