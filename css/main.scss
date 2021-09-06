@@ -130,7 +130,7 @@ a code {
   }
 }
 
-img.is-400, img.is-600, img.is-800, img.is-bordered {
+img.is-400, img.is-600, img.is-800, .is-bordered {
   background-color: $grey-lightest;
   border: 1px solid $grey-light;
   border-radius: 0.8rem;
