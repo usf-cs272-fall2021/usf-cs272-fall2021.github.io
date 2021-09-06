@@ -1,9 +1,9 @@
 ---
-title: Pending
+title: Project Functionality
 navbar: Guides
 layout: guides
-key: 1.0
-bump: false
+key: 0.3
+bump: true
 
 tags:
   - text: 'Pending'
