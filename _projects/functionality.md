@@ -8,16 +8,19 @@ bump: true
 assignments:
   - text: 'Project 1 Functionality'
     link: 'https://usfca.instructure.com/courses/1602551/assignments/7118291'
+    info: '(<a href="project-1.html">Writeup</a>)'
 
   - text: 'Project 2 Functionality'
     link: 'https://usfca.instructure.com/courses/1602551/assignments/7118292'
+    info: '(<a href="project-2.html">Writeup</a>)'
 
   - text: 'Project 3 Functionality'
     link: 'https://usfca.instructure.com/courses/1602551/assignments/7118293'
+    info: '(<a href="project-3.html">Writeup</a>)'
 
   - text: 'Project 4 Functionality'
     link: 'https://usfca.instructure.com/courses/1602551/assignments/7118294'
-
+    info: '(<a href="project-4a.html">Writeup</a>)'
 ---
 
 Each project grade is split into two components: functionality (passing tests) and design (passing code review). This guide details both the process for getting credit for project functionality. This guide assumes you have already [setup your project](setup.html) and [tested your project](testing.html). This includes making a release of your project that passes the verification process on Github.
