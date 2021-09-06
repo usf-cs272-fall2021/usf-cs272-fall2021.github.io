@@ -15,3 +15,9 @@ data:
   text: 'Data Structures'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391039'
   date: 2021-09-07
+
+maps:
+  <<: *default
+  text: 'Using Maps'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391417'
+  date: 2021-09-14

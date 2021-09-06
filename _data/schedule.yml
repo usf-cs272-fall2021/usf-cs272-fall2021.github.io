@@ -365,6 +365,10 @@ weeks:
               - file: 'attendance'
                 name: 'other3'
 
+              - file: 'quizzes'
+                name: 'maps'
+                type: 'bump'
+
               - file: 'projects'
                 name: 'project1f'
                 type: 'bump'
@@ -415,6 +419,10 @@ weeks:
               - text: 'Project Setup'
                 type: *pending
 
+              - text: 'Stay on Track'
+                icon: 'website'
+                link: 'https://docs.google.com/spreadsheets/d/1fNSPLVnRL0Rt4WihZjO47H2dYKSQ6QQ0oIXc6PZVNUk/edit?usp=sharing'
+
           - <<: *assignments
             items:
               - file: 'homework'
@@ -460,6 +468,10 @@ weeks:
 
               - file: 'attendance'
                 name: 'other3'
+
+              - file: 'quizzes'
+                name: 'maps'
+                type: 'bump'
 
       - date: 2021-09-16
         sections:
