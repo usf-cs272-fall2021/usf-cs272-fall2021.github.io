@@ -4,9 +4,6 @@ navbar: Guides
 title: Setup Homework
 key: 1
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 This guide will walk you through the process of setting up your homework repository and importing it into Eclipse.

@@ -6,8 +6,8 @@ key: 1.0
 bump: true
 
 tags:
-  - text: 'Pending'
-    type: 'is-muted'
+  - text: 'New'
+    type: 'is-primary'
 
 assignments:
   - text: 'Project 1 Functionality'

@@ -6,9 +6,6 @@ key: 1.1
 blurb: |
   <p>This guide will help you get started for the first week of CS 272 Software Development with Professor Sophie Engle.</p>
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 ## Zoom Lectures and Labs

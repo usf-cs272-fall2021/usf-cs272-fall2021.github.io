@@ -8,9 +8,6 @@ blurb: |
   <p align="center"><img src="/images/zoomlogo.png" width="275" style="max-width: 100%;"/></p>
   <p>Most remote learning and activities will use Zoom meetings. This often includes remote lectures, office hours, appointments with on-campus student services, and advising. If you have not used Zoom with your USF account before, this guide will walk you through how to get setup for the first time.</p>
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 ## System Requirements
