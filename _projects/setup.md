@@ -32,7 +32,6 @@ You can find a walkthrough video of these steps here:
 </p>
 </figure>
 
-
 The version of Java and appearance of Eclipse may be slightly different between semesters.
 
 ## Create and Import Projects
