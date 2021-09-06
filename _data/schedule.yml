@@ -508,7 +508,12 @@ weeks:
             date: false
             items:
               - text: 'Project Testing'
-                type: *pending
+                link: '/guides/projects/testing.html'
+                icon: 'website'
+
+              - text: 'Project Functionality'
+                link: '/guides/projects/functionality.html'
+                icon: 'website'
 
           - <<: *assignments
             items:
@@ -581,17 +586,9 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
-              - text: 'Homework Help'
-                icon: 'homework'
-                type: *pending
-
-              - text: 'Project Help'
-                icon: 'project'
-                type: *pending
-
-              - text: 'Code Reviews'
-                icon: 'review'
-                type: *pending
+              - text: 'Project Design'
+                icon: 'website'
+                link: '/guides/projects/design.html'
 
           - <<: *assignments
             items:
