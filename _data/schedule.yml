@@ -369,9 +369,12 @@ weeks:
                 name: 'maps'
                 type: 'bump'
 
+              - file: 'participation'
+                name: 'intake'
+                type: 'bump'
+
               - file: 'projects'
                 name: 'project1f'
-                type: 'bump'
 
           - <<: *deadlines
             items:
@@ -512,6 +515,9 @@ weeks:
             items:
               - file: 'homework'
                 name: 'simplejsonwriter'
+
+              - file: 'participation'
+                name: 'intake'
 
   - week: 5
     days:

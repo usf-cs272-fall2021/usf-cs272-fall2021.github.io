@@ -48,3 +48,9 @@ piazza_response:
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7127539'
   date: 2021-12-09
   show: true
+
+intake:
+  <<: *default
+  text: 'Code Review Intake'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7128352'
+  date: 2021-09-17
