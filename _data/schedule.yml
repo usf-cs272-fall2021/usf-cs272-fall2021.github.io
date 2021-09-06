@@ -420,7 +420,8 @@ weeks:
             date: false
             items:
               - text: 'Project Setup'
-                type: *pending
+                icon: 'website'
+                link: 'https://usf-cs272-fall2021.github.io/guides/projects/setup.html'
 
               - text: 'Stay on Track'
                 icon: 'website'
@@ -430,6 +431,9 @@ weeks:
             items:
               - file: 'homework'
                 name: 'simplejsonwriter'
+
+              - file: 'participation'
+                name: 'project_setup'
 
           - <<: *deadlines
             items:
@@ -515,6 +519,9 @@ weeks:
             items:
               - file: 'homework'
                 name: 'simplejsonwriter'
+
+              - file: 'participation'
+                name: 'project_setup'
 
               - file: 'participation'
                 name: 'intake'

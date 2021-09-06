@@ -54,3 +54,9 @@ intake:
   text: 'Code Review Intake'
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7128352'
   date: 2021-09-17
+
+project_setup:
+  <<: *default
+  text: 'Project Setup'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7129460'
+  date: 2021-09-17
