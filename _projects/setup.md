@@ -67,11 +67,15 @@ Once you have everything imported into Eclipse, try these steps to verify everyt
 
   1. Verify you can make, commit, and push changes to `Driver.java` in the "SearchEngine" project in Eclipse.
 
-  1. Create your first release. Enter `v1.0.0` as the tag version and leave the other fields unchanged. There is an [example release]({{ site.data.info.links.github.link }}/project-template/releases/tag/v1.0.0) in the `project-template` repository.
+  1. Create your first release. Click the "Releases" heading (usually on the right side) in Github and click the "Draft a new release" button. Enter `v1.0.0` as the tag version, *optionally* click the "This is a pre-release" checkbox, and leave the other fields unchanged:
 
-  1. Go to the "Actions" tab and make sure the verification script ran for the `v1.0.0` release. There is an [example action]({{ site.data.info.links.github.link }}/project-template/actions/runs/1207184188) in the `project-template` repository. It *should* fail, since you don't have any code yet.
+      ![Screenshot]({{ "/images/github-create-release.png" | relative_url }}){: .is-400 }
 
-If you are able to complete all of the above, you should be ready to start your project!
+      There is an [example release]({{ site.data.info.links.github.link }}/project-template/releases/tag/v1.0.0) in the `project-template` repository.
+
+  1. Go to the "Actions" tab and make sure the "Run Project Tests" workflow ran for the `v1.0.0` release. There is an [example action]({{ site.data.info.links.github.link }}/project-template/actions/runs/1207184188) in the `project-template` repository. It *should* fail, since you don't have any code yet.
+
+If you are able to complete all of the above, you should be ready to start your project! More about releases and the workflow output can be found in the [Project Testing](testing.html) guide.
 
 ## Folder Structure
 
