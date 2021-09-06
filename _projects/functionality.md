@@ -29,15 +29,15 @@ Each project grade is split into two components: functionality (passing tests) a
 
 Before making a request, make sure your project is eligible to earn the functionality grade:
 
-  - **Do you have a non-zero functionality grade for the previous project?** You can check your grades on [Canvas]({{ site.data.info.links.canvas.link }}). If you are missing a grade you should already have, please reach out to us on the [course forums]({{ site.data.info.links.forums.link }}).
+  - Do you have a non-zero functionality grade for the previous project? You can check your grades on [Canvas]({{ site.data.info.links.canvas.link }}). If you are missing a grade you should already have, please reach out to us on the [course forums]({{ site.data.info.links.forums.link }}).
 
       *For example, if you are on project 3, you must already have a non-zero functionality grade for project 2. If you are on project 1, you can skip this check.*
 
-  - **Are you working only 1 project ahead?**
+  - Are you working only 1 project ahead?
 
       *For example, if you are on project 3, you must already have completed project 1 (both functionality and design) and have a non-zero functionality grade for project 2. If you are on project 1 or 2, you can skip this check.*
 
-  - **Do you have a release for this project that passed the verification action on Github?** If not, see the [Creating Releases](testing.html#creating-releases) section of the testing guide.
+  - Do you have a release for this project that passed the verification action on Github? If not, see the [Creating Releases](testing.html#creating-releases) section of the testing guide.
 
 If you answered yes to all of the above, you can request to have your functionality grade updated.
 
