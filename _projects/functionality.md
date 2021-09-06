@@ -52,7 +52,6 @@ See the [Schedule](schedule.html) for the functionality deadlines.
 <i class="fas fa-exclamation-triangle"></i> If late deductions bring the project functionality grade below passing, you should consult with the instructor. It may no longer be possible to pass the class and you might want to consider withdrawing.
 {: .notification .is-warning }
 
-
 ## Grading
 
 **You only need to do this once per project.**
