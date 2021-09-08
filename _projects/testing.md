@@ -181,15 +181,19 @@ Creating releases will familiarize you with [**versioning**](https://en.wikipedi
 
   1. After passing all of the tests locally and pushing your latest commits to Github, follow the [Creating Releases](https://help.github.com/articles/creating-releases/) steps to draft a new release of your project code on Github.
 
-  2. You must choose a "tag" or the version number you are going to assign to your code at this stage. Out in the "real world" you will likely use [semantic versioning](https://semver.org/), which we will roughly mimic in class.
+  2. Choose a "tag" or the version number to assign to the code at this stage. Out in the "real world" you will likely use [semantic versioning](https://semver.org/), which we will roughly mimic in class.
 
-      Specifically, you must name your release `v#.#.#` where the first `#` is the project number (1, 2, 3, or 4), the second `#` is the number of code reviews you've had for that project, and the last `#` is the number of patches/fixes you released since the last code review for that project.
+      Specifically, you must name your release `v#.#.#` where the first `#` is the project number (1, 2, 3, or 4), the second `#` is the number of code reviews you've had for that project, and the last `#` is the number of patches/fixes you released in between code reviews for that project.
 
       For example, your first release should be `v1.0.0` because it is for project 1, you have not had any code reviews yet, and you have not had any other releases yet. If your code does not pass the tests remotely, then you have to fix your code and re-release your project as `v1.0.1` since you now have 1 prior release. After your first code review, the next release will be `v1.1.0` (notice how the last number reset to 0).
 
       The release `v2.3.4` means this release is for project 2, you have had 3 code reviews for project 2 so far, and this is the 4th release since your last code review of project 2. (It also means there must be a prior `v2.3.3` release made before this one.)
 
-  4. Click the "Publish release" button. You can leave the title and description blank.
+  3. Enter the tag number in the "Choose a tag" dropdown and click the "Create new tag on publish" option. If you are working ahead and have the project code in a different branch, select that branch in the "Target" dropdown.
+
+      ![Screenshot]({{ "/images/github-create-release.png" | relative_url }}){: .is-400 }
+
+  4. Click the "Publish release" button. You can leave the title and description blank. You *should* click the "This is a pre-release" checkbox unless you have passed code review, but it is not something we enforce currently.
 
 You can see a [sample release]({{ site.data.info.links.github.link }}/project-template/releases) on the template repository.
 
