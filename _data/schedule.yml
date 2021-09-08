@@ -275,8 +275,6 @@ weeks:
 
       - date: 2021-09-03
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             date: false
             items:
@@ -318,7 +316,11 @@ weeks:
     days:
       - date: 2021-09-07
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/dvuZX3FtB3WPmnSu2PMH1Tnp0jCKdROPGwjjt56orQexmR3g7k0g2J8kjGKgA9Q.MQIHZ64qNpXnViK8?startTime=1631042883000'
 
           - label: 'Agenda'
             date: false
