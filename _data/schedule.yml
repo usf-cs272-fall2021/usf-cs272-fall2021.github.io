@@ -399,9 +399,15 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
+              - text: 'Getting Help'
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQFoUdGZwy2Cozvsb6VPGX8QHtwD0lmC691ks4rB9FesW_uDXZz1GMYuDZA9zwAWWRGKt1aFfh9SdFM/pub?start=false&loop=false&delayms=3000'
+                save: true
+
               - text: 'Object Oriented Programming'
                 icon: 'slides'
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vRjT9CcuJsN6nHX8fineRezDh3YFo-HXQfgRRBfYQwFCd1RJM6NU0mtx1AXgCZT2sUD6KnJsOscoNDZ/pub?start=false&loop=false&delayms=3000'
+                type: 'bump'
                 save: true
 
               - text: 'Object Oriented Programming'
@@ -409,13 +415,15 @@ weeks:
                 type: 'bump'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/ObjectOrientedProgramming'
 
-              - text: '– Widget'
+              - text: '<del>– Widget</del>'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/Widget.java'
+                more: '(<a href="https://drive.google.com/file/d/1GHR0n-CskeZh2ABFQsGcZERDza1fot4s/view?usp=sharing">See Video</a>)'
 
               - text: '– WidgetDemo'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/WidgetDemo.java'
+                type: 'del'
 
               - text: '– StaticDemo'
                 icon: 'none'
