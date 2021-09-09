@@ -21,3 +21,15 @@ maps:
   text: 'Using Maps'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391417'
   date: 2021-09-14
+
+static:
+  <<: *default
+  text: 'Instance vs Static'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391540'
+  date: 2021-09-14
+
+identifier:
+  <<: *default
+  text: 'Instance vs Identifier'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391542'
+  date: 2021-09-14

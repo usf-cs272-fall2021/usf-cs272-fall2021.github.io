@@ -431,13 +431,11 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'quizzes'
+                name: 'identifier'
 
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'quizzes'
+                name: 'static'
 
       - date: 2021-09-10
         sections:
@@ -506,6 +504,12 @@ weeks:
               - file: 'quizzes'
                 name: 'maps'
                 type: 'bump'
+
+              - file: 'quizzes'
+                name: 'identifier'
+
+              - file: 'quizzes'
+                name: 'static'
 
       - date: 2021-09-16
         sections:
