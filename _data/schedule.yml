@@ -404,6 +404,31 @@ weeks:
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vRjT9CcuJsN6nHX8fineRezDh3YFo-HXQfgRRBfYQwFCd1RJM6NU0mtx1AXgCZT2sUD6KnJsOscoNDZ/pub?start=false&loop=false&delayms=3000'
                 save: true
 
+              - text: 'Object Oriented Programming'
+                icon: 'code'
+                type: 'bump'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/ObjectOrientedProgramming'
+
+              - text: '– Widget'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/Widget.java'
+
+              - text: '– WidgetDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/WidgetDemo.java'
+
+              - text: '– StaticDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StaticDemo.java'
+
+              - text: '– ObjectDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/ObjectDemo.java'
+
+              - text: '– StringDemo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StringDemo.java'
+
           - <<: *assignments
             items:
               - text: 'Pending'
