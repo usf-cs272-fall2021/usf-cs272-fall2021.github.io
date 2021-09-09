@@ -466,6 +466,11 @@ weeks:
                 icon: 'website'
                 link: 'https://docs.google.com/spreadsheets/d/1fNSPLVnRL0Rt4WihZjO47H2dYKSQ6QQ0oIXc6PZVNUk/edit?usp=sharing'
 
+              - text: 'Comparing Files in Eclipse'
+                type: 'bump'
+                link: '/guides/eclipse/comparing-files.html'
+                icon: 'website'
+
           - <<: *assignments
             items:
               - file: 'homework'
