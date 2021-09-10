@@ -54,7 +54,7 @@ After importing into Eclipse, the "Package Explorer" view should look like this:
 
 ![Screenshot]({{ "/images/project-eclipse.png" | relative_url }}){: style="width: 250px;" class="is-size is-bordered" }
 
-Important files or directories are highlighted in blue. Your view will not have this highlighting.
+Important files or directories are highlighted in blue. Your view will not have this highlighting. You may also be missing the `actual` folder until your project is producing output files.
 
 **Once setup, you do not need to go through these steps again.**
 
