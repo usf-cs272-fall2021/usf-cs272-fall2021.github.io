@@ -526,6 +526,13 @@ weeks:
               - file: 'attendance'
                 name: 'other4'
 
+              - file: 'quizzes'
+                name: 'mutability1'
+                type: 'bump'
+
+              - file: 'quizzes'
+                name: 'mutability2'
+
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -623,6 +630,13 @@ weeks:
               - file: 'attendance'
                 name: 'other4'
 
+              - file: 'quizzes'
+                name: 'mutability1'
+                type: 'bump'
+
+              - file: 'quizzes'
+                name: 'mutability2'
+                
       - date: 2021-09-23
         sections:
           - <<: *lectures
