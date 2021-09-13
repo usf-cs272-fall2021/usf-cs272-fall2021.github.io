@@ -49,7 +49,10 @@
             <span>{{ item.text }}</span>
             {%- endif %}
             {%- if item.save %}
-            <a href="/files/{{ item.text }}.pdf"><i class="fal fa-download"></i></a>
+            <a href="/files/{{ item.text }}.pdf"><i class="fas fa-download"></i></a>
+            {%- endif %}
+            {%- if item.tube %}
+            <a href="{{ item.tube }}"><i class="fab fa-youtube"></i></a>
             {%- endif %}
             {%- if item.more %}
             {{ item.more }}
