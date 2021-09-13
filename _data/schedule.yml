@@ -394,8 +394,6 @@ weeks:
 
       - date: 2021-09-09
         sections:
-          - <<: *lectures
-
           - <<: *recordings
             items:
               - text: 'Lecture Recording'
@@ -453,8 +451,6 @@ weeks:
 
       - date: 2021-09-10
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             date: false
             items:
