@@ -497,8 +497,26 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
-              - text: 'Objects'
-                type: *pending
+              - text: 'Object Oriented Programming'
+                icon: 'code'
+                type: 'bump'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/ObjectOrientedProgramming'
+
+              - text: '– HashCode Demo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/HashCodeDemo.java'
+
+              - text: '– Mutability Demo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/MutabilityDemo.java'
+
+              - text: '– Concatenation Demo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/ConcatenationDemo.java'
+
+              - text: '– Map Mutability Demo'
+                icon: 'none'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/MapMutabilityDemo.java'
 
           - <<: *assignments
             items:
