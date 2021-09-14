@@ -528,13 +528,14 @@ weeks:
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixMap.java'
                 more: 'and <a href="https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixDemo.java">PrefixDemo</a>'
+                type: 'del'
 
               - text: 'Generic Types'
                 icon: 'slides'
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vRLv774EzqUee1-xCj-nysHC1FeY7tr2kWFwv8GwzQ-V4wJksO42iXC170K2411uoPxLXtZwm_xboZJ/pub?start=false&loop=false&delayms=3000'
                 tube: 'https://drive.google.com/file/d/1nQgjWWZhPalu3bkcWzGkO2v_5_6rc9BF/view?usp=sharing'
                 save: true
-                type: 'bump'
+                type: 'bump del'
 
           - <<: *assignments
             items:
