@@ -492,8 +492,6 @@ weeks:
     days:
       - date: 2021-09-14
         sections:
-          - <<: *lectures
-
           - <<: *recordings
             items:
               - text: 'Lecture Recording'
