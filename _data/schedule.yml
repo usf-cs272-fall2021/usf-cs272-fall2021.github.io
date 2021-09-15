@@ -604,16 +604,6 @@ weeks:
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/GenericTypesDemo.java'
 
-          - <<: *assignments
-            items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
-
       - date: 2021-09-17
         sections:
           - <<: *labs
