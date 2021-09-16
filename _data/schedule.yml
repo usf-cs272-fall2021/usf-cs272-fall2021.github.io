@@ -572,6 +572,12 @@ weeks:
         sections:
           - <<: *lectures
 
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/QiwJnpC_NvBy8tYbpr6RiaWSlV0G3DioNN10Ovl3JPzIcCooR_7cnMqfBJfurlqC.H3i68cxdGGqw1KPA?startTime=1631820821000'
+
           - label: 'Agenda'
             date: false
             items:
