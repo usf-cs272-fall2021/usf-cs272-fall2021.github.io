@@ -607,6 +607,7 @@ weeks:
               - text: 'Generic Types Demo'
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/GenericTypesDemo.java'
+                type: 'del'
 
       - date: 2021-09-17
         sections:
@@ -627,6 +628,9 @@ weeks:
             items:
               - file: 'homework'
                 name: 'textfileindex'
+
+              - file: 'participation'
+                name: 'belonging1'
 
           - <<: *deadlines
             items:
@@ -743,6 +747,9 @@ weeks:
             items:
               - file: 'homework'
                 name: 'textfileindex'
+
+              - file: 'participation'
+                name: 'belonging1'
 
   - week: 6
     days:
