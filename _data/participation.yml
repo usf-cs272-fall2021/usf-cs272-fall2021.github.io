@@ -65,4 +65,4 @@ belonging1:
   <<: *default
   text: 'CS Belonging Survey 1'
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7132274'
-  date; 2021-09-24
+  date: 2021-09-24
