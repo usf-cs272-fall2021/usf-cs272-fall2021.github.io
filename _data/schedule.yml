@@ -650,39 +650,39 @@ weeks:
           - <<: *lectures
 
           - label: 'Agenda'
-            date: false
+            dates: false
             items:
-              - text: 'Inheritance'
-                type: *pending
+              - text: 'Collections Revisited'
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vRQ9ENIguFSZ1EkoE8gxoYWTQMIJhrVnQN0NNA2mneqJZiDlZ2U2pqWrikhH-4ZuSAc-9QPwPO49TRn/pub?start=false&loop=false&delayms=3000'
+                tube: 'https://drive.google.com/file/d/1NO1gWoNzCMx4Rs5GkZe0ICK8OrI6uk2z/view?usp=sharing'
+                save: true
 
-              # - text: 'Object Class'
-              #   icon: 'slides'
-              #   link: 'https://docs.google.com/presentation/d/e/2PACX-1vSTUIL9orhyiHrEdxJnADrQSsgdBkSDLSNtREjoYBuTmt7Sa78EtEAcB7NTHUDtfMErn5gyEkPe4MnQ/pub?start=false&loop=false&delayms=3000'
-              #   tube: 'https://drive.google.com/file/d/1Ktagbp_14RRcvlbZrU7qp22qa8hH3pvi/view?usp=sharing'
-              #   save: true
-              #
-              # - text: 'Final Keyword'
-              #   icon: 'slides'
-              #   link: 'https://docs.google.com/presentation/d/e/2PACX-1vSxoP6R27gSk4onRfZw88Ywn8Q2KGzYCjZS-VW-tuGl4lZm1EsxPOjgZ9XxzeRqgQzraM57dAw_sU7K/pub?start=false&loop=false&delayms=3000'
-              #   tube: 'https://drive.google.com/file/d/1L61dJEpzn1yAwP7dizMCqGnhtSlyNFlP/view?usp=sharing'
-              #   save: true
-              #
-              # - text: 'Collections Revisited'
-              #   icon: 'slides'
-              #   link: 'https://docs.google.com/presentation/d/e/2PACX-1vRQ9ENIguFSZ1EkoE8gxoYWTQMIJhrVnQN0NNA2mneqJZiDlZ2U2pqWrikhH-4ZuSAc-9QPwPO49TRn/pub?start=false&loop=false&delayms=3000'
-              #   tube: 'https://drive.google.com/file/d/1NO1gWoNzCMx4Rs5GkZe0ICK8OrI6uk2z/view?usp=sharing'
-              #   save: true
-              #
-              # - text: 'Casting'
-              #   icon: 'slides'
-              #   link: 'https://docs.google.com/presentation/d/e/2PACX-1vT73_M9YJriVrtB3jur-7EO-P_OsVHJbgE4PaoRz8XUAfyMuVQH4imUaEpKtU8Yx0YhTFAylqadgFQY/pub?start=false&loop=false&delayms=3000'
-              #   tube: 'https://drive.google.com/file/d/1Rdwp_kCYGd5lBt2NpD5-di9loJ05ZGyd/view?usp=sharing'
-              #   save: true
-              #
-              # - text: 'Nested Classes'
-              #   icon: 'slides'
-              #   link: 'https://docs.google.com/presentation/d/e/2PACX-1vRasEg-SIXvMRmxyDoPEZO9ET2jzddrCksemJ-tIBmyht2tTQV0sfCpo93mB7xYZBoqkequS58kHNH9/pub?start=false&loop=false&delayms=3000'
-              #   save: true
+              - text: 'Casting'
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vT73_M9YJriVrtB3jur-7EO-P_OsVHJbgE4PaoRz8XUAfyMuVQH4imUaEpKtU8Yx0YhTFAylqadgFQY/pub?start=false&loop=false&delayms=3000'
+                tube: 'https://drive.google.com/file/d/1Rdwp_kCYGd5lBt2NpD5-di9loJ05ZGyd/view?usp=sharing'
+                save: true
+
+          - label: 'Additional Content'
+            dates: false
+            items:
+              - text: 'Object Class'
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSTUIL9orhyiHrEdxJnADrQSsgdBkSDLSNtREjoYBuTmt7Sa78EtEAcB7NTHUDtfMErn5gyEkPe4MnQ/pub?start=false&loop=false&delayms=3000'
+                tube: 'https://drive.google.com/file/d/1Ktagbp_14RRcvlbZrU7qp22qa8hH3pvi/view?usp=sharing'
+                save: true
+
+              - text: 'Final Keyword'
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSxoP6R27gSk4onRfZw88Ywn8Q2KGzYCjZS-VW-tuGl4lZm1EsxPOjgZ9XxzeRqgQzraM57dAw_sU7K/pub?start=false&loop=false&delayms=3000'
+                tube: 'https://drive.google.com/file/d/1L61dJEpzn1yAwP7dizMCqGnhtSlyNFlP/view?usp=sharing'
+                save: true
+
+              - text: 'GenericTypesDemo'
+                icon: 'code'
+                link: ''
+                tube: ''
 
           - <<: *assignments
             items:
@@ -721,8 +721,10 @@ weeks:
           - label: 'Agenda'
             date: false
             items:
-              - text: 'Inheritance'
-                type: *pending
+              - text: 'Nested Classes'
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vRasEg-SIXvMRmxyDoPEZO9ET2jzddrCksemJ-tIBmyht2tTQV0sfCpo93mB7xYZBoqkequS58kHNH9/pub?start=false&loop=false&delayms=3000'
+                save: true
 
           - <<: *assignments
             items:
