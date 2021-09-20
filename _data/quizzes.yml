@@ -45,3 +45,27 @@ mutability2:
   text: 'Mutability Part 2'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391750'
   date: 2021-09-21
+
+inheritance:
+  <<: *default
+  text: 'Inheritance Keywords'
+  link: '#'
+  date: 2021-10-01
+
+collections:
+  <<: *default
+  text: 'Collections Revisited'
+  link: '#'
+  date: 2021-10-01
+
+casting:
+  <<: *default
+  text: 'Casting'
+  link: '#'
+  date: 2021-10-01
+
+nesting:
+  <<: *default
+  text: 'Nested Classes'
+  link: '#'
+  date: 2021-10-01

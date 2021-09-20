@@ -692,6 +692,13 @@ weeks:
               - file: 'attendance'
                 name: 'other5'
 
+              - file: 'quizzes'
+                name: 'inheritance'
+                type: 'bump'
+
+              - file: 'quizzes'
+                name: 'collections'
+
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -719,13 +726,11 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'quizzes'
+                name: 'casting'
 
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'quizzes'
+                name: 'nesting'
 
       - date: 2021-09-24
         sections:
@@ -835,6 +840,19 @@ weeks:
             items:
               - file: 'homework'
                 name: 'textfilesorter'
+
+              - file: 'quizzes'
+                name: 'inheritance'
+                type: 'bump'
+
+              - file: 'quizzes'
+                name: 'collections'
+
+              - file: 'quizzes'
+                name: 'casting'
+
+              - file: 'quizzes'
+                name: 'nesting'
 
   - week: 7
     days:
