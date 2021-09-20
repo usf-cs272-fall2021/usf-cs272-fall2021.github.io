@@ -146,6 +146,8 @@ Follow these steps to create this run configuration:
 
   1. [OPTIONAL] Click the "Add..." button to add another parameter. Enter `excludedGroups` and `none() | !verify` for the name and value. This tells Maven to run all tests except those without tags, or those that don't have the `verify` tag. Or, in other words, it only runs the tests tagged with `verify`, which finishes much faster than running all of the tests. *This can be skipped if you want to run all of the tests regardless.*
 
+  1. [OPTIONAL] Click the "Add..." button to add another parameter. Enter `compileOptionXlint` and `-Xlint:all,-processing` (with no spaces) for the name and value. This will tell Maven to check for all warnings (except annotation processing). *This is only required if you are going to enable the next option to fail when warnings are detected.*
+
   1. [OPTIONAL] Click the "Add..." button to add another parameter. Enter `compileOptionFail` and `true` for the name and value. This tells Maven to fail if any compile warning are detected. If there are warnings, it will report those warnings and exit (it will not run the tests). *This is not required to earn functionality credit, but will be required to sign up for a code review.*
 
   1. Ignore the red `SLF4J:` output at the beginning. Look for output similar to:
