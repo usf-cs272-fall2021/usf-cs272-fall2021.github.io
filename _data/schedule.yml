@@ -652,17 +652,31 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
+              - text: 'Project Design'
+                icon: 'website'
+                link: '/guides/projects/design.html'
+
               - text: 'Collections Revisited'
                 icon: 'slides'
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vRQ9ENIguFSZ1EkoE8gxoYWTQMIJhrVnQN0NNA2mneqJZiDlZ2U2pqWrikhH-4ZuSAc-9QPwPO49TRn/pub?start=false&loop=false&delayms=3000'
                 tube: 'https://drive.google.com/file/d/1NO1gWoNzCMx4Rs5GkZe0ICK8OrI6uk2z/view?usp=sharing'
                 save: true
+                type: 'bump'
 
               - text: 'Casting'
                 icon: 'slides'
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vT73_M9YJriVrtB3jur-7EO-P_OsVHJbgE4PaoRz8XUAfyMuVQH4imUaEpKtU8Yx0YhTFAylqadgFQY/pub?start=false&loop=false&delayms=3000'
                 tube: 'https://drive.google.com/file/d/1Rdwp_kCYGd5lBt2NpD5-di9loJ05ZGyd/view?usp=sharing'
                 save: true
+
+              - text: 'Inheritance'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Inheritance'
+                type: 'bump'
+
+              - text: '– CastDemo.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/CastDemo.java'
 
           - label: 'Additional Content'
             dates: ''
@@ -681,7 +695,7 @@ weeks:
 
               - text: 'GenericTypesDemo.java'
                 icon: 'code'
-                link: ''
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/GenericTypesDemo.java'
                 tube: ''
 
           - <<: *assignments
@@ -726,6 +740,44 @@ weeks:
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vRasEg-SIXvMRmxyDoPEZO9ET2jzddrCksemJ-tIBmyht2tTQV0sfCpo93mB7xYZBoqkequS58kHNH9/pub?start=false&loop=false&delayms=3000'
                 save: true
 
+              - text: 'Shape Demo'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Inheritance'
+                type: 'bump'
+
+              - text: '– Shape.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/Shape.java'
+
+              - text: '– Rectangle.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/Rectangle.java'
+
+              - text: '– Square.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/Square.java'
+
+              - text: '– ShapeDemo.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/ShapeDemo.java'
+
+              - text: 'Gadget Sort Demo'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Inheritance'
+                type: 'bump'
+
+              - text: '– Gadget.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/Gadget.java'
+
+              - text: '– GadgetComparator.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/GadgetComparator.java'
+
+              - text: '– GadgetDemo.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/GadgetDemo.java'
+
           - <<: *assignments
             items:
               - file: 'quizzes'
@@ -744,6 +796,16 @@ weeks:
               - text: 'Project Design'
                 icon: 'website'
                 link: '/guides/projects/design.html'
+
+              - text: 'Homework Help'
+                icon: 'homework'
+                type: 'bump'
+
+              - text: 'Project Help'
+                icon: 'project'
+
+              - text: 'Code Reviews'
+                icon: 'review'
 
           - <<: *assignments
             items:
