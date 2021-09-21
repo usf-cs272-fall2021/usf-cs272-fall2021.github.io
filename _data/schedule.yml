@@ -178,6 +178,7 @@ weeks:
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vSbFVadVrwGBGRuzFDB1MEGnj3iOk8UGS87vbBlyeK3rKmphDUZITxUMI6ZUBMipLYVQJ2wFU-v5mKo/pub?start=false&loop=false&delayms=3000'
                 save: true
                 icon: 'slides'
+                tube: 'https://drive.google.com/file/d/1yff1jEPcLSrh0po2Wytc3k9PcLlGZ0xg/view?usp=sharing'
 
               - text: 'File I/O'
                 icon: 'code'
@@ -195,6 +196,7 @@ weeks:
               - text: '– DirectoryStreamDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/FileIO/src/main/java/DirectoryStreamDemo.java'
+                tube: 'https://drive.google.com/file/d/1sAML7el7txCn53kIMccCgEPgOSDDzeCm/view?usp=sharing'
 
 
           - <<: *assignments
@@ -245,11 +247,13 @@ weeks:
                 icon: 'slides'
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vQgpvOAAqjNV5liUyu6g655xlL6J3QFLGSMfz_-sgfc9hjdVnpPFFT6UkkuIVuJuY1jbBho_bEf9ZAx/pub?start=false&loop=false&delayms=3000'
                 save: true
+                tube: 'https://drive.google.com/file/d/1OvFMONm4PEYQ8LtR9P9BxkfxxJZrGNK4/view?usp=sharing'
 
               - text: 'Collections Framework'
                 icon: 'slides'
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vQ47_2Y7F29dDWW0RDQmqaPqdRDaRhFuSjaRV87xn8_JhYuLriLVrYntUNvCVCMekl0X979DFy0qEtL/pub?start=false&loop=false&delayms=3000'
                 save: true
+                tube: 'https://drive.google.com/file/d/1O2I-vvdaul1AEZ31PO6KrFakcw1ORlkJ/view?usp=sharing'
 
               - text: 'Data Structures'
                 icon: 'code'
@@ -259,10 +263,12 @@ weeks:
               - text: '– CollectionDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/CollectionDemo.java'
+                tube: 'https://drive.google.com/file/d/1UbVnpLnFL1v0AKH6pazLRH0jKh1OkTF1/view?usp=sharing'
 
               - text: '– MapDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/MapDemo.java'
+                tube: 'https://drive.google.com/file/d/1byBtkaRo7WkY3cBfPXJNkvEi3D7UhoJD/view?usp=sharing'
 
               - text: '– NestedMapDemo.java'
                 icon: 'none'
@@ -413,6 +419,7 @@ weeks:
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vRjT9CcuJsN6nHX8fineRezDh3YFo-HXQfgRRBfYQwFCd1RJM6NU0mtx1AXgCZT2sUD6KnJsOscoNDZ/pub?start=false&loop=false&delayms=3000'
                 type: 'bump'
                 save: true
+                tube: 'https://drive.google.com/file/d/14aTl6kRfuIptdA3T9kOx75FNUBXS7tGX/view?usp=sharing'
 
               - text: 'Object Oriented Programming'
                 icon: 'code'
@@ -422,24 +429,24 @@ weeks:
               - text: '<del>– Widget.java</del>'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/Widget.java'
-                more: '(<a href="https://drive.google.com/file/d/1GHR0n-CskeZh2ABFQsGcZERDza1fot4s/view?usp=sharing">See Video</a>)'
-
-              - text: '– WidgetDemo.java'
-                icon: 'none'
-                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/WidgetDemo.java'
+                tube: 'https://drive.google.com/file/d/1GHR0n-CskeZh2ABFQsGcZERDza1fot4s/view?usp=sharing'
                 type: 'del'
+                more: 'and <a href="https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/WidgetDemo.java">WidgetDemo.java</a>'
 
               - text: '– StaticDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StaticDemo.java'
+                tube: 'https://drive.google.com/file/d/13OATz6xNyiRGQXX_ZzSHPWSwt8mEaLji/view?usp=sharing'
 
               - text: '– ObjectDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/ObjectDemo.java'
+                tube: 'https://drive.google.com/file/d/1U0uVHUPp1-zZK-J5rVn0X-pP2CdxF3el/view?usp=sharing'
 
               - text: '– StringDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StringDemo.java'
+                tube: 'https://drive.google.com/file/d/1Gncwuj-YnyaPivB3vQLLyWVM-8ZnFjeT/view?usp=sharing'
 
           - <<: *assignments
             items:
