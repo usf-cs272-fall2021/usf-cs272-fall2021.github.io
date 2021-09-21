@@ -184,15 +184,15 @@ weeks:
                 type: 'bump'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/FileIO'
 
-              - text: '– PathDemo'
+              - text: '– PathDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/FileIO/src/main/java/PathDemo.java'
 
-              - text: '– EliteFileConverter'
+              - text: '– EliteFileConverter.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/FileIO/src/main/java/EliteFileConverter.java'
 
-              - text: '– DirectoryStreamDemo'
+              - text: '– DirectoryStreamDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/FileIO/src/main/java/DirectoryStreamDemo.java'
 
@@ -256,15 +256,15 @@ weeks:
                 type: 'bump'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/DataStructures'
 
-              - text: '– CollectionDemo'
+              - text: '– CollectionDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/CollectionDemo.java'
 
-              - text: '– MapDemo'
+              - text: '– MapDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/MapDemo.java'
 
-              - text: '– NestedMapDemo'
+              - text: '– NestedMapDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/NestedMapDemo.java'
 
@@ -339,23 +339,23 @@ weeks:
                 type: 'bump'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/DataStructures'
 
-              - text: '– NestedMapDemo (Revisited)'
+              - text: '– NestedMapDemo.java (Revisited)'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/NestedMapDemo.java'
 
-              - text: '– IterationDemo'
+              - text: '– IterationDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/IterationDemo.java'
 
-              - text: '– RemoveDemo'
+              - text: '– RemoveDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/RemoveDemo.java'
 
-              - text: '– MutableSetDemo'
+              - text: '– MutableSetDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/MutableSetDemo.java'
 
-              - text: '– FindDemo'
+              - text: '– FindDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/DataStructures/src/main/java/FindDemo.java'
 
@@ -419,25 +419,25 @@ weeks:
                 type: 'bump'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/ObjectOrientedProgramming'
 
-              - text: '<del>– Widget</del>'
+              - text: '<del>– Widget.java</del>'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/Widget.java'
                 more: '(<a href="https://drive.google.com/file/d/1GHR0n-CskeZh2ABFQsGcZERDza1fot4s/view?usp=sharing">See Video</a>)'
 
-              - text: '– WidgetDemo'
+              - text: '– WidgetDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/WidgetDemo.java'
                 type: 'del'
 
-              - text: '– StaticDemo'
+              - text: '– StaticDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StaticDemo.java'
 
-              - text: '– ObjectDemo'
+              - text: '– ObjectDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/ObjectDemo.java'
 
-              - text: '– StringDemo'
+              - text: '– StringDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/StringDemo.java'
 
@@ -506,26 +506,26 @@ weeks:
                 type: 'bump'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/ObjectOrientedProgramming'
 
-              - text: '– HashCode Demo'
+              - text: '– HashCodeDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/HashCodeDemo.java'
 
-              - text: '– Mutability Demo'
+              - text: '– MutabilityDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/MutabilityDemo.java'
 
-              - text: '– Concatenation Demo'
+              - text: '– ConcatenationDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/ConcatenationDemo.java'
 
-              - text: '– Map Mutability Demo'
+              - text: '– MapMutabilityDemo.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/MapMutabilityDemo.java'
 
-              - text: '– PrefixMap'
+              - text: '– PrefixMap.java'
                 icon: 'none'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixMap.java'
-                more: 'and <a href="https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixDemo.java">PrefixDemo</a>'
+                more: 'and <a href="https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixDemo.java">PrefixDemo.java</a>'
                 type: 'del'
 
               - text: 'Generic Types'
@@ -579,10 +579,10 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'PrefixMap'
+              - text: 'PrefixMap.java'
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixMap.java'
-                more: 'and <a href="https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixDemo.java">PrefixDemo</a>'
+                more: 'and <a href="https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixDemo.java">PrefixDemo.java</a>'
 
               - text: 'Inheritance Relationships'
                 icon: 'slides'
@@ -604,7 +604,7 @@ weeks:
                 save: true
                 type: 'bump'
 
-              - text: 'Generic Types Demo'
+              - text: 'GenericTypesDemo.java'
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/GenericTypesDemo.java'
                 type: 'del'
@@ -665,7 +665,7 @@ weeks:
                 save: true
 
           - label: 'Additional Content'
-            dates: false
+            dates: ''
             items:
               - text: 'Object Class'
                 icon: 'slides'
@@ -679,7 +679,7 @@ weeks:
                 tube: 'https://drive.google.com/file/d/1L61dJEpzn1yAwP7dizMCqGnhtSlyNFlP/view?usp=sharing'
                 save: true
 
-              - text: 'GenericTypesDemo'
+              - text: 'GenericTypesDemo.java'
                 icon: 'code'
                 link: ''
                 tube: ''
