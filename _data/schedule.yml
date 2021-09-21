@@ -615,6 +615,7 @@ weeks:
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/GenericTypesDemo.java'
                 type: 'del'
+                tube: 'https://drive.google.com/file/d/1Haj475bCoHuTN3TZBAuYgsafkeka8WNA/view?usp=sharing'
 
       - date: 2021-09-17
         sections:
@@ -703,7 +704,7 @@ weeks:
               - text: 'GenericTypesDemo.java'
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Inheritance/src/main/java/GenericTypesDemo.java'
-                tube: ''
+                tube: 'https://drive.google.com/file/d/1Haj475bCoHuTN3TZBAuYgsafkeka8WNA/view?usp=sharing'
 
           - <<: *assignments
             items:
@@ -772,6 +773,7 @@ weeks:
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Inheritance'
                 type: 'bump'
+                tube: 'https://drive.google.com/file/d/1LLItjwK8SwopHXJdZ7o1vffT1nNvoaEa/view?usp=sharing'
 
               - text: '– Gadget.java'
                 icon: 'nothing'
