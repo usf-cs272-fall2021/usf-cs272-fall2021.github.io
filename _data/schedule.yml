@@ -655,7 +655,11 @@ weeks:
     days:
       - date: 2021-09-21
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/6KB6Ss0hj-Lou4wKvUWNMmMG_-s7KM1ghoWM_JBeUoZes50PQjfIKTGM5Ugwhh85.u8JGuCCqoExloUWd?startTime=1632253486000'
 
           - label: 'Agenda'
             dates: false
