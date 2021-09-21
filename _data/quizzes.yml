@@ -49,7 +49,7 @@ mutability2:
 inheritance:
   <<: *default
   text: 'Inheritance Keywords'
-  link: '#'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392015'
   date: 2021-10-01
 
 collections:
@@ -61,7 +61,7 @@ collections:
 casting:
   <<: *default
   text: 'Casting'
-  link: '#'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391850'
   date: 2021-10-01
 
 nesting:
