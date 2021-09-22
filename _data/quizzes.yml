@@ -55,7 +55,7 @@ inheritance:
 collections:
   <<: *default
   text: 'Collections Revisited'
-  link: '#'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392159'
   date: 2021-10-01
 
 casting:
@@ -67,5 +67,5 @@ casting:
 nesting:
   <<: *default
   text: 'Nested Classes'
-  link: '#'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392160'
   date: 2021-10-01
