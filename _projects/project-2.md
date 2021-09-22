@@ -6,8 +6,8 @@ key: 2.0
 bump: false
 
 tags:
-  - text: 'Pending'
-    type: 'is-muted'
+  - text: 'New'
+    type: 'is-primary'
 
 assignments:
   - text: 'Project 2 Functionality'
@@ -225,7 +225,28 @@ You must pass 100% of the tests in the `Project2Test.java` group of JUnit tests 
 ## Examples
 {: .page-header }
 
-Pending
+The following are a few examples (non-comprehensive) to illustrate the usage of the command-line arguments that can be passed to your `Driver` class via a "Run Configuration" in Eclipse, assuming you set the working directory to the `project-tests` directory.
+
+Consider the following example:
+
+```
+-text "input/text/simple/"
+-query "input/query/simple.txt"
+-exact
+-results actual/search-exact-simple.json
+```
+
+The above arguments indicate that `Driver` should build an inverted index from text files in the `input/text/simple/` subdirectory of the current working directory, process the `simple.txt` query file in the `input/query` subdirectory, conduct an exact search, and output the search results to `search-exact-simple.json` in the `actual` subdirectory. This is equivalent to the `testSimpleDirectory()` test method of `Project2Test.java` in the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository.
+
+```
+-text "input/text/simple/"
+-query "input/query/simple.txt"
+-results actual/search-exact-simple.json
+```
+
+The above arguments are nearly the same, but should trigger a partial search instead.
+
+Note that a search should **always** be conducted if the `-query` file is provided, even if the `-results` flag is missing and no results are output to file.
 
 ## Hints
 {: .page-header }
