@@ -3,11 +3,6 @@ title: Project Setup
 navbar: Guides
 layout: guides
 key: 0.1
-
-tags:
-  - text: 'New'
-    type: 'is-primary'
-
 ---
 
 The project is broken into two separate Github repositories and Eclipse projects:

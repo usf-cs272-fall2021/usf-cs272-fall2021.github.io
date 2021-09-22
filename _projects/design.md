@@ -4,6 +4,10 @@ navbar: Guides
 layout: guides
 key: 0.4
 
+tags:
+  - text: 'New'
+    type: 'is-primary'
+
 assignments:
   - text: 'Project 1 Design'
     link: 'https://usfca.instructure.com/courses/1602551/assignments/7118297'
