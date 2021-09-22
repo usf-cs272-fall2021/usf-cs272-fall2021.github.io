@@ -857,6 +857,9 @@ weeks:
                 name: 'project2f'
                 type: 'bump'
 
+              - file: 'quizzes'
+                name: 'project2'
+
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -958,6 +961,10 @@ weeks:
 
               - file: 'attendance'
                 name: 'other6'
+
+              - file: 'quizzes'
+                name: 'project2'
+                type: 'bump'
 
       - date: 2021-10-07
         sections:

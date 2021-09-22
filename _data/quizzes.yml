@@ -69,3 +69,10 @@ nesting:
   text: 'Nested Classes'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392160'
   date: 2021-10-01
+
+project2:
+  <<: *default
+  text: 'Project 2 Writeup'
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392164'
+  date: 2021-10-05
+  
