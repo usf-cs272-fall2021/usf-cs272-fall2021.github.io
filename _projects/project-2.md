@@ -26,17 +26,17 @@ The core functionality of your project must satisfy the following requirements:
 
   - Maintain the functionality of the [previous project](project-1.html).
 
-  - Process additional command-line parameters to determine whether to search the inverted index and whether to produce additional JSON ouput. See the "Input" section for specifics.
+  - Process **additional command-line parameters** to determine whether to search the inverted index and whether to produce additional JSON ouput. See the "Input" section for specifics.
 
-  - Modify how input text files are processed to also track the total word count of that file when storing it in the inverted index. See the "Word Count" section for specifics.
+  - Modify how input text files are processed to also **track the total word count of each file** when storing it in the inverted index. See the "Word Count" section for specifics.
 
-  - Parse a query file line-by-line into a normalized and optimized multiple-word queries matching the processing used to build the inverted index. See the "Query Parsing" section for specifics.
+  - Parse a query file line-by-line into a **normalized and optimized multiple-word queries matching** the processing used to build the inverted index. See the "Query Parsing" section for specifics.
 
-  - Efficiently return exact search results from your inverted index, such that results from any word stem in your inverted index that exactly matches a query word is returned.
+  - Efficiently return **exact search results** from your inverted index, such that results from any word stem in your inverted index that exactly matches a query word is returned.
 
-  - Efficiently return partial search results from your inverted index, such that results from any word stem in your inverted index that starts with a query word is returned.
+  - Efficiently return **partial search results** from your inverted index, such that results from any word stem in your inverted index that starts with a query word is returned.
 
-  - Sort the search results using a simple term frequency metric to determine the most "useful" search results to output first. See the "Result Sorting" section for specifics.
+  - Sort the search results using a simple **term frequency metric** to determine the most "useful" search results to output first. See the "Result Sorting" section for specifics.
 
 The functionality of your project will be evaluated with the `Project2Test.java` group of JUnit tests. See the "Testing" section for details.
 
@@ -44,13 +44,40 @@ The functionality of your project will be evaluated with the `Project2Test.java`
 
 Before you can calculate search results, you need to know how many word stems were stored in your inverted index for each text file.
 
-Avoid opening up any file more than once! You should store this information alongside the inverted index, as the files are first processed.
+**Avoid opening up any file more than once!** You should store this information alongside the inverted index, as the files are first processed.
 
 These word counts will be output to file using the same pretty JSON format as the inverted index. Here is the expected output for the word count of all the text files associated with this project:
 
 ```json
 {
-	Pending
+	"input/text/guten/1400-0.txt": 187368,
+	"input/text/guten/2701-0.txt": 215398,
+	"input/text/guten/50468-0.txt": 10969,
+	"input/text/guten/pg1322.txt": 124370,
+	"input/text/guten/pg1661.txt": 107396,
+	"input/text/guten/pg22577.txt": 63630,
+	"input/text/guten/pg37134.txt": 16696,
+	"input/text/rfcs/rfc3629.txt": 4294,
+	"input/text/rfcs/rfc475.txt": 3228,
+	"input/text/rfcs/rfc5646.txt": 27075,
+	"input/text/rfcs/rfc6805.txt": 9785,
+	"input/text/rfcs/rfc6838.txt": 9367,
+	"input/text/rfcs/rfc7231.txt": 28811,
+	"input/text/simple/.txt/hidden.txt": 1,
+	"input/text/simple/a/b/c/d/subdir.txt": 1,
+	"input/text/simple/animals.text": 11,
+	"input/text/simple/animals_copy.text": 11,
+	"input/text/simple/animals_double.text": 22,
+	"input/text/simple/capital_extension.TXT": 1,
+	"input/text/simple/capitals.txt": 4,
+	"input/text/simple/digits.tXt": 2,
+	"input/text/simple/dir.txt/findme.Txt": 17,
+	"input/text/simple/hello.txt": 6,
+	"input/text/simple/position.teXt": 20,
+	"input/text/simple/symbols.txt": 10,
+	"input/text/simple/words.tExT": 36,
+	"input/text/stems/stem-in.txt": 22275,
+	"input/text/stems/stem-out.txt": 22275
 }
 ```
 
@@ -58,7 +85,7 @@ These word counts will be output to file using the same pretty JSON format as th
 
 ```json
 {
-	Pending
+	"input/text/simple/sentences.md": 77
 }
 ```
 You can also find this output in the `expected/counts` subdirectory in the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository.
@@ -161,14 +188,14 @@ The search results should be output as a JSON array of JSON objects, where each 
 
       - The key `score` with a floating point value with 8 digits after the decimal point of the search result score. You can use a `DecimalFormat` object to achieve this output:
 
-          ```
+          ```java
           DecimalFormat FORMATTER = new DecimalFormat("0.00000000");
           System.out.println(FORMATTER.format(Math.PI));
           ```
 
         Alternatively, you can use format strings:
 
-          ```
+          ```java
           String formatted = String.format("%.8f", Math.PI);
           System.out.println(formatted);
           ```
@@ -178,17 +205,17 @@ The search results should be output as a JSON array of JSON objects, where each 
 
 The use of spaces, newline characters, and spaces are the same as before for “pretty” JSON output. Here is an example output snippet of a single search query with a single search result:
 
-```
+```json
 	"observ perfor": [
 		{
-			"where": "input/text/simple/words.tExT",
 			"count": 13,
-			"score": 0.36111111
+			"score": 0.36111111,
+			"where": "input/text/simple/words.tExT"
 		}
 	],
 ```
 
-You can also find this output in the `search-exact-simple.json` file in the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository. See the other expected output files for more examples.
+You can also find this output in the `search-exact-simple-simple.json` file in the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository. See the other expected output files for more examples.
 
 ## Testing
 {: .page-header }
@@ -199,3 +226,32 @@ You must pass 100% of the tests in the `Project2Test.java` group of JUnit tests 
 {: .page-header }
 
 Pending
+
+## Hints
+{: .page-header }
+
+It is important to develop the project iteratively. One possible breakdown of tasks are:
+
+  - Add the ability to **store total word count** whenever a file is indexed, and the ability to output these counts when the `-counts` flag is provided.
+
+  - Add the ability to **parse query files**. Compare your parsed queries to those in the expected output files. For example, the line `performer performers` should become `perform` after being parsed, cleaned, stemmed, sorted, and discarding duplicates.
+
+  - Create a class that stores a **single search result** and implements the [Comparable](hhttps://www.cs.usfca.edu/~cs272/javadoc/api/java.base/java/lang/Comparable.html) interface. You will need data members for each of the sort criteria, including the location, total word count of the location, and number of times the query occurs at that location. This is similar to the `TextFileSorter` homework assignment.
+
+  - Add an **exact search method** to your inverted index data structure that takes already parsed words from a single line of the query file, and returns a sorted list of search results. Output the results to the console for debugging.
+
+      <i class="fas fa-exclamation-triangle"></i>
+      Use lists and <a href="https://www.cs.usfca.edu/~cs272/javadoc/api/java.base/java/util/Collections.html#sort(java.util.List)">Collections.sort(List)</a> to sort search results, not a <a href="https://www.cs.usfca.edu/~cs272/javadoc/api/java.base/java/util/TreeSet.html">TreeSet</a> data structure. Custom mutable objects do not behave well when used in sets or as keys in maps.
+      {: .notification .is-warning }
+
+  - Add the ability to **output the search results** to JSON file. Make sure the exact search results match the expected output.
+
+  - Add a **partial search method** to your inverted index data structure that takes already parsed words from a single line of the query file, and returns a sorted list of search results.
+
+  - Do not worry about efficient partial search until after you are getting correct results.
+
+The important part will be to test your code as you go. The JUnit tests provided only test the entire project as a whole, not the individual parts. You are responsible for testing the individual parts themselves.
+
+<i class="fas fa-info-circle"></i>
+These hints may or may not be useful depending on your approach. Do not be overly concerned if you do not find these hints helpful for your approach for this project.
+{: .notification }
