@@ -892,8 +892,17 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
+              - text: 'Stream Basics'
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vROPJVkIL1GcCOxSN0isk8MHagk4HKj7Z5RfSzV2XIMtGMEwFZ72XkhLyQ9uem4j9cTJCBV-5kooKM-/pub?start=false&loop=false&delayms=3000'
+                save: true
+                tube: 'https://drive.google.com/file/d/10MCP3wTHYPQ5LGL6rP3sH7kYiF3OAIhh/view?usp=sharing'
+
               - text: 'Stream Pipelines'
-                type: *pending
+                icon: 'slides'
+                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQojJQ1Vztc6-Swq-RXKImWhk5iS6IkkSf0c4mslFPDtdTXdR-aimHG_xE9Y2Jca0lPSdOO7LYVpGiC/pub?start=false&loop=false&delayms=3000'
+                save: true
+                tube: 'https://drive.google.com/file/d/1vWdlCE8eOt3HzVGa04zO1jJiWP1mJJ3z/view?usp=sharing'
 
           - <<: *assignments
             items:
