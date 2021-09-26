@@ -923,15 +923,12 @@ weeks:
             items:
               - text: 'Homework Help'
                 icon: 'homework'
-                type: *pending
 
               - text: 'Project Help'
                 icon: 'project'
-                type: *pending
 
               - text: 'Code Reviews'
                 icon: 'review'
-                type: *pending
 
           - <<: *assignments
             items:
