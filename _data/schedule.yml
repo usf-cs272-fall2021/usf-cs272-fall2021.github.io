@@ -874,14 +874,14 @@ weeks:
           - label: 'Additional Content'
             dates: ''
             items:
-              - text: 'Problem1e.java'
-                icon: 'code'
-                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ProjectEuler/src/main/java/Problem1e.java'
-                tube: 'https://drive.google.com/file/d/1gTjlMdvnCHs_E3yEL_DNsvkswG0zSg96/view?usp=sharing'
-
               - text: 'PathMatcherDemo.java'
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/PathMatcherDemo.java'
+
+              - text: 'TextFileParser.java'
+                icon: 'code'
+                tube: 'https://drive.google.com/file/d/1x07LOgjD-N431tK_2sk2_kdboovJouCu/view?usp=sharing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/TextFileParser.java'
 
           - <<: *assignments
             items:
@@ -935,27 +935,34 @@ weeks:
               - text: 'Stream Pipelines'
                 icon: 'code'
                 type: 'bump'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/StreamPipelines'
 
               - text: '– StreamDemo.java'
                 icon: 'nothing'
                 tube: 'https://drive.google.com/file/d/18RKTIjJmH1ovGVIwbVzfCIiDBq1BhmbP/view?usp=sharing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/StreamDemo.java'
 
               - text: '– InfiniteStreamDemo.java'
                 icon: 'nothing'
                 tube: 'https://drive.google.com/file/d/1AbBKj-JiQYLNACw3GXGPkHlInBmVzg3X/view?usp=sharing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/InfiniteStreamDemo.java'
 
+              - text: '– ParallelStreamBenchmark.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/ParallelStreamBenchmark.java'
 
           - label: 'Additional Content'
             dates: ''
             items:
-              - text: 'TextFileParser.java'
+              - text: 'Problem1Revisited.java'
                 icon: 'code'
-                tube: 'https://drive.google.com/file/d/1x07LOgjD-N431tK_2sk2_kdboovJouCu/view?usp=sharing'
-                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/TextFileParser.java'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/Problem1Revisited.java'
+                tube: 'https://drive.google.com/file/d/1gTjlMdvnCHs_E3yEL_DNsvkswG0zSg96/view?usp=sharing'
 
               - text: 'TextFileStreamer.java'
                 icon: 'code'
                 tube: 'https://drive.google.com/file/d/1H-FYMCrXlyx5xZ-M-wAIx5xtj9aieN8U/view?usp=sharing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/TextFileStreamer.java'
 
           - <<: *assignments
             items:
