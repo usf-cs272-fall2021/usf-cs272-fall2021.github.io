@@ -942,8 +942,11 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'quizzes'
+                name: 'lambdas'
+
+              - file: 'quizzes'
+                name: 'streams'
 
           - <<: *deadlines
             items:
@@ -1023,7 +1026,7 @@ weeks:
 
               - file: 'quizzes'
                 name: 'java'
-                
+
       - date: 2021-10-07
         sections:
           - <<: *lectures
@@ -1076,8 +1079,15 @@ weeks:
               - file: 'homework'
                 name: 'textfilefinder'
 
+              - file: 'quizzes'
+                name: 'lambdas'
+
+              - file: 'quizzes'
+                name: 'streams'
+
               - file: 'projects'
                 name: 'project1d'
+                type: 'bump'
 
   - week: 8
     days:

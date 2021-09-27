@@ -81,3 +81,13 @@ java:
   text: 'Java Features'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392375'
   date: 2021-10-05
+
+lambdas:
+  <<: *default
+  text: 'Lambda Expressions'
+  date: 2021-10-08
+
+streams:
+  <<: *default
+  text: 'Stream Pipelines'
+  date: 2021-10-08
