@@ -858,6 +858,22 @@ weeks:
                 save: 'true'
                 tube: 'https://drive.google.com/file/d/1H2_A1qYec7PtvSPi_9TiC-nI51dpAlG-/view?usp=sharing'
 
+              - text: 'Lambda Expressions'
+                icon: 'code'
+                type: 'bump'
+
+              - text: '– TextFileParser.java'
+                icon: 'nothing'
+                tube: 'https://drive.google.com/file/d/1x07LOgjD-N431tK_2sk2_kdboovJouCu/view?usp=sharing'
+
+
+          - label: 'Additional Content'
+            dates: ''
+            items:
+              - text: 'Project Euler 1 Revisited'
+                icon: 'code'
+                tube: 'https://drive.google.com/file/d/1gTjlMdvnCHs_E3yEL_DNsvkswG0zSg96/view?usp=sharing'
+
           - <<: *assignments
             items:
               - file: 'attendance'
@@ -872,6 +888,9 @@ weeks:
 
               - file: 'quizzes'
                 name: 'project2'
+
+              - file: 'quizzes'
+                name: 'java'
 
           - <<: *deadlines
             items:
@@ -903,6 +922,23 @@ weeks:
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vQojJQ1Vztc6-Swq-RXKImWhk5iS6IkkSf0c4mslFPDtdTXdR-aimHG_xE9Y2Jca0lPSdOO7LYVpGiC/pub?start=false&loop=false&delayms=3000'
                 save: true
                 tube: 'https://drive.google.com/file/d/1vWdlCE8eOt3HzVGa04zO1jJiWP1mJJ3z/view?usp=sharing'
+
+
+              - text: 'Stream Pipelines'
+                icon: 'code'
+                type: 'bump'
+
+              - text: '– StreamDemo.java'
+                icon: 'nothing'
+                tube: 'https://drive.google.com/file/d/18RKTIjJmH1ovGVIwbVzfCIiDBq1BhmbP/view?usp=sharing'
+
+              - text: '– InfiniteStreamDemo.java'
+                icon: 'nothing'
+                tube: 'https://drive.google.com/file/d/1AbBKj-JiQYLNACw3GXGPkHlInBmVzg3X/view?usp=sharing'
+
+              - text: '– TextFileStreamer.java'
+                icon: 'nothing'
+                tube: 'https://drive.google.com/file/d/1H-FYMCrXlyx5xZ-M-wAIx5xtj9aieN8U/view?usp=sharing'
 
           - <<: *assignments
             items:
@@ -985,6 +1021,9 @@ weeks:
                 name: 'project2'
                 type: 'bump'
 
+              - file: 'quizzes'
+                name: 'java'
+                
       - date: 2021-10-07
         sections:
           - <<: *lectures
