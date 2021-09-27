@@ -1370,8 +1370,10 @@ weeks:
 
           - <<: *deadlines
             items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Project Pass Requirement'
+                date: 2021-11-04
+                icon: 'date'
+                type: ['has-text-weight-bold', 'has-text-danger']
 
       - date: 2021-11-05
         sections:
