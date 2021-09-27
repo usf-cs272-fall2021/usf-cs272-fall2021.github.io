@@ -86,8 +86,10 @@ lambdas:
   <<: *default
   text: 'Lambda Expressions'
   date: 2021-10-08
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392377'
 
 streams:
   <<: *default
   text: 'Stream Pipelines'
   date: 2021-10-08
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392378'
