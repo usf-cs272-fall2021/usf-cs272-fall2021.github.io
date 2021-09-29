@@ -495,6 +495,7 @@ weeks:
                 icon: 'date'
                 show: true
                 type: ['bump', 'has-text-warning']
+
   - week: 4
     days:
       - date: 2021-09-14
@@ -867,21 +868,9 @@ weeks:
                 icon: 'nothing'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/StringSorter.java'
 
-              - text: '– LambdaDemo.java'
+              - text: '– PathMatcherDemo.java'
                 icon: 'nothing'
-                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/LambdaDemo.java'
-
-          - label: 'Additional Content'
-            dates: ''
-            items:
-              - text: 'PathMatcherDemo.java'
-                icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/PathMatcherDemo.java'
-
-              - text: 'TextFileParser.java'
-                icon: 'code'
-                tube: 'https://drive.google.com/file/d/1x07LOgjD-N431tK_2sk2_kdboovJouCu/view?usp=sharing'
-                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/TextFileParser.java'
 
           - <<: *assignments
             items:
@@ -920,11 +909,21 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
+              - text: 'Lambda Expressions'
+                icon: 'code'
+                type: 'bump'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/LambdaExpressions'
+
+              - text: '– LambdaDemo.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/LambdaDemo.java'
+
               - text: 'Stream Basics'
                 icon: 'slides'
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vROPJVkIL1GcCOxSN0isk8MHagk4HKj7Z5RfSzV2XIMtGMEwFZ72XkhLyQ9uem4j9cTJCBV-5kooKM-/pub?start=false&loop=false&delayms=3000'
                 save: true
                 tube: 'https://drive.google.com/file/d/10MCP3wTHYPQ5LGL6rP3sH7kYiF3OAIhh/view?usp=sharing'
+                type: 'bump'
 
               - text: 'Stream Pipelines'
                 icon: 'slides'
@@ -942,11 +941,6 @@ weeks:
                 tube: 'https://drive.google.com/file/d/18RKTIjJmH1ovGVIwbVzfCIiDBq1BhmbP/view?usp=sharing'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/StreamDemo.java'
 
-              - text: '– InfiniteStreamDemo.java'
-                icon: 'nothing'
-                tube: 'https://drive.google.com/file/d/1AbBKj-JiQYLNACw3GXGPkHlInBmVzg3X/view?usp=sharing'
-                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/InfiniteStreamDemo.java'
-
               - text: '– ParallelStreamBenchmark.java'
                 icon: 'nothing'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/ParallelStreamBenchmark.java'
@@ -959,10 +953,10 @@ weeks:
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/Problem1Revisited.java'
                 tube: 'https://drive.google.com/file/d/1gTjlMdvnCHs_E3yEL_DNsvkswG0zSg96/view?usp=sharing'
 
-              - text: 'TextFileStreamer.java'
+              - text: 'InfiniteStreamDemo.java'
                 icon: 'code'
-                tube: 'https://drive.google.com/file/d/1H-FYMCrXlyx5xZ-M-wAIx5xtj9aieN8U/view?usp=sharing'
-                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/TextFileStreamer.java'
+                tube: 'https://drive.google.com/file/d/1AbBKj-JiQYLNACw3GXGPkHlInBmVzg3X/view?usp=sharing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/InfiniteStreamDemo.java'
 
           - <<: *assignments
             items:
@@ -1020,7 +1014,17 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Regular Expressions'
+              - text: 'TextFileParser.java'
+                icon: 'code'
+                tube: 'https://drive.google.com/file/d/1x07LOgjD-N431tK_2sk2_kdboovJouCu/view?usp=sharing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/TextFileParser.java'
+
+              - text: 'TextFileStreamer.java'
+                icon: 'code'
+                tube: 'https://drive.google.com/file/d/1H-FYMCrXlyx5xZ-M-wAIx5xtj9aieN8U/view?usp=sharing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/TextFileStreamer.java'
+
+              - text: 'Exam Review'
                 type: *pending
 
           - <<: *assignments
@@ -1056,7 +1060,7 @@ weeks:
               - text: 'HTML'
                 type: *pending
 
-              - text: 'Exam Review'
+              - text: 'Regular Expressions'
                 type: *pending
 
           - <<: *assignments
