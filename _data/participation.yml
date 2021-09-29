@@ -66,3 +66,9 @@ belonging1:
   text: 'CS Belonging Survey 1'
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7132274'
   date: 2021-09-24
+
+stream_benchmark:
+  <<: *default
+  text: 'Stream Benchmark'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7134916'
+  date: 2021-10-08

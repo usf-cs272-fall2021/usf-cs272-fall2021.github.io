@@ -966,6 +966,9 @@ weeks:
               - file: 'quizzes'
                 name: 'streams'
 
+              - file: 'participation'
+                name: 'stream_benchmark'
+
       - date: 2021-10-01
         sections:
           - <<: *labs
@@ -1107,6 +1110,9 @@ weeks:
 
               - file: 'quizzes'
                 name: 'streams'
+
+              - file: 'participation'
+                name: 'stream_benchmark'
 
               - file: 'projects'
                 name: 'project1d'
