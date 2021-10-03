@@ -3,93 +3,109 @@ syllabus: &default
   date: 2021-08-27
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2390230'
   icon: 'quiz'
+  tags: ['none']
 
 paths:
   <<: *default
   text: 'Paths and Files'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391037'
   date: 2021-09-07
+  tags: ['files']
 
 data:
   <<: *default
   text: 'Data Structures'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391039'
   date: 2021-09-07
+  tags: ['data']
 
 maps:
   <<: *default
   text: 'Using Maps'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391417'
   date: 2021-09-14
+  tags: ['data']
 
 static:
   <<: *default
   text: 'Instance vs Static'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391540'
   date: 2021-09-14
+  tags: ['objects']
 
 identifier:
   <<: *default
   text: 'Instance vs Identifier'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391542'
   date: 2021-09-14
+  tags: ['objects']
 
 mutability1:
   <<: *default
   text: 'Mutability Part 1'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391749'
   date: 2021-09-21
+  tags: ['objects']
 
 mutability2:
   <<: *default
   text: 'Mutability Part 2'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391750'
   date: 2021-09-21
+  tags: ['objects']
 
 inheritance:
   <<: *default
   text: 'Inheritance Keywords'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392015'
   date: 2021-10-01
+  tags: ['inheritance']
 
 collections:
   <<: *default
   text: 'Collections Revisited'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392159'
   date: 2021-10-01
+  tags: ['inheritance']
 
 casting:
   <<: *default
   text: 'Casting'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2391850'
   date: 2021-10-01
+  tags: ['inheritance']
 
 nesting:
   <<: *default
   text: 'Nested Classes'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392160'
   date: 2021-10-01
+  tags: ['inheritance']
 
 project2:
   <<: *default
   text: 'Project 2 Writeup'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392164'
   date: 2021-10-05
+  tags: ['none']
 
 java:
   <<: *default
   text: 'Java Features'
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392375'
   date: 2021-10-05
+  tags: ['none']
 
 lambdas:
   <<: *default
   text: 'Lambda Expressions'
   date: 2021-10-08
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392377'
+  tags: ['lambdas']
 
 streams:
   <<: *default
   text: 'Stream Pipelines'
   date: 2021-10-08
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392378'
+  tags: ['streams']
