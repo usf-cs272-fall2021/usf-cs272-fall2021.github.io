@@ -107,10 +107,8 @@ weeks:
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/ProjectEuler'
                 icon: 'code'
 
-              - text: 'Exception Handling'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQM5vFKGToq-lR4ehKMyp-14AxkQQJBaXjv_aB8-Asa-cLP5gq_fAYa3b4K2BXQxIupoNptKZxfqUPF/pub?start=false&loop=false&delayms=3000'
-                icon: 'slides'
-                save: true
+              - file: 'slides'
+                name: 'exceptions'
                 type: 'bump'
 
               - text: 'Exception Handling'
@@ -174,11 +172,8 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Paths and Files'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSbFVadVrwGBGRuzFDB1MEGnj3iOk8UGS87vbBlyeK3rKmphDUZITxUMI6ZUBMipLYVQJ2wFU-v5mKo/pub?start=false&loop=false&delayms=3000'
-                save: true
-                icon: 'slides'
-                tube: 'https://drive.google.com/file/d/1yff1jEPcLSrh0po2Wytc3k9PcLlGZ0xg/view?usp=sharing'
+              - file: 'slides'
+                name: 'paths'
 
               - text: 'File I/O'
                 icon: 'code'
@@ -243,17 +238,11 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Abstract Data Types'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQgpvOAAqjNV5liUyu6g655xlL6J3QFLGSMfz_-sgfc9hjdVnpPFFT6UkkuIVuJuY1jbBho_bEf9ZAx/pub?start=false&loop=false&delayms=3000'
-                save: true
-                tube: 'https://drive.google.com/file/d/1OvFMONm4PEYQ8LtR9P9BxkfxxJZrGNK4/view?usp=sharing'
+              - file: 'slides'
+                name: 'data'
 
-              - text: 'Collections Framework'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQ47_2Y7F29dDWW0RDQmqaPqdRDaRhFuSjaRV87xn8_JhYuLriLVrYntUNvCVCMekl0X979DFy0qEtL/pub?start=false&loop=false&delayms=3000'
-                save: true
-                tube: 'https://drive.google.com/file/d/1O2I-vvdaul1AEZ31PO6KrFakcw1ORlkJ/view?usp=sharing'
+              - file: 'slides'
+                name: 'collections'
 
               - text: 'Data Structures'
                 icon: 'code'
@@ -414,12 +403,9 @@ weeks:
                 link: 'https://docs.google.com/presentation/d/e/2PACX-1vQFoUdGZwy2Cozvsb6VPGX8QHtwD0lmC691ks4rB9FesW_uDXZz1GMYuDZA9zwAWWRGKt1aFfh9SdFM/pub?start=false&loop=false&delayms=3000'
                 save: true
 
-              - text: 'Object Oriented Programming'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vRjT9CcuJsN6nHX8fineRezDh3YFo-HXQfgRRBfYQwFCd1RJM6NU0mtx1AXgCZT2sUD6KnJsOscoNDZ/pub?start=false&loop=false&delayms=3000'
+              - file: 'slides'
+                name: 'oop'
                 type: 'bump'
-                save: true
-                tube: 'https://drive.google.com/file/d/14aTl6kRfuIptdA3T9kOx75FNUBXS7tGX/view?usp=sharing'
 
               - text: 'Object Oriented Programming'
                 icon: 'code'
@@ -536,11 +522,8 @@ weeks:
                 more: 'and <a href="https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixDemo.java">PrefixDemo.java</a>'
                 type: 'del'
 
-              - text: 'Generic Types'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vRLv774EzqUee1-xCj-nysHC1FeY7tr2kWFwv8GwzQ-V4wJksO42iXC170K2411uoPxLXtZwm_xboZJ/pub?start=false&loop=false&delayms=3000'
-                tube: 'https://drive.google.com/file/d/1nQgjWWZhPalu3bkcWzGkO2v_5_6rc9BF/view?usp=sharing'
-                save: true
+              - file: 'slides'
+                name: 'generics'
                 type: 'bump del'
 
           - <<: *assignments
@@ -592,24 +575,15 @@ weeks:
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixMap.java'
                 more: 'and <a href="https://github.com/usf-cs272-fall2021/lectures/blob/main/ObjectOrientedProgramming/src/main/java/PrefixDemo.java">PrefixDemo.java</a>'
 
-              - text: 'Inheritance Relationships'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSbaAAOrp5szw2JBxwQ7y9mj0buRPO2-G6EV-UULmZdQ539V8ozG7uqHoKvmmuUw2gSaK_5itu5ZSQM/pub?start=false&loop=false&delayms=3000'
-                tube: 'https://drive.google.com/file/d/1eu_Co497YW-6vW6JpbtUkET75VZ3iFyw/view?usp=sharing'
-                save: true
+              - file: 'slides'
+                name: 'inheritance'
                 type: 'bump'
 
-              - text: 'Abstract and Interfaces'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQfUSsyZ7msguGLlWLgQCQtJJZPbIxsDDrOQq6I_sNbTCGSB32iYbdcmFCHkbif2oMauWEooNAOM_L3/pub?start=false&loop=false&delayms=3000'
-                tube: 'https://drive.google.com/file/d/1PmAI01wb-SL5_ImzTJ_mfUiBo0Pxicfd/view?usp=sharing'
-                save: true
+              - file: 'slides'
+                name: 'abstract'
 
-              - text: 'Generic Types'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vRLv774EzqUee1-xCj-nysHC1FeY7tr2kWFwv8GwzQ-V4wJksO42iXC170K2411uoPxLXtZwm_xboZJ/pub?start=false&loop=false&delayms=3000'
-                tube: 'https://drive.google.com/file/d/1nQgjWWZhPalu3bkcWzGkO2v_5_6rc9BF/view?usp=sharing'
-                save: true
+              - file: 'slides'
+                name: 'generics'
                 type: 'bump'
 
               - text: 'GenericTypesDemo.java'
@@ -669,18 +643,12 @@ weeks:
                 icon: 'website'
                 link: '/guides/projects/design.html'
 
-              - text: 'Collections Revisited'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vRQ9ENIguFSZ1EkoE8gxoYWTQMIJhrVnQN0NNA2mneqJZiDlZ2U2pqWrikhH-4ZuSAc-9QPwPO49TRn/pub?start=false&loop=false&delayms=3000'
-                tube: 'https://drive.google.com/file/d/1NO1gWoNzCMx4Rs5GkZe0ICK8OrI6uk2z/view?usp=sharing'
-                save: true
+              - file: 'slides'
+                name: 'revisited'
                 type: 'bump'
 
-              - text: 'Casting'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vT73_M9YJriVrtB3jur-7EO-P_OsVHJbgE4PaoRz8XUAfyMuVQH4imUaEpKtU8Yx0YhTFAylqadgFQY/pub?start=false&loop=false&delayms=3000'
-                tube: 'https://drive.google.com/file/d/1Rdwp_kCYGd5lBt2NpD5-di9loJ05ZGyd/view?usp=sharing'
-                save: true
+              - file: 'slides'
+                name: 'casting'
 
               - text: 'Inheritance'
                 icon: 'code'
@@ -694,17 +662,11 @@ weeks:
           - label: 'Additional Content'
             dates: ''
             items:
-              - text: 'Object Class'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSTUIL9orhyiHrEdxJnADrQSsgdBkSDLSNtREjoYBuTmt7Sa78EtEAcB7NTHUDtfMErn5gyEkPe4MnQ/pub?start=false&loop=false&delayms=3000'
-                tube: 'https://drive.google.com/file/d/1Ktagbp_14RRcvlbZrU7qp22qa8hH3pvi/view?usp=sharing'
-                save: true
+              - file: 'slides'
+                name: 'object'
 
-              - text: 'Final Keyword'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vSxoP6R27gSk4onRfZw88Ywn8Q2KGzYCjZS-VW-tuGl4lZm1EsxPOjgZ9XxzeRqgQzraM57dAw_sU7K/pub?start=false&loop=false&delayms=3000'
-                tube: 'https://drive.google.com/file/d/1L61dJEpzn1yAwP7dizMCqGnhtSlyNFlP/view?usp=sharing'
-                save: true
+              - file: 'slides'
+                name: 'final'
 
               - text: 'GenericTypesDemo.java'
                 icon: 'code'
@@ -752,10 +714,8 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Nested Classes'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vRasEg-SIXvMRmxyDoPEZO9ET2jzddrCksemJ-tIBmyht2tTQV0sfCpo93mB7xYZBoqkequS58kHNH9/pub?start=false&loop=false&delayms=3000'
-                save: true
+              - file: 'slides'
+                name: 'nested'
 
               - text: 'Shape Demo'
                 icon: 'code'
@@ -855,11 +815,8 @@ weeks:
                 save: 'true'
                 tube: 'https://drive.google.com/file/d/1WNk4AG9zWdC-n58sLeCEkgVA8VEgFUji/view?usp=sharing'
 
-              - text: 'Lambda Expressions'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vRk65puXK15xua_B9o743NVnStpxG7d4LzO1KwXhF-BmR7xSNsMVXeVr9D_gaag8YjNLqxGcivrC_z3/pub?start=false&loop=false&delayms=3000'
-                save: 'true'
-                tube: 'https://drive.google.com/file/d/1H2_A1qYec7PtvSPi_9TiC-nI51dpAlG-/view?usp=sharing'
+              - file: 'slides'
+                name: 'lambdas'
 
               - text: 'Lambda Expressions'
                 icon: 'code'
@@ -924,18 +881,12 @@ weeks:
                 icon: 'nothing'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/LambdaDemo.java'
 
-              - text: 'Stream Basics'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vROPJVkIL1GcCOxSN0isk8MHagk4HKj7Z5RfSzV2XIMtGMEwFZ72XkhLyQ9uem4j9cTJCBV-5kooKM-/pub?start=false&loop=false&delayms=3000'
-                save: true
-                tube: 'https://drive.google.com/file/d/10MCP3wTHYPQ5LGL6rP3sH7kYiF3OAIhh/view?usp=sharing'
+              - file: 'slides'
+                name: 'streams'
                 type: 'bump'
 
-              - text: 'Stream Pipelines'
-                icon: 'slides'
-                link: 'https://docs.google.com/presentation/d/e/2PACX-1vQojJQ1Vztc6-Swq-RXKImWhk5iS6IkkSf0c4mslFPDtdTXdR-aimHG_xE9Y2Jca0lPSdOO7LYVpGiC/pub?start=false&loop=false&delayms=3000'
-                save: true
-                tube: 'https://drive.google.com/file/d/1vWdlCE8eOt3HzVGa04zO1jJiWP1mJJ3z/view?usp=sharing'
+              - file: 'slides'
+                name: 'pipelines'
 
               - text: 'Stream Pipelines'
                 icon: 'code'

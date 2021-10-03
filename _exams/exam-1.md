@@ -3,226 +3,68 @@ title: Exam 1 Review
 navbar: Guides
 layout: default
 
-resources:
-  code:
-    - text: 'Files and Exceptions'
-      slug: 'file'
-      link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/FilesExceptions'
+github: 'https://github.com/usf-cs272-fall2021/'
 
-    - text: 'Data Structures'
-      slug: 'data'
-      link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/DataStructures'
+topics:
+  - text: 'Exception Handling'
+    tags: 'exceptions'
+    code: 'ExceptionHandling'
 
-    - text: 'Object Oriented Programming'
-      slug: 'object'
-      link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/ObjectOrientedProgramming'
+  - text: 'File Input/Output (IO)'
+    tags: 'files'
+    code: 'FileIO'
 
-    - text: 'Inheritance'
-      slug: 'inheritance'
-      link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/Inheritance'
+  - text: 'Data Structures'
+    tags: 'data'
+    code: 'DataStructures'
 
-    - text: 'Lambda Expressions'
-      slug: 'lambda'
-      link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/LambdaExpressions'
+  - text: 'Object Oriented Programming'
+    tags: 'objects'
+    code: 'ObjectOrientedProgramming'
 
-    - text: 'Stream Pipelines'
-      slug: 'stream'
-      link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/StreamPipelines'
+  - text: 'Inheritance'
+    tags: 'inheritance'
+    code: 'Inheritance'
 
-    - text: 'Debugging'
-      slug: 'debug'
-      link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/Debugging'
+  - text: 'Lambda Expressions'
+    tags: 'lambdas'
+    code: 'LambdaExpressions'
 
-  # link practice quizzes here!
-  quizzes:
-    - text: 'Paths and Files'
-      slug: 'file'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378619'
-
-    - text: 'Data Structures'
-      slug: 'data'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378617'
-
-    - text: 'Using Maps'
-      slug: 'data'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378620'
-
-    - text: 'Static vs Instance'
-      slug: 'object'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378613'
-
-    - text: 'Instance vs Identifier'
-      slug: 'object'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378611'
-
-    - text: 'Mutability, Part 1'
-      slug: 'object'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378612'
-
-    - text: 'Mutability, Part 2'
-      slug: 'object'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378622'
-
-    - text: 'Collections Revisited'
-      slug: 'inheritance'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378616'
-
-    - text: 'Keywords'
-      slug: 'inheritance'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378621'
-
-    - text: 'Nested Classes'
-      slug: 'inheritance'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378624'
-
-    - text: 'Casting'
-      slug: 'inheritance'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378615'
-
-    - text: 'Java Features'
-      slug: 'lambda'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378625'
-
-    - text: 'Lambda Expressions'
-      slug: 'lambda'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378610'
-
-    - text: 'Stream Pipelines'
-      slug: 'stream'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378623'
-
-    - text: 'Assert Statements'
-      slug: 'debug'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378614'
-
-    - text: 'Logging'
-      slug: 'debug'
-      link: 'https://usfca.instructure.com/courses/1597848/quizzes/2378618'
-
-  homework:
-    - text: 'ArgumentMap'
-      slug: 'object'
-      link: 'https://github.com/usf-cs212-spring2021/homework-ArgumentMap-template'
-
-    - text: 'ArgumentMap'
-      slug: 'data'
-      link: 'https://github.com/usf-cs212-spring2021/homework-ArgumentMap-template'
-
-    - text: 'SimpleJsonWriter'
-      slug: 'data'
-      link: 'https://github.com/usf-cs212-spring2021/homework-SimpleJsonWriter-template'
-
-    - text: 'TextFileStemmer'
-      link: 'https://github.com/usf-cs212-spring2021/homework-TextFileStemmer-template'
-      slug: 'file'
-
-    - text: 'TextFileStemmer'
-      link: 'https://github.com/usf-cs212-spring2021/homework-TextFileStemmer-template'
-      slug: 'object'
-
-    - text: 'TextFileIndex'
-      slug: 'object'
-      link: 'https://github.com/usf-cs212-spring2021/homework-TextFileIndex-template'
-
-    - text: 'TextFileIndex'
-      slug: 'data'
-      link: 'https://github.com/usf-cs212-spring2021/homework-TextFileIndex-template'
-
-    - text: 'TextFileIndex'
-      slug: 'inheritance'
-      link: 'https://github.com/usf-cs212-spring2021/homework-TextFileIndex-template'
-
-    - text: 'TextFileFinder'
-      slug: 'lambda'
-      link: 'https://github.com/usf-cs212-spring2021/homework-TextFileFinder-template'
-
-    - text: 'TextFileFinder'
-      slug: 'stream'
-      link: 'https://github.com/usf-cs212-spring2021/homework-TextFileFinder-template'
-
-    - text: 'TextFileFinder'
-      slug: 'file'
-      link: 'https://github.com/usf-cs212-spring2021/homework-TextFileFinder-template'
-
-  slides:
-    - text: 'Exceptions'
-      slug: 'file'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vTF2m0Za8HCOfMzMYNNZEApWiJxnpr6sFvbQQ0F-MtfpnwYyTS5M5-oM6sbt3Q5manwDYf_4zP4S0og/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Paths and Files'
-      slug: 'file'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vSWdQrf9ZxSaBP_6tpW-O7SGkiBPCxQIkefAFWPhUVFXNHOlOWlwGrTaB6KdwKH1QsSORDDRfgx-edG/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Basic Types'
-      slug: 'data'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vQs2p2cjvjlh88sDVybmjGmMfxAZtm2_ehImdMet6UkVzM1ORhtI0Eh_ZkOQCyf66kqfv1yy4bC1cvV/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Collections Framework'
-      slug: 'data'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vRWwVF2nFmbu86I1yCZHXoNTUBTjxcint85Hcholj8wT3LLLNYfUtazORgmTUaQpYUE8SGLslbXJq_h/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Terminology'
-      slug: 'object'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vQFWPY3gNVJAaSfPOZP6r8PdEWHrn6R0epvciFRCakLPmpcdo2q-SF-Blfo4GxSc9DJDskZhk4-lvd-/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Relationships'
-      slug: 'inheritance'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vTYiJ8wTkXaicJ0a3RPGoasPAM6yAV0GmnqC8kRdrPflSvB79WdEa4cNVtQo39GWdOeCsbsbQbpxjCt/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Abstract Classes and Interfaces'
-      slug: 'inheritance'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vQALVukToW62U0vXiRQgJnSaQR_nRiqcNKxHAwVOMBvzuYgV0bro0FALz_zpzwQTEcjKuCCZ3UDLaES/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Object Class'
-      slug: 'inheritance'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vTVIHdg3ejH9I-b2uH5chTRHwgyiik6VoJLsvfTyrXRygtEApvK1jludTR4VZkpiFcS7FynjW0FkLdI/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Final Keyword'
-      slug: 'inheritance'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vT0D9_6t92qy5Pqp6G9xuQQbB4GVzF9L4YIL3ah3ZJdIKxE2p7zJuFT-5HEQ8QbMJl19PUzcTrqkyA-/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Collections Revisited'
-      slug: 'inheritance'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vTCxygSvRiZfhr7rEufgFJJvvYWsDnJwPpjhBEAOL3N95Q2-pHNa3b0T1nn_T2QR_eMG71o17Gr0SKb/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Casting'
-      slug: 'inheritance'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vSDvCtJkMlGyvw1VV2S1EwW6I_LijGp3EvT3gsJ3JWioOd99qMQ3uxfvsTN8x0wMdM8nliWHwjjw_pY/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Nested Classes'
-      slug: 'inheritance'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vSR3uvkP9qohIyzzs7n5CVqgaHVLLEqu4UDHAka1qG9VVpw0y6yt07U0C4htwDRKt1L2oAYNl5EYK_U/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Generics'
-      slug: 'inheritance'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vTHPoBlnZm4iJeNDZO79VZza3GRP2aB8RilEWse9oUTRmZn1r671prC_BjuM2fLQGLlsZIzR-wYkCyT/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Java History'
-      slug: 'lambda'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vQBUQLdRuW8s9cEJ93Erl9ctvlfmVL9Ojn6G3hOTwTz-jkm6hUOtpnJESv6FyTVb404wDIVNgU6wkf8/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Lambda Expressions'
-      slug: 'lambda'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vQwGnrZB_C2pOsFpt23gU3ZccNxvkIrYQaQS2Gcrgnof1xFeGz_V-l05ML3xXB8FvSBp7HwnEr56jdJ/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Basics'
-      slug: 'stream'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vTmc5g0qWRyAcCv6-zbn9aAH6yo-XKtI8wGhrAM98HqP33c3nV4gVdJ5DkiEG72K0Kz8cHf-6rVQxmw/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Pipelines'
-      slug: 'stream'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vStukH-FTxnQi8rO9M-A7CBxr3f2FXUlEamXBkvp0zohNHsRepmDOtreDK_0hkXAhLQ98vK3cZZy2O9/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Assertions'
-      slug: 'debug'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vTl6LC2VscLhK2W6pmh_-EaL3_I1_Zx8tK5qrWGBueNmX-QoRda08cAc03_dgLZPn6p7eZzujLyhuPo/pub?start=false&loop=false&delayms=3000'
-
-    - text: 'Logging'
-      slug: 'debug'
-      link: 'https://docs.google.com/presentation/d/e/2PACX-1vRDxdHjmrgM4ceVlPFpI1a2wLSJRNw5i4L0n_ihet9T0D1RMtjrDsUL15P4eubiB0fgXa-Usg8cVZvX/pub?start=false&loop=false&delayms=3000'
+  - text: 'Stream Pipelines'
+    tags: 'streams'
+    code: 'StreamPipelines'
 
 ---
 
+{% for topic in page.topics %}
+
+<h3>{{ topic.text }}</h3>
+
+{% assign homework = site.data.homework | where_exp:"homework", "homework.tags contains topic.tags" %}
+
+<p>Homework</p>
+
+{{ homework }}
+
+https://github.com/usf-cs272-fall2021/homework-NAME-template
+
+https://github.com/usf-cs272-fall2021/lectures/tree/main/CODE
+
+{% assign quizzes = site.data.quizzes | where_exp:"quiz", "quiz.tags contains topic.tags" %}
+
+{{ quizzes }}
+
+{% assign slides = site.data.slides | where_exp:"slide", "slide.tags contains topic.tags" %}
+
+{{ slides }}
+
+
+{% endfor %}
+
+
+
+
+{% comment %}
 This guide will discuss the logistics and possible topics for exam 1. See the [Syllabus](../syllabus.html) for details on the exam pass requirement.
 
 ## Exam Logistics
@@ -427,3 +269,4 @@ The following are some example topics that you may want to make sure you underst
 - You should understand how to use **assertions** in Java using the `assert` keyword, and where it is (or is not) appropriate to use.
 
 - You should understand how to **configure and use Log4j2** for logging and debugging. If given a configuration file, you should be able to determine where log messages will go (file or console), which level log messages will be output (all, info, debug, etc.), and in what format.
+{% endcomment %}
