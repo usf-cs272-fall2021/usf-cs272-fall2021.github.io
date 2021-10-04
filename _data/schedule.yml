@@ -974,18 +974,24 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
+              - text: 'Exam Guides'
+                link: '/guides/exams/'
+                icon: 'website'
+
+              - text: 'Exam Review'
+                link: '/guides/exams/exam-1.html'
+                icon: 'website'
+
               - text: 'TextFileParser.java'
                 icon: 'code'
                 tube: 'https://drive.google.com/file/d/1x07LOgjD-N431tK_2sk2_kdboovJouCu/view?usp=sharing'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/LambdaExpressions/src/main/java/TextFileParser.java'
+                type: 'bump'
 
               - text: 'TextFileStreamer.java'
                 icon: 'code'
                 tube: 'https://drive.google.com/file/d/1H-FYMCrXlyx5xZ-M-wAIx5xtj9aieN8U/view?usp=sharing'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/StreamPipelines/src/main/java/TextFileStreamer.java'
-
-              - text: 'Exam Review'
-                type: *pending
 
           - <<: *assignments
             items:
