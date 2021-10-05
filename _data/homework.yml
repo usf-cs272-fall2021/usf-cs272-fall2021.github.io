@@ -44,7 +44,7 @@ textfilefinder:
 linkparser:
   <<: *default
   text: 'LinkParser'
-  date: 2021-10-15
+  date: 2021-10-22
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7115408'
   tags: ['web', 'regexes']
 

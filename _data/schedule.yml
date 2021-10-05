@@ -1155,11 +1155,11 @@ weeks:
             items:
               - file: 'homework'
                 name: 'htmlcleaner'
-
-          - <<: *deadlines
-            items:
-              - file: 'homework'
-                name: 'linkparser'
+          #
+          # - <<: *deadlines
+          #   items:
+          #     - file: 'homework'
+          #       name: 'linkparser'
 
   - week: 9
     days:
@@ -1229,6 +1229,9 @@ weeks:
 
           - <<: *deadlines
             items:
+              - file: 'homework'
+                name: 'linkparser'
+              
               - file: 'homework'
                 name: 'htmlcleaner'
 
