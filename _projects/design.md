@@ -5,8 +5,8 @@ layout: guides
 key: 0.4
 
 tags:
-  - text: 'New'
-    type: 'is-primary'
+  - text: 'Updated'
+    type: 'is-info'
 
 assignments:
   - text: 'Project 1 Design'
@@ -83,7 +83,7 @@ If you answered yes to all of the above, you can request a code review to have y
 
 The design grade is based on the **pull request reviewed date** of the **first** approved code review on Github. This is *not* when the code review was requested, nor the date of the passing release. It is the date when the code was **first** reviewed by the instructor (i.e. the date of your code review appointment), not the date your code actually passes code review. However, the grade will remain 0 until code review is passed.
 
-There is a **5% late deduction per 72 hours** that the project design is late. For example, the design grade will be 95% if the first passing release is between 1 minute to 3 day late. There is another one-time **5% late deduction** if you have more than a 10 day gap in between code reviews.
+There is a **5% late deduction per 72 hours** that the project design is late. For example, the design grade will be 95% if the first passing release is between 1 minute to 3 day late. There is another one-time **5% late deduction** if you have more than a ~~10 day~~ **14 day** gap in between code reviews.
 
 Projects require between 2 to 5 code reviews to pass. On average, expect to require the following number of code reviews:
 
