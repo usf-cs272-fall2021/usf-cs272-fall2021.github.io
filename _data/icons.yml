@@ -108,3 +108,7 @@ fall:
 thanksgiving:
   label: 'Thanksgiving Holiday'
   class: 'far fa-pumpkin'
+
+linkedin:
+  label: 'Linkedin'
+  class: 'fab fa-linkedin'

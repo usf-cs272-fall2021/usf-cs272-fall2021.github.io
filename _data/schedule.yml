@@ -1024,17 +1024,25 @@ weeks:
             dates: false
             items:
               - text: 'HTML'
-                type: *pending
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/HyperText'
+                icon: 'code'
 
               - text: 'Regular Expressions'
-                type: *pending
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/RegularExpressions'
+                icon: 'code'
+
+          - label: 'Additional Content'
+            dates: ''
+            items:
+              - text: 'HTML Essential Training'
+                link: 'https://www.linkedin.com/learning/html-essential-training-4/'
+                icon: 'linkedin'
+
+              - text: 'Learning Regular Expressions'
+                link: 'https://www.linkedin.com/learning/learning-regular-expressions-2/'
+                icon: 'linkedin'
 
           - <<: *assignments
-            items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *deadlines
             items:
               - text: 'Pending'
                 type: *pending
@@ -1048,15 +1056,12 @@ weeks:
             items:
               - text: 'Homework Help'
                 icon: 'homework'
-                type: *pending
 
               - text: 'Project Help'
                 icon: 'project'
-                type: *pending
 
               - text: 'Code Reviews'
                 icon: 'review'
-                type: *pending
 
           - <<: *assignments
             items:
@@ -1231,7 +1236,7 @@ weeks:
             items:
               - file: 'homework'
                 name: 'linkparser'
-              
+
               - file: 'homework'
                 name: 'htmlcleaner'
 
