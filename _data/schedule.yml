@@ -928,8 +928,6 @@ weeks:
 
       - date: 2021-10-01
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             dates: false
             items:
@@ -969,7 +967,11 @@ weeks:
     days:
       - date: 2021-10-05
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/CX8uDf-SRQpZUkpHgTExOL12VU4_9D_HX9ttjzvPbg_LUJHBBDanR0Wq6fmMjrg0.y2OTw4JNc2I45Waa?startTime=1633462299000'
 
           - label: 'Agenda'
             dates: false
@@ -1044,8 +1046,8 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'quizzes'
+                name: 'regex'
 
       - date: 2021-10-08
         sections:
@@ -1239,6 +1241,10 @@ weeks:
 
               - file: 'homework'
                 name: 'htmlcleaner'
+
+              - file: 'quizzes'
+                name: 'regex'
+                type: 'bump'
 
   - week: 10
     days:
