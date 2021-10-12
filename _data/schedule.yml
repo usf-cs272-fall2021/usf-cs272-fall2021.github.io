@@ -594,8 +594,6 @@ weeks:
 
       - date: 2021-09-17
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             dates: false
             items:
@@ -1020,7 +1018,11 @@ weeks:
 
       - date: 2021-10-07
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/ZczFoOJJzte49_1KB_pyfbm0bj0pLD-kgEX9KHpF7QzwXTZyTEibYx1sOx7MsAWB.DwV5NA4qNcjm6sM-?startTime=1633635167000'
 
           - label: 'Agenda'
             dates: false
@@ -1051,8 +1053,6 @@ weeks:
 
       - date: 2021-10-08
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             dates: false
             items:
@@ -1151,15 +1151,12 @@ weeks:
             items:
               - text: 'Homework Help'
                 icon: 'homework'
-                type: *pending
 
               - text: 'Project Help'
                 icon: 'project'
-                type: *pending
 
               - text: 'Code Reviews'
                 icon: 'review'
-                type: *pending
 
           - <<: *assignments
             items:
