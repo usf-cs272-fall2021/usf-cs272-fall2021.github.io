@@ -1100,6 +1100,8 @@ weeks:
               - text: 'Exam 1'
                 icon: 'exam'
                 type: 'has-text-danger has-text-weight-bold'
+                link: 'https://usfca.instructure.com/courses/1602551/assignments/7136950'
+
 
           - <<: *assignments
             items:
@@ -1133,6 +1135,7 @@ weeks:
                 date: 2021-10-21
                 icon: 'exam'
                 type: 'has-text-danger has-text-weight-bold'
+                link: 'https://usfca.instructure.com/courses/1602551/assignments/7137226'
 
           - <<: *deadlines
             items:
@@ -1209,6 +1212,7 @@ weeks:
                 date: 2021-10-21
                 icon: 'exam'
                 type: 'bump has-text-danger has-text-weight-bold'
+                link: 'https://usfca.instructure.com/courses/1602551/assignments/7137226'
 
       - date: 2021-10-22
         sections:
