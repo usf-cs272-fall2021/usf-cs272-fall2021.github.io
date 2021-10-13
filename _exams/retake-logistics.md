@@ -52,9 +52,9 @@ Exams are stressful. You want to strategize how you go about the retake process 
 
   1. Review the original attempt first. Look at all of the questions, regardless of whether your answer was correct.
 
-    - For questions you answered **correctly**, do you understand *why* the answer is correct? Remember, many questions have different versions. If you don't understand why the answer is correct, you may run into issues if you end up with a different version on the retake!
+      - For questions you answered **correctly**, do you understand *why* the answer is correct? Remember, many questions have different versions. If you don't understand why the answer is correct, you may run into issues if you end up with a different version on the retake!
 
-    - For questions you answered **incorrectly**, do you understand *why* the answer is incorrect? You might not know the correct answer just yet, but you should spend time trying to figure out why the answer you provided isn't the correct one.
+      - For questions you answered **incorrectly**, do you understand *why* the answer is incorrect? You might not know the correct answer just yet, but you should spend time trying to figure out why the answer you provided isn't the correct one.
 
   2. Review the hints. There are hints provided on the question, in the feedback (shown below your responses), and in a separate hint guide. Do the hints help you figure out the correct answer for the questions you missed on the original attempt?
 
