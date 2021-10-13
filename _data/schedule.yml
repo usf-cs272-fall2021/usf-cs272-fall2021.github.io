@@ -1092,8 +1092,6 @@ weeks:
     days:
       - date: 2021-10-12
         sections:
-          - <<: *lectures
-
           - label: 'Agenda'
             dates: false
             items:
@@ -1126,8 +1124,19 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Software Testing'
-                type: *pending
+              - file: 'slides'
+                name: 'testing_bugs'
+
+              - file: 'slides'
+                name: 'testing_intro'
+
+              - file: 'slides'
+                name: 'testing_unit'
+                type: 'bump'
+
+              - text: 'Unit Testing'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/UnitTesting'
 
           - <<: *assignments
             items:
@@ -1137,10 +1146,8 @@ weeks:
                 type: 'has-text-danger has-text-weight-bold'
                 link: 'https://usfca.instructure.com/courses/1602551/assignments/7137226'
 
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'quizzes'
+                name: 'unit'
 
       - date: 2021-10-15
         sections:
@@ -1246,6 +1253,9 @@ weeks:
               - file: 'quizzes'
                 name: 'regex'
                 type: 'bump'
+                
+              - file: 'quizzes'
+                name: 'unit'
 
   - week: 10
     days:

@@ -129,3 +129,10 @@ regex:
   date: 2021-10-22
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392759'
   tags: ['regexes']
+
+unit:
+  <<: *default
+  text: 'Unit Testing'
+  date: 2021-10-22
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392935'
+  tags: ['testing']
