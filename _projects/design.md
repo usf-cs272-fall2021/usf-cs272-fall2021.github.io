@@ -97,8 +97,8 @@ Projects require between 2 to 5 code reviews to pass. On average, expect to requ
 
 _*The last search engine project is only code reviewed once during finals week. Partial grades will be assigned during that time._ See the [Schedule](schedule.html) for the other design deadlines.
 
-<i class="fas fa-exclamation-triangle"></i> If late deductions bring the project design grade below passing, you should consult with the instructor. It may no longer be possible to pass the class and you might want to consider withdrawing.
-{: .notification .is-warning }
+<i class="fas fa-exclamation-triangle"></i> **New:** The late penalty will be capped at 30% maximum. If your project is significantly late, you will still be able to earn a **70%** functionality grade (assuming no other deductions).
+{: .notification .is-success }
 
 ## Preparation
 

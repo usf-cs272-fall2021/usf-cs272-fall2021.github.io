@@ -6,8 +6,8 @@ key: 0.3
 bump: true
 
 tags:
-  - text: 'New'
-    type: 'is-primary'
+  - text: 'Updated'
+    type: 'is-info'
 
 assignments:
   - text: 'Project 1 Functionality'
@@ -53,8 +53,8 @@ There is a **2% late deduction per 24 hours** that the project functionality is 
 
 See the [Schedule](schedule.html) for the functionality deadlines.
 
-<i class="fas fa-exclamation-triangle"></i> If late deductions bring the project functionality grade below passing, you should consult with the instructor. It may no longer be possible to pass the class and you might want to consider withdrawing.
-{: .notification .is-warning }
+<i class="fas fa-exclamation-triangle"></i> **New:** The late penalty will be capped at 30% maximum. If your project is significantly late, you will still be able to earn a **70%** functionality grade (assuming no other deductions).
+{: .notification .is-success }
 
 ## Grading
 
