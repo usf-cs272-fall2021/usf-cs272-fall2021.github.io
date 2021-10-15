@@ -1119,7 +1119,13 @@ weeks:
 
       - date: 2021-10-14
         sections:
-          - <<: *lectures
+              - text: 'CS 212-01 Recording (Cutoff)'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/kWi1CbgqlS1DBErwdtpEBBqU5ivExvN-1dhMkG9keiHA9zoqY77xMesVJQQIvK05.PoonNBOgJQGbAHAF?startTime=1634239748000'
+
+              - text: 'CS 212-02 Recording (Complete)'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/Nvrl9Nl_7SodTJHPYRoJUEzWo-K3U3DwuuakGIsL5z22Oa3cSzt469VJFbNyMdUS.ViW4wDfuk0W-DqrH?startTime=1634254461000'
 
           - label: 'Agenda'
             dates: false
@@ -1253,7 +1259,7 @@ weeks:
               - file: 'quizzes'
                 name: 'regex'
                 type: 'bump'
-                
+
               - file: 'quizzes'
                 name: 'unit'
 
