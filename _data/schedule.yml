@@ -1119,6 +1119,8 @@ weeks:
 
       - date: 2021-10-14
         sections:
+          - <<: *recordings
+            items:
               - text: 'CS 212-01 Recording (Cutoff)'
                 icon: 'video'
                 link: 'https://usfca.zoom.us/rec/share/kWi1CbgqlS1DBErwdtpEBBqU5ivExvN-1dhMkG9keiHA9zoqY77xMesVJQQIvK05.PoonNBOgJQGbAHAF?startTime=1634239748000'
