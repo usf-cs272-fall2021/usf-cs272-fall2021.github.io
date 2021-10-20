@@ -126,3 +126,15 @@ testing_unit:
   tags: ['testing']
   text: 'Unit Testing'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vRQtvbeBB1KFdG2O7qqhgy112nirr42EUC1-zyQy8wiucRJQz3cRLqo6dwi8gBaGid_-EAgZN1q3mbf/pub?start=false&loop=false&delayms=3000'
+
+assertions:
+  <<: *default
+  tags: ['debugging']
+  text: 'Assertions'
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vQNRzlEGWHaAjqbmgh5ruEDVaA0x7LOay9VD_rEnsAtcbLeI0u2FGkNT-ncItUQuZkvuAz_uko8Mx5a/pub?start=false&loop=false&delayms=3000'
+
+logging:
+  <<: *default
+  tags: ['debugging']
+  text: 'Logging'
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vS6VoA4bvSNYTQGsNyRz-3Dqbag-TcW2rsV_bq3T3waUVisHn8lW7A1UOE5gUA9NxzbXuTTLpZ2-yqY/pub?start=false&loop=false&delayms=3000'
