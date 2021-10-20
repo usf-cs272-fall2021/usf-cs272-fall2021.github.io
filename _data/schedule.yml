@@ -1194,8 +1194,18 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Logging'
-                type: *pending
+              - file: 'slides'
+                name: 'logging'
+
+              - text: 'Debugging'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Debugging'
+
+          - label: 'Additional Content'
+            dates: ''
+            items:
+              - file: 'slides'
+                name: 'assertions'
 
           - <<: *assignments
             items:
@@ -1228,15 +1238,12 @@ weeks:
             items:
               - text: 'Homework Help'
                 icon: 'homework'
-                type: *pending
 
               - text: 'Project Help'
                 icon: 'project'
-                type: *pending
 
               - text: 'Code Reviews'
                 icon: 'review'
-                type: *pending
 
           - <<: *assignments
             items:
