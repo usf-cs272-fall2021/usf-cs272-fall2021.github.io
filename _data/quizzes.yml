@@ -136,3 +136,17 @@ unit:
   date: 2021-10-22
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392935'
   tags: ['testing']
+
+asserts:
+  <<: *default
+  text: 'Assert Statements'
+  date: 2021-10-29
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393222'
+  tags: ['debugging']
+
+logging:
+  <<: *default
+  text: 'Logging'
+  date: 2021-10-29
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393219'
+  tags: ['debugging']
