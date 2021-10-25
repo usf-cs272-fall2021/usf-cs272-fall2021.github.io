@@ -4,9 +4,9 @@ navbar: Guides
 layout: guides
 key: 0.4
 
-tags:
-  - text: 'Updated'
-    type: 'is-info'
+#tags:
+#  - text: 'Updated'
+#    type: 'is-info'
 
 assignments:
   - text: 'Project 1 Design'

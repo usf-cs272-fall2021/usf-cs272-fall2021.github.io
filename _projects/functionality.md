@@ -5,9 +5,9 @@ layout: guides
 key: 0.3
 bump: true
 
-tags:
-  - text: 'Updated'
-    type: 'is-info'
+#tags:
+#  - text: 'Updated'
+#    type: 'is-info'
 
 assignments:
   - text: 'Project 1 Functionality'
