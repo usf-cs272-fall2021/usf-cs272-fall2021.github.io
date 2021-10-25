@@ -1291,14 +1291,19 @@ weeks:
               - file: 'slides'
                 name: 'threads'
 
-              - text: 'Multithreading Basics'
+              - text: 'Multithreading'
                 icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Multithreading'
 
               - text: '– ThreadStateDemo.java'
                 icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/ThreadStateDemo.java'
+                tube: 'https://drive.google.com/file/d/1ddBJ9YG-xYORgvGbVIKz3z0tj-89n1T6/view?usp=sharing'
 
               - text: '– RandomArrayTotal.java'
                 icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/RandomArrayTotal.java'
+                tube: 'https://drive.google.com/file/d/12aYTi2LQW3W-8GYG-G1A-Febu9Wlof7c/view?usp=sharing'
 
           - label: 'Additional Content'
             dates: ''
@@ -1308,6 +1313,8 @@ weeks:
 
               - text: 'BoundedBuffer.java'
                 icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/BoundedBuffer.java'
+                tube: 'https://drive.google.com/file/d/1e20Tr6fUSVmxRe6O4B_l7Ynx3uEBigXC/view?usp=sharing'
 
           - <<: *assignments
             items:
