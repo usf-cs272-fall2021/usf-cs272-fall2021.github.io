@@ -140,3 +140,35 @@ logging:
   text: 'Logging'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vS6VoA4bvSNYTQGsNyRz-3Dqbag-TcW2rsV_bq3T3waUVisHn8lW7A1UOE5gUA9NxzbXuTTLpZ2-yqY/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1ZJnvRK56Zj43E8pkby_YVPfQm7rwM_PT/view?usp=sharing'
+
+multithreading:
+  <<: *default
+  tags: ['threads']
+  text: 'Multithreading Introduction'
+  link: false
+  tube: false
+  save: false
+
+threads:
+  <<: *default
+  tags: ['threads']
+  text: 'Thread States'
+  link: false
+  tube: false
+  save: false
+
+synchronization:
+  <<: *default
+  tags: ['threads']
+  text: 'Thread Synchronization'
+  link: false
+  tube: false
+  save: false
+
+liveness:
+  <<: *default
+  tags: ['threads']
+  text: 'Thread Liveness'
+  link: false
+  tube: false
+  save: false

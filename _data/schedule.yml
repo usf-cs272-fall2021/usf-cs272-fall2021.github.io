@@ -1175,7 +1175,6 @@ weeks:
               - file: 'homework'
                 name: 'htmlcleaner'
 
-
   - week: 9
     days:
       - date: 2021-10-19
@@ -1242,8 +1241,6 @@ weeks:
 
       - date: 2021-10-22
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             dates: false
             items:
@@ -1285,8 +1282,32 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Multithreading'
-                type: *pending
+              - file: 'slides'
+                name: 'multithreading'
+
+              - file: 'slides'
+                name: 'synchronization'
+
+              - file: 'slides'
+                name: 'threads'
+
+              - text: 'Multithreading Basics'
+                icon: 'code'
+
+              - text: '– ThreadStateDemo.java'
+                icon: 'nothing'
+
+              - text: '– RandomArrayTotal.java'
+                icon: 'nothing'
+
+          - label: 'Additional Content'
+            dates: ''
+            items:
+              - file: 'slides'
+                name: 'liveness'
+
+              - text: 'BoundedBuffer.java'
+                icon: 'code'
 
           - <<: *assignments
             items:
