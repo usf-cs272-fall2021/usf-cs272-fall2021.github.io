@@ -72,3 +72,9 @@ stream_benchmark:
   text: 'Stream Benchmark'
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7134916'
   date: 2021-10-08
+
+midterm_survey:
+  <<: *default
+  text: 'Midterm Survey'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7139677'
+  date: 2021-11-05

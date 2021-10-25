@@ -1317,6 +1317,10 @@ weeks:
               - file: 'attendance'
                 name: 'other10'
 
+              - file: 'participation'
+                name: 'midterm_survey'
+                type: 'bump'
+
               - file: 'projects'
                 name: 'project3f'
                 type: 'bump'
@@ -1467,6 +1471,9 @@ weeks:
             items:
               - file: 'homework'
                 name: 'readwritelock'
+
+              - file: 'participation'
+                name: 'midterm_survey'
 
               - file: 'projects'
                 name: 'project2d'
