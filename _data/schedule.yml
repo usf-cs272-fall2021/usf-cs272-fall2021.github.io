@@ -1286,14 +1286,12 @@ weeks:
                 name: 'multithreading'
 
               - file: 'slides'
-                name: 'synchronization'
-
-              - file: 'slides'
                 name: 'threads'
 
               - text: 'Multithreading'
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Multithreading'
+                type: 'bump'
 
               - text: '– ThreadStateDemo.java'
                 icon: 'nothing'
@@ -1304,17 +1302,6 @@ weeks:
                 icon: 'nothing'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/RandomArrayTotal.java'
                 tube: 'https://drive.google.com/file/d/12aYTi2LQW3W-8GYG-G1A-Febu9Wlof7c/view?usp=sharing'
-
-          - label: 'Additional Content'
-            dates: ''
-            items:
-              - file: 'slides'
-                name: 'liveness'
-
-              - text: 'BoundedBuffer.java'
-                icon: 'code'
-                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/BoundedBuffer.java'
-                tube: 'https://drive.google.com/file/d/1e20Tr6fUSVmxRe6O4B_l7Ynx3uEBigXC/view?usp=sharing'
 
           - <<: *assignments
             items:
@@ -1351,18 +1338,29 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
+              - file: 'slides'
+                name: 'consistency'
+
+              - file: 'slides'
+                name: 'synchronization'
+
+              - file: 'slides'
+                name: 'liveness'
+
               - text: 'Multithreading'
-                type: *pending
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Multithreading'
+                type: 'bump'
 
-          - <<: *assignments
-            items:
-              - text: 'Pending'
-                type: *pending
+              - text: '– LockDemo.java'
+                icon: 'nothing'
+                link: false
+                tube: false
 
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - text: '– BoundedBuffer.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/BoundedBuffer.java'
+                tube: 'https://drive.google.com/file/d/1e20Tr6fUSVmxRe6O4B_l7Ynx3uEBigXC/view?usp=sharing'
 
       - date: 2021-10-29
         sections:
@@ -1373,15 +1371,12 @@ weeks:
             items:
               - text: 'Homework Help'
                 icon: 'homework'
-                type: *pending
 
               - text: 'Project Help'
                 icon: 'project'
-                type: *pending
 
               - text: 'Code Reviews'
                 icon: 'review'
-                type: *pending
 
           - <<: *assignments
             items:
@@ -1409,8 +1404,33 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Multithreading'
-                type: *pending
+              - file: 'slides'
+                name: 'locks'
+
+              - text: 'Synchronization'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Synchronization'
+                type: 'bump'
+
+              - text: '– IndexedSet.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Synchronization/src/main/java/IndexedSet.java'
+                tube: 'https://drive.google.com/file/d/1cfdM5jKix8_Q20ZpFm8IuEuu1ZaaKg7E/view?usp=sharing'
+
+              - text: '– SynchronizedSet.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Synchronization/src/main/java/SynchronizedSet.java'
+                tube: 'https://drive.google.com/file/d/118GTi62tSnV18xAMc8BeTdffHqW4lAqb/view?usp=sharing'
+
+              - text: '– ConcurrentSet.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Synchronization/src/main/java/ConcurrentSet.java'
+                tube: 'https://drive.google.com/file/d/16DmQjV8tkQjnFrAR9-Ivpu_tOgrJbSTs/view?usp=sharing'
+
+              - text: '– SetDemo.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Synchronization/src/main/java/SetDemo.java'
+                tube: 'https://drive.google.com/file/d/1rsm1VLf2-asJ_iqLVKU2-cR0F7fJ3u_L/view?usp=sharing'
 
           - <<: *assignments
             items:
@@ -1435,8 +1455,22 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Multithreading'
-                type: *pending
+              - file: 'slides'
+                name: 'volatile'
+
+              - file: 'slides'
+                name: 'pools'
+
+              - text: 'WorkQueue.java'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/WorkQueues/src/main/java/WorkQueue.java'
+                type: 'bump'
+                tube: 'https://drive.google.com/file/d/1IQIU3GxPRiF8YY4VS_lv_M0yfcLAMmnQ/view?usp=sharing'
+
+              - text: 'Directory Listing Demos'
+                icon: 'code'
+                tube: 'https://drive.google.com/file/d/1UKW_iCN2AgCOWx7GSbKRRfH71ueXtU9L/view?usp=sharing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/WorkQueues'
 
           - <<: *assignments
             items:
@@ -1476,9 +1510,6 @@ weeks:
 
           - <<: *deadlines
             items:
-              - file: 'homework'
-                name: 'readwritelock'
-
               - file: 'participation'
                 name: 'midterm_survey'
 
@@ -1574,6 +1605,9 @@ weeks:
 
           - <<: *deadlines
             items:
+              - file: 'homework'
+                name: 'readwritelock'
+              
               - file: 'homework'
                 name: 'primefinder'
 
