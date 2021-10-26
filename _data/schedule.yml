@@ -1322,6 +1322,9 @@ weeks:
                 name: 'project3f'
                 type: 'bump'
 
+              - file: 'quizzes'
+                name: 'project3'
+                
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -1363,6 +1366,14 @@ weeks:
                 icon: 'nothing'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/BoundedBuffer.java'
                 tube: 'https://drive.google.com/file/d/1e20Tr6fUSVmxRe6O4B_l7Ynx3uEBigXC/view?usp=sharing'
+
+          - <<: *assignments
+            items:
+              - file: 'quizzes'
+                name: 'threads'
+
+              - file: 'quizzes'
+                name: 'synchronization'
 
       - date: 2021-10-29
         sections:
@@ -1495,15 +1506,12 @@ weeks:
             items:
               - text: 'Homework Help'
                 icon: 'homework'
-                type: *pending
 
               - text: 'Project Help'
                 icon: 'project'
-                type: *pending
 
               - text: 'Code Reviews'
                 icon: 'review'
-                type: *pending
 
           - <<: *assignments
             items:
@@ -1515,8 +1523,18 @@ weeks:
               - file: 'participation'
                 name: 'midterm_survey'
 
+              - file: 'quizzes'
+                name: 'threads'
+
+              - file: 'quizzes'
+                name: 'synchronization'
+
+              - file: 'quizzes'
+                name: 'project3'
+
               - file: 'projects'
                 name: 'project2d'
+                type: 'bump'
 
               - text: 'Withdraw Deadline'
                 date: 2021-11-05
