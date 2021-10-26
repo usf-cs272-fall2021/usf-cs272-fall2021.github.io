@@ -159,17 +159,15 @@ consistency:
   <<: *default
   tags: ['threads']
   text: 'Consistency'
-  link: false
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vRS0EIKrf1T5g9iNlBDkg-Z-KsBkXNoAeB0TLcNumhMkiA8fbhFZwgGTQUL3xmtryJ7SEsh6ZDTgW08/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1XGxlAjAP10M77GLTy7mRquS6Miy9PTkh/view?usp=sharing'
-  save: false
 
 liveness:
   <<: *default
   tags: ['threads']
   text: 'Liveness'
-  link: false
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vQIQ-WWui5xGdFYl6tR_dE5hd9wLCEA4IRXkFA5lMrNxPqhOr0se3Ns3jw7LKtV28yiXPXQNBjxVvdG/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1ZoPqrdm4e2exLo9djFJcoLKBRwNMOEII/view?usp=sharing'
-  save: false
 
 synchronization:
   <<: *default
@@ -185,18 +183,24 @@ locks:
   tube: 'https://drive.google.com/file/d/1M9bd401kt3RkjjcFw8jI92hMbhW4CtQP/view?usp=sharing'
   save: false
 
+notification:
+  <<: *default
+  tags: ['threads']
+  text: 'Notification'
+  link: false
+  tube: false
+  save: false
+
 volatile:
   <<: *default
   tags: ['threads']
   text: 'Volatile Keyword'
-  link: false
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vQz-zZBrSviez9lk1igJa2cyzfRaqh4nadnLQRpCQq2aqT5jB6jA49vp17cDhR2QRmHHjXTBeQdEO5o/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1PtN8QKiJurwN1aIi0bruYMNnA7aJgnC8/view?usp=sharing'
-  save: false
 
 pools:
   <<: *default
   tags: ['threads']
   text: 'Thread Pools and Work Queues'
-  link: false
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vQcFkxoLMWlyWIrTQjEsPNQ5XwNm_fviTs0N2iDtPyMFK0EA2VQxNCDgj7xRdhe8Y5rL9Lz17eamoJa/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1Nz47N4dqlnypm3HSvtOB0iMwmO35aMgR/view?usp=sharing'
-  save: false

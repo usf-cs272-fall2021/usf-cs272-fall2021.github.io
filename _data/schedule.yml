@@ -1288,6 +1288,9 @@ weeks:
               - file: 'slides'
                 name: 'threads'
 
+              - file: 'slides'
+                name: 'liveness'
+
               - text: 'Multithreading'
                 icon: 'code'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Multithreading'
@@ -1345,7 +1348,7 @@ weeks:
                 name: 'synchronization'
 
               - file: 'slides'
-                name: 'liveness'
+                name: 'notification'
 
               - text: 'Multithreading'
                 icon: 'code'
@@ -1354,8 +1357,7 @@ weeks:
 
               - text: '– LockDemo.java'
                 icon: 'nothing'
-                link: false
-                tube: false
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/LockDemo.java'
 
               - text: '– BoundedBuffer.java'
                 icon: 'nothing'
@@ -1607,7 +1609,7 @@ weeks:
             items:
               - file: 'homework'
                 name: 'readwritelock'
-              
+
               - file: 'homework'
                 name: 'primefinder'
 
