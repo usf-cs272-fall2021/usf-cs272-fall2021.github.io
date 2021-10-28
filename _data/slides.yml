@@ -178,18 +178,15 @@ synchronization:
 locks:
   <<: *default
   tags: ['threads']
-  text: 'Conditional Synchronization'
-  link: false
+  text: 'Conditional Locks'
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vQ7ezqwnZtRd1ty3dF4vjnasXVGACXjY9Fltt15Ejk0a9y7gv9X9m6feGA69L7s7s7kgQPxDkff4kI2/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1M9bd401kt3RkjjcFw8jI92hMbhW4CtQP/view?usp=sharing'
-  save: false
 
-notification:
+coordination:
   <<: *default
   tags: ['threads']
-  text: 'Notification'
-  link: false
-  tube: false
-  save: false
+  text: 'Coordination'
+  link: ;https://docs.google.com/presentation/d/e/2PACX-1vSSF8qWjq17WSkfa5d1NrtNscETH5_FoGpIY0nK6r4AduU8S80FmsJN0GdcqaJpXcZMzQQoqHLuY3Qc/pub?start=false&loop=false&delayms=3000
 
 volatile:
   <<: *default

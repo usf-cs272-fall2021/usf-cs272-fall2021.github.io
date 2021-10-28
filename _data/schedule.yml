@@ -1277,7 +1277,11 @@ weeks:
     days:
       - date: 2021-10-26
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/MNPFw_yvWnjB09towwN6nwYZz-MIuAOlsP-HIZIjcPiP7oN_bJ0mUSZZMMTiC7Yj.0uO_BO8xk-2Veayk?startTime=1635276472000'
 
           - label: 'Agenda'
             dates: false
@@ -1324,7 +1328,7 @@ weeks:
 
               - file: 'quizzes'
                 name: 'project3'
-                
+
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -1351,7 +1355,7 @@ weeks:
                 name: 'synchronization'
 
               - file: 'slides'
-                name: 'notification'
+                name: 'coordination'
 
               - text: 'Multithreading'
                 icon: 'code'
