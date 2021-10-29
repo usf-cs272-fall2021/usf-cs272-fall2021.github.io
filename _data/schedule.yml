@@ -1343,7 +1343,11 @@ weeks:
 
       - date: 2021-10-28
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/TjSjv_4NeuEiYBLI4PZz0xNf7lTGP2nH_WKCKcPPviaUZaWIM9YraT_FKPF_HppN.JCuJ21MaHaVXjuf2?startTime=1635449435000'
 
           - label: 'Agenda'
             dates: false
@@ -1370,6 +1374,7 @@ weeks:
                 icon: 'nothing'
                 link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/BoundedBuffer.java'
                 tube: 'https://drive.google.com/file/d/1e20Tr6fUSVmxRe6O4B_l7Ynx3uEBigXC/view?usp=sharing'
+                type: 'del'
 
           - <<: *assignments
             items:
@@ -1399,6 +1404,7 @@ weeks:
             items:
               - file: 'homework'
                 name: 'readwritelock'
+                type: 'del'
 
           - <<: *deadlines
             items:
@@ -1422,7 +1428,16 @@ weeks:
             dates: false
             items:
               - file: 'slides'
+                name: 'coordination'
+
+              - text: 'BoundedBuffer.java'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Multithreading/src/main/java/BoundedBuffer.java'
+                tube: 'https://drive.google.com/file/d/1e20Tr6fUSVmxRe6O4B_l7Ynx3uEBigXC/view?usp=sharing'
+
+              - file: 'slides'
                 name: 'locks'
+                type: 'bump'
 
               - text: 'Synchronization'
                 icon: 'code'
@@ -1456,6 +1471,9 @@ weeks:
 
               - file: 'attendance'
                 name: 'other11'
+
+              - file: 'homework'
+                name: 'readwritelock'
 
           - <<: *deadlines
             items:
