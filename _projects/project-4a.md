@@ -119,6 +119,29 @@ You must pass 100% of the tests in the `Project4Test.java` group of JUnit tests.
   </div>
 </article>
 
+## Related Content
+{: .page-header }
+
+The following content from this semester may be helpful in completing this project:
+
+  - The `LoggerSetup` homework assignment demonstrates how to configure `log4j2` to debug code.
+
+  - The `Sockets` lecture code illustrates how to use sockets and create HTTP requests (useful for the `HtmlFetcher` homework).
+
+  - The `HtmlFetcher` homework assignment will help follow HTTP redirects and download HTML over a socket connection.
+
+  - The `HtmlCleaner` homework assignment will help process the download HTML. Be careful about how much HTML content is removed before links are parsed!
+
+  - The `LinkParser` homework assignment will help parse links from HTML (after block elements are removed).
+
+  - The `TextFileStemmer` homework assignment will help parse the remaining content after cleaning the HTML into stems to add to the inverted index.
+
+  - The `WorkQueues` lecture code illustrates how to use a work queue and create tasks for recursive problems (like web crawling).
+
+  - The `WorkQueues` lecture code illustrates how to speed up multithreading code and avoid problems with over-blocking.
+
+It is strongly recommended to pass all of the homework tests before integrating them into your projects.
+
 ## Hints
 {: .page-header }
 
@@ -127,16 +150,6 @@ It is important to develop the project iteratively. One possible breakdown of ta
   - Get `log4j2` working and start adding debug messages in your code. Once you are certain a class is working, disable debug messages for that class in your `log4j2.xml` file.
 
   - You must have an efficient approach to multithreading to pass all of the tests. You should wait until you have at least one project 3 code review and are able to pass those runtime tests before starting this project.
-
-  - Several homework assignments are directly useful for this project, but you will need to make them work together. Specifically:
-
-      - Use your `HtmlFetcher` to follow redirects and download HTML over a socket.
-
-      - Use your `HtmlCleaner` to process the HTML. You need to be careful about how much HTML content is removed before links are parsed.
-
-      - Use your `LinkParser` to parse out the links from the HTML.
-
-      - Many previous homework assignments may be useful as well. For example, you could use the `TextFileStemmer` to stem the HTML content.
 
   - Outside of the relevant homework and lecture classes, there is likely only one new class (a web crawler class) required for this project. However, you must be careful to properly multithread and synchronize in this class!
 

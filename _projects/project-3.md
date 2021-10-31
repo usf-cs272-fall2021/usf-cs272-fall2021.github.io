@@ -94,11 +94,13 @@ You must pass `Project3bTest.java` for followup code reviews and to earn the pro
 
 The following content from this semester may be helpful in completing this project:
 
-  - The `ReadWriteLock` homework assignment will help creating the simple read/write lock required by this project, as well as illustrate how to use it to make a data structure class thread-safe.
+  - The `LoggerSetup` homework assignment demonstrates how to configure `log4j2` to debug code.
+
+  - The `ReadWriteLock` homework assignment creates the simple read/write lock required by this project, and illustrates how to use it to make a data structure class thread-safe.
 
   - The `Synchronization` lecture code illustrates how to use a read/write lock to make a data structure class thread-safe.
 
-  - The `PrimeFinder` homework assignment will help creating the work queue required by this project, as well as illustrate how to use a work queue and creating tasks for non-recursive problems.
+  - The `PrimeFinder` homework assignment creates the work queue required by this project, as well as illustrates how to use a work queue and create tasks for non-recursive problems.
 
   - The `WorkQueues` lecture code illustrates how to use a work queue and create tasks for recursive problems. If your approach is not recursive, this example might not be helpful for this project.
 
