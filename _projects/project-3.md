@@ -89,6 +89,23 @@ You must pass `Project3bTest.java` for followup code reviews and to earn the pro
   <div class="message-body"><i class="far fa-stopwatch"></i>&nbsp;Be patient. The tests for project 3 can take some time to complete, even if you have an efficient approach.</div>
 </article>
 
+## Related Content
+{: .page-header }
+
+The following content from this semester may be helpful in completing this project:
+
+  - The `ReadWriteLock` homework assignment will help creating the simple read/write lock required by this project, as well as illustrate how to use it to make a data structure class thread-safe.
+
+  - The `Synchronization` lecture code illustrates how to use a read/write lock to make a data structure class thread-safe.
+
+  - The `PrimeFinder` homework assignment will help creating the work queue required by this project, as well as illustrate how to use a work queue and creating tasks for non-recursive problems.
+
+  - The `WorkQueues` lecture code illustrates how to use a work queue and create tasks for recursive problems. If your approach is not recursive, this example might not be helpful for this project.
+
+  - The `WorkQueues` lecture code illustrates how to speed up multithreading code and avoid problems with over-blocking.
+
+It is strongly recommended to pass all of the homework tests before integrating them into your projects.
+
 ## Hints
 {: .page-header }
 
