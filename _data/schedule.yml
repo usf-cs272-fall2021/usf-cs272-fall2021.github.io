@@ -1386,8 +1386,6 @@ weeks:
 
       - date: 2021-10-29
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             dates: false
             items:
@@ -1509,8 +1507,8 @@ weeks:
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'quizzes'
+                name: 'workers'
 
           - <<: *deadlines
             items:
@@ -1547,9 +1545,6 @@ weeks:
 
               - file: 'quizzes'
                 name: 'threads'
-
-              - file: 'quizzes'
-                name: 'synchronization'
 
               - file: 'quizzes'
                 name: 'project3'
@@ -1647,6 +1642,12 @@ weeks:
 
           - <<: *deadlines
             items:
+              - file: 'quizzes'
+                name: 'synchronization'
+              
+              - file: 'quizzes'
+                name: 'workers'
+
               - file: 'homework'
                 name: 'readwritelock'
 

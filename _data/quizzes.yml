@@ -158,16 +158,23 @@ threads:
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393227'
   tags: ['threads']
 
-synchronization:
-  <<: *default
-  text: 'Synchronization'
-  date: 2021-11-05
-  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393228'
-  tags: ['threads']
-
 project3:
   <<: *default
   text: 'Project 3 Writeup'
   date: 2021-11-05
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393370'
   tags: ['none']
+
+synchronization:
+  <<: *default
+  text: 'Synchronization'
+  date: 2021-11-12
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393228'
+  tags: ['threads']
+
+workers:
+  <<: *default
+  text: 'Work Queues'
+  date: 2021-11-12
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393220'
+  tags: ['threads']
