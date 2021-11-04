@@ -1420,7 +1420,11 @@ weeks:
     days:
       - date: 2021-11-02
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/rcMmLzK_vQ-9zVb_zXi7582aVIJ_QHPuhVMtHlOEqAukcgWEO7L396CQ63z7izb1.bJNEvH1ZTkX-vv4i?startTime=1635881331000'
 
           - label: 'Agenda'
             dates: false
@@ -1644,7 +1648,7 @@ weeks:
             items:
               - file: 'quizzes'
                 name: 'synchronization'
-              
+
               - file: 'quizzes'
                 name: 'workers'
 
