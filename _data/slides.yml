@@ -204,7 +204,14 @@ pools:
 
 web:
   <<: *default
-  tags: ['sockets']
+  tags: ['web']
   text: 'Web Basics'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vTpC3pjOFUXBGl956RBsC9GOqBwXB0jOyCF40Kj3ztiYSBj-PhjcmO6X1Y9MHUdP4p2_ohpNpb0BgaL/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1EjtB-Ikl7fpijJ9k5B1I0aSRc74g3pXQ/view?usp=sharing'
+
+url:
+  <<: *default
+  tags: ['sockets']
+  text: 'URLs'
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vQNdlB6gs8m-O35-rFhpdFvXmtu25-Qy8b_F3bhM1RAZoqyjaZ0W2HMkPr5RXdy41SPHmOYarkjZ9Wa/pub?start=false&loop=false&delayms=3000'
+  tube: 'https://drive.google.com/file/d/1RmbX1-3Qqm5OyQJVZe8ugtqRUiO8THX-/view?usp=sharing'
