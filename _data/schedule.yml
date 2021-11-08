@@ -1572,13 +1572,23 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'HTTP'
-                type: *pending
+              - file: 'slides'
+                name: 'web'
+
+              - file: 'slides'
+                name: 'url'
+
+              - file: 'slides'
+                name: 'http'
 
               - text: 'Sockets'
-                type: *pending
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Sockets'
+                tube: 'https://drive.google.com/file/d/1V02GkA2pUAmoUtFgdXl12VGVMJkw2pMy/view?usp=sharing'
+                type: 'bump'
 
           - <<: *assignments
+            dates: false
             items:
               - file: 'attendance'
                 name: 'class12'
@@ -1610,16 +1620,6 @@ weeks:
               - text: 'Servlets'
                 type: *pending
 
-          - <<: *assignments
-            items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
-
       - date: 2021-11-12
         sections:
           - <<: *labs
@@ -1629,20 +1629,24 @@ weeks:
             items:
               - text: 'Homework Help'
                 icon: 'homework'
-                type: *pending
 
               - text: 'Project Help'
                 icon: 'project'
-                type: *pending
 
               - text: 'Code Reviews'
                 icon: 'review'
-                type: *pending
 
           - <<: *assignments
+            dates: false
             items:
               - file: 'homework'
                 name: 'htmlfetcher'
+
+              - file: 'quizzes'
+                name: 'http'
+
+              - file: 'quizzes'
+                name: 'dynamic'
 
           - <<: *deadlines
             items:
@@ -1726,17 +1730,15 @@ weeks:
             items:
               - text: 'Homework Help'
                 icon: 'homework'
-                type: *pending
 
               - text: 'Project Help'
                 icon: 'project'
-                type: *pending
 
               - text: 'Code Reviews'
                 icon: 'review'
-                type: *pending
 
           - <<: *assignments
+            dates: false
             items:
               - file: 'homework'
                 name: 'headserver'
@@ -1745,6 +1747,12 @@ weeks:
             items:
               - file: 'homework'
                 name: 'htmlfetcher'
+
+              - file: 'quizzes'
+                name: 'http'
+
+              - file: 'quizzes'
+                name: 'dynamic'
 
   - week: 14
     days:

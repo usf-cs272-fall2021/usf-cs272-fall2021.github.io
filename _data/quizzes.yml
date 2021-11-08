@@ -178,3 +178,17 @@ workers:
   date: 2021-11-12
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393220'
   tags: ['threads']
+
+http:
+  <<: *default
+  text: 'HTTP Basics'
+  date: 2021-11-19
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393226'
+  tags: ['web']
+
+dynamic:
+  <<: *default
+  text: 'Dynamic Web'
+  date: 2021-11-19
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393224'
+  tags: ['web']
