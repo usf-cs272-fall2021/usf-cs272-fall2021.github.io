@@ -201,3 +201,10 @@ pools:
   text: 'Thread Pools and Work Queues'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vQcFkxoLMWlyWIrTQjEsPNQ5XwNm_fviTs0N2iDtPyMFK0EA2VQxNCDgj7xRdhe8Y5rL9Lz17eamoJa/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1Nz47N4dqlnypm3HSvtOB0iMwmO35aMgR/view?usp=sharing'
+
+web:
+  <<: *default
+  tags: ['sockets']
+  text: 'Web Basics'
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vTpC3pjOFUXBGl956RBsC9GOqBwXB0jOyCF40Kj3ztiYSBj-PhjcmO6X1Y9MHUdP4p2_ohpNpb0BgaL/pub?start=false&loop=false&delayms=3000'
+  tube: 'https://drive.google.com/file/d/1EjtB-Ikl7fpijJ9k5B1I0aSRc74g3pXQ/view?usp=sharing'
