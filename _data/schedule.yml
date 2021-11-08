@@ -1525,8 +1525,6 @@ weeks:
 
       - date: 2021-11-05
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             dates: false
             items:
