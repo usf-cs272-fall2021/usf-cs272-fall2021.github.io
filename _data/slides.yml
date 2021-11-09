@@ -212,14 +212,14 @@ web:
 url:
   <<: *default
   tags: ['sockets']
-  text: 'URLs'
+  text: 'Uniform Resource Locator (URL)'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vQNdlB6gs8m-O35-rFhpdFvXmtu25-Qy8b_F3bhM1RAZoqyjaZ0W2HMkPr5RXdy41SPHmOYarkjZ9Wa/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1RmbX1-3Qqm5OyQJVZe8ugtqRUiO8THX-/view?usp=sharing'
 
 http:
   <<: *default
   tags: ['sockets']
-  text: 'HTTP'
+  text: 'Hypertext Transfer Protocol (HTTP)'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vTKuLKizWttKXTUExV3nUi7tNajx6m06TH1r7kze6kksjtMZLfEBL5iflMLbjGtf1tGmIi1rhh8Z6Ai/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1L-JTuRZKalismoydzJUaSe2szdobX-L1/view?usp=sharing'
 
@@ -233,6 +233,6 @@ dynamic:
 jetty:
   <<: *default
   tags: ['servlets']
-  text: 'Jetty and Serlvets'
+  text: 'Jetty and Servlets'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vS3DspX3aB4BR711c7nGCV81pAX0hfSXEGtkDL8tbqIwwO_wetgZQRQ5x_z46-9-_fp9ut3vc1GemlK/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1OtvslLGJB1FOhoQRYv1yTFMLE6OCQCCN/view?usp=sharing'
