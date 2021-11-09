@@ -222,3 +222,17 @@ http:
   text: 'HTTP'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vTKuLKizWttKXTUExV3nUi7tNajx6m06TH1r7kze6kksjtMZLfEBL5iflMLbjGtf1tGmIi1rhh8Z6Ai/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1L-JTuRZKalismoydzJUaSe2szdobX-L1/view?usp=sharing'
+
+dynamic:
+  <<: *default
+  tags: ['web']
+  text: 'Static vs Dynamic Web'
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vTNdC7oUTuQj60GFId1-ZSsA3zFMPCIw8eBGfxKxBCR9hK_0i6f9UMh_5LDyRJgWcs7fg9d-TMN3-C4/pub?start=false&loop=false&delayms=3000'
+  tube: 'https://drive.google.com/file/d/1ix3i4i2eoHy-D9aTYgEkp9IPBBzgYxRw/view?usp=sharing'
+
+jetty:
+  <<: *default
+  tags: ['servlets']
+  text: 'Jetty and Serlvets'
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vS3DspX3aB4BR711c7nGCV81pAX0hfSXEGtkDL8tbqIwwO_wetgZQRQ5x_z46-9-_fp9ut3vc1GemlK/pub?start=false&loop=false&delayms=3000'
+  tube: 'https://drive.google.com/file/d/1OtvslLGJB1FOhoQRYv1yTFMLE6OCQCCN/view?usp=sharing'

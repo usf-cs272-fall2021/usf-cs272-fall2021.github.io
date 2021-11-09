@@ -1617,8 +1617,15 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
+              - file: 'slides'
+                name: 'dynamic'
+
+              - file: 'slides'
+                name: 'jetty'
+
               - text: 'Servlets'
                 type: *pending
+                type: 'bump'
 
       - date: 2021-11-12
         sections:
