@@ -1569,7 +1569,11 @@ weeks:
     days:
       - date: 2021-11-09
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/fFuo0uSb3CpZ-PNG70r-S3-Om9ctDeRM69PRKr2PMGRDPTTizBM_oyLGaHP4VK0-.hgjwZVAphSs5V34Q?startTime=1636489936000'
 
           - label: 'Agenda'
             dates: false
@@ -1625,9 +1629,27 @@ weeks:
               - file: 'slides'
                 name: 'jetty'
 
-              - text: 'Servlets'
-                type: *pending
+              - text: 'Servlet Basics'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/ServletBasics'
                 type: 'bump'
+
+              - text: '– TodayServer.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ServletBasics/src/main/java/TodayServer.java'
+
+              - text: '– HelloServer.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ServletBasics/src/main/java/HelloServer.java'
+
+              - text: '– VisitServer.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ServletBasics/src/main/java/VisitServer.java'
+
+              - text: '– SimpleFileServer.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ServletBasics/src/main/java/SimpleFileServer.java'
+                tube: 'https://drive.google.com/file/d/17AUSBRl0c_n7eJ56cSHIbd1al7P9YylG/view?usp=sharing'
 
       - date: 2021-11-12
         sections:
@@ -1680,8 +1702,24 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Servlets'
-                type: *pending
+              - text: 'Servlet Basics'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/ServletBasics'
+                type: 'bump'
+
+              - text: '– GalleryServer.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ServletBasics/src/main/java/GalleryServer.java'
+                tube: 'https://drive.google.com/file/d/1y7DlVnj3s1tcyS0kvKt5C7nxk-9ROkBz/view?usp=sharing'
+
+              - text: '– ContextServer.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/ServletBasics/src/main/java/ContextServer.java'
+                tube: 'https://drive.google.com/file/d/1TXY__9WzN_GbvSYH1LmHTJLu-Uu06voT/view?usp=sharing'
+
+              - text: 'Servlet Data'
+                type: 'bump'
+
 
           - <<: *assignments
             items:
