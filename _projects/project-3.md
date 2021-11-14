@@ -5,10 +5,6 @@ layout: guides
 key: 3.0
 bump: false
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
-
 assignments:
   - text: 'Project 3 Functionality'
     link: 'https://usfca.instructure.com/courses/1602551/assignments/7118293'
