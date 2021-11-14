@@ -10,40 +10,20 @@ tags:
     type: 'is-muted'
 
 assignments:
-  - text: 'Project 4 Web Crawler'
+  - text: 'Project 4a Web Crawler'
     link: 'project-4a.html'
 
-  - text: 'Project 4 Search Engine'
+  - text: 'Project 4b Search Engine'
     link: 'project-4b.html'
 
 ---
 
-For this project, you will extend your [previous project](project-3.html) to create a fully functional search engine. This is the **last project** for this course and is split into two main components: (a) a web crawler to build the index from web pages and (b) a web interface to process queries and search that index. See below for details.
+For this project, you will extend your [previous project](project-3.html) to create a fully functional search engine. This is the **last project** for this course and is split into two main components:
 
-## Part A: Web Crawler
+  - **[Project 4a Web Crawler](project-4a.html)**: Use a work queue to build the index from a seed URL instead of text files. The eligibility and grading are handled like any other [project functionality](functionality.html) component (i.e. using functionality tests).
 
-[View Writeup](project-4a.html){: .button .is-primary }
+  - **[Project 4b Search Engine](project-4b.html)**: Create a search engine web interface using Jetty and servlets. The eligibility and grading are handled like any other [project design](design.html) component (i.e. using code review).
 
-This part requires you to use a work queue to build the index from a seed URL instead of text files.
+To earn credit for [Project 4a Web Crawler](project-4a.html), you fully must pass the design of [project 2](project-2.html) and functionality of [project 3](project-3.html). To earn credit for [Project 4b Search Engine](project-4b.html), you must fully pass the functionality of [project 4a](project-4a.html).
 
-#### Eligibility
-
-You fully must pass the functionality of [project 3](project-3.html) to be eligible to earn credit for this project.
-
-#### Grading
-
-This functionality will be graded via JUnit  tests ONLY. There will be no code reviews or design component associated with this part of the project.
-
-## Part B: Search Engine
-
-[View Writeup](project-4b.html){: .button .is-primary }
-
-This part requires you to create a [search engine web interface](project-4b.html) using [embedded Jetty](https://www.eclipse.org/jetty/) and servlets to search that index.
-
-#### Eligibility
-
-You fully must pass the functionality of the [web crawler](project-4a.html) to be eligible to earn credit for this project.
-
-#### Grading
-
-There are no functionality tests for this part. It will be graded via code review ONLY. These code reviews will occur during finals week ONLY. See the [Final Code Review](final-review.html) guide for details.
+The code reviews for this project are conducted synchronously during finals week only. See the [Final Code Review](final-review.html) guide for details.

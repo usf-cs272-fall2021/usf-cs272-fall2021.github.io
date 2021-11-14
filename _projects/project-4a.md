@@ -6,8 +6,8 @@ key: 4.1
 bump: false
 
 tags:
-  - text: 'Pending'
-    type: 'is-muted'
+  - text: 'New'
+    type: 'is-primary'
 
 assignments:
   - text: 'Project 4 Web Crawler'
@@ -15,9 +15,20 @@ assignments:
 
 ---
 
-For this project, you will extend your [previous project](project-3.html) to create a multithreaded web crawler using a work queue that builds the inverted index from a seed URL. You fully must pass the functionality of [project 3](project-3.html) to be eligible to earn credit for this project.
+For this project, you will extend your [previous project](project-3.html) to create a multithreaded web crawler using a work queue that builds the inverted index from a seed URL.
 
 **This writeup is for the web crawler functionality only.** See the general [Project 4 Writeup](project-4.html) for more details.
+
+## Eligibility
+{: .page-header }
+
+The eligibility requirements for this project are the same [functionality eligibility](functionality.html#eligibility) requirements of the previous projects. Specifically:
+
+  - You must have a non-zero design grade for [project 2](project-2.html) on [Canvas]({{ site.data.info.links.canvas.link }}).
+
+  - You must have a non-zero functionality grade for [project 3](project-3.html) on [Canvas]({{ site.data.info.links.canvas.link }}).
+
+If you are missing a grade you should already have, please reach out to us on the [course forums]({{ site.data.info.links.forums.link }}).
 
 ## Functionality
 {: .page-header }
@@ -38,7 +49,7 @@ The core functionality of your project must satisfy the following requirements:
 
       3. After processing links, **remove HTML tags and entities**, and then add the remaining stemmed words to the index. See the "Processing HTML" for details.
 
-  - Use a work queue to **efficiently multithreaded** the web crawler such that each worker thread handles all of the processing associated with a single web page.
+  - Use a work queue to **efficiently multithreaded** the web crawler such that each worker thread handles all of the processing associated with a single web page. (This includes *everything* from downloading the web page to adding the processed text to the inverted index.)
 
   - To avoid a infinite crawl, the web crawler should crawl up to a **fixed limit of unique URLs** (including the seed URL).
 
@@ -128,15 +139,15 @@ The following content from this semester may be helpful in completing this proje
 
   - The `Sockets` lecture code illustrates how to use sockets and create HTTP requests (useful for the `HtmlFetcher` homework).
 
-  - The `HtmlFetcher` homework assignment will help follow HTTP redirects and download HTML over a socket connection.
+  - The `HtmlFetcher` homework assignment will help follow HTTP redirects and download HTML over a socket connection. <i class="fas fa-star has-text-usf-gold"></i>
 
-  - The `HtmlCleaner` homework assignment will help process the download HTML. Be careful about how much HTML content is removed before links are parsed!
+  - The `HtmlCleaner` homework assignment will help process the download HTML. Be careful about how much HTML content is removed before links are parsed! <i class="fas fa-star has-text-usf-gold"></i>
 
-  - The `LinkParser` homework assignment will help parse links from HTML (after block elements are removed).
+  - The `LinkParser` homework assignment will help parse links from HTML (after block elements are removed). <i class="fas fa-star has-text-usf-gold"></i>
 
   - The `TextFileStemmer` homework assignment will help parse the remaining content after cleaning the HTML into stems to add to the inverted index.
 
-  - The `WorkQueues` lecture code illustrates how to use a work queue and create tasks for recursive problems (like web crawling).
+  - The `WorkQueues` lecture code illustrates how to use a work queue and create tasks for recursive problems (like web crawling). <i class="fas fa-star has-text-usf-gold"></i>
 
   - The `WorkQueues` lecture code illustrates how to speed up multithreading code and avoid problems with over-blocking.
 
