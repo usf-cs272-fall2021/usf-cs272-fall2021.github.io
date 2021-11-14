@@ -1657,8 +1657,6 @@ weeks:
 
       - date: 2021-11-12
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             dates: false
             items:
@@ -1990,204 +1988,25 @@ weeks:
         sections:
           - label: 'Final Project Deadlines'
             items:
-              - text: 'Pending'
-                type: *pending
-
-              - file: 'projects'
-                name: 'project4d'
+              - text: 'Project Cutoff'
+                link: '/guides/projects/final-review.html'
+                icon: 'review'
+                show: true
+                date: 2021-12-10
+                type: 'has-text-danger has-text-weight-bold'
 
           - label: 'Finals Week 12/10 &ndash; 12/16'
-            dates: true
+            dates: false
             items:
+              - text: 'Project 4 Search Engine'
+                icon: 'review'
+                link: '/guides/projects/project-4b.html'
+                type: 'has-text-usf-plum'
+
               - text: 'Final Code Reviews'
                 icon: 'review'
-                type: *pending
-
-  # - week: 2
-  #   days:
-  #     - date: 2021-02-02
-  #       sections:
-  #         - label: 'Content (Async)'
-  #           items:
-  #             - text: 'Brief Introduction to Asynchronous Content'
-  #               link: 'https://usfca.zoom.us/rec/share/5gNYwUmk8MXqGmr_kvw4elDQtqddjnZOWGnXXLBv7KHbk9dQi5nLG69ppIvr00iq.KVRLoKd7QldGWjlI?startTime=1612216218000'
-  #               icon: 'video'
-  #
-  #             - text: 'Paths and Files'
-  #               icon: 'video'
-  #               link: 'https://usfca.zoom.us/rec/share/SXbeG7fZoLf0vWWG55QgqZO0ozlWGmp7y0c05YS1jiW7dUVwxN3kclZ4V3CpL9k5.hbUIO4xnJGxedMai'
-  #               more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vSWdQrf9ZxSaBP_6tpW-O7SGkiBPCxQIkefAFWPhUVFXNHOlOWlwGrTaB6KdwKH1QsSORDDRfgx-edG/pub?start=false&loop=false&delayms=3000">Slides</a>)'
-  #               type: 'bump'
-  #
-  #             - text: 'DirectoryStream Demo'
-  #               icon: 'video'
-  #               link: 'https://usfca.zoom.us/rec/share/kMShAxSdwOn7uWo0pN-0uK7mAmUYjtQX5iQZILlTHrN3ZDPd82PEkHuK8ZiBfukR.YhvYDvRiWVLx_JFT?startTime=1598299849000'
-  #               more: '(<a href="https://github.com/usf-cs212-spring2021/lectures/blob/main/FilesExceptions/src/main/java/DirectoryStreamDemo.java">Code</a>)'
-  #
-  #             - text: 'Data Structures'
-  #               icon: 'video'
-  #               link: 'https://usfca.zoom.us/rec/share/GLIzPn66lhC1UpWSCyAd26ZV5icAItj3zqHPcVrmu3ZlLwo35FiPkO7fsHLA0MUO.VZ4qvgGXmww8SMqw?startTime=1598294115000'
-  #               more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vQs2p2cjvjlh88sDVybmjGmMfxAZtm2_ehImdMet6UkVzM1ORhtI0Eh_ZkOQCyf66kqfv1yy4bC1cvV/pub?start=false&loop=false&delayms=3000">Slides</a>)'
-  #               type: 'bump'
-  #
-  #             - text: 'Collections Framework'
-  #               icon: 'video'
-  #               link: 'https://usfca.zoom.us/rec/share/3HUSQDQ-NG_DZ9IaI4ZhKhL5pgaMyaJbU00eGcTHkXFPaGxDV3LfMSwv2DZ5tXyk.50aRBX1YjmWELuon?startTime=1598295367000'
-  #               more: '(<a href="https://docs.google.com/presentation/d/e/2PACX-1vRWwVF2nFmbu86I1yCZHXoNTUBTjxcint85Hcholj8wT3LLLNYfUtazORgmTUaQpYUE8SGLslbXJq_h/pub?start=false&loop=false&delayms=3000">Slides</a>)'
-  #
-  #             - text: 'Collection Demo'
-  #               icon: 'video'
-  #               link: 'https://usfca.zoom.us/rec/share/wQM_zCCJUOiAf3YvC9gxG0srmhgWG316EIAHuXfzoJQMl0fusSOQ_dJl4jzyIaYJ.kEZaKSVjbZxDqmfi?startTime=1598301359000'
-  #               more: '(<a href="https://github.com/usf-cs212-spring2021/lectures/blob/main/DataStructures/src/main/java/CollectionDemo.java">Code</a>)'
-  #
-  #             - text: 'Map Demo'
-  #               icon: 'video'
-  #               link: 'https://usfca.zoom.us/rec/share/8VGeAmC_i6VSmSade95WZnf6vOV9RXyi784bjeJcj4CiPHkvsZwQGsqkvtjftDVZ.esAteUGNJ9zOFAvn?startTime=1598302552000'
-  #               more: '(<a href="https://github.com/usf-cs212-spring2021/lectures/blob/main/DataStructures/src/main/java/MapDemo.java">Code</a>)'
-  #
-  #         - label: 'Additional Content'
-  #           dates: ''
-  #           items:
-  #             - text: 'Files and Exceptions'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/FilesExceptions'
-  #               icon: 'code'
-  #
-  #             - text: 'Elite File Converter'
-  #               icon: 'code'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/blob/main/FilesExceptions/src/main/java/EliteFileConverter.java'
-  #
-  #             - text: 'Path Demo'
-  #               icon: 'code'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/blob/main/FilesExceptions/src/main/java/PathDemo.java'
-  #
-  #             - text: 'Data Structures'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/DataStructures'
-  #               icon: 'code'
-  #               type: 'bump'
-  #
-  #         - <<: *assignments
-  #           items:
-  #             - file: 'quizzes'
-  #               name: 'paths'
-  #
-  #             - file: 'quizzes'
-  #               name: 'data'
-  #
-  #         - <<: *deadlines
-  #           items:
-  #             - file: 'participation'
-  #               name: 'intros'
-  #
-  #             - file: 'participation'
-  #               name: 'forum_setup'
-  #
-  #             - file: 'quizzes'
-  #               name: 'syllabus'
-  #
-  #     - date: 2021-02-04
-  #       sections:
-  #         - <<: *recordings
-  #           items:
-  #             - text: 'CS 212-01 Recording'
-  #               icon: 'video'
-  #               link: 'https://usfca.zoom.us/rec/share/GkLGu7aVGHqzqdz3D1n4yaaXBdTCOIl3hBZ8yhDUZIkSvdNHN6CbZFGIxHtSA1Bk.QbcQnjnWjG61y_sU?startTime=1612470635000'
-  #
-  #             - text: 'CS 212-02 Recording'
-  #               icon: 'video'
-  #               link: 'https://usfca.zoom.us/rec/share/_3uZsEetVnHmPj1Py-JqymtPs4x7YWMUlXsPMrV_82FmRKMAg4uU5nG0LraMrCUK.0I0xzNdb6RpgomwE?startTime=1612484669000'
-  #
-  #         - label: 'Lecture (Sync)'
-  #           items:
-  #             - text: 'Data Structures'
-  #               icon: 'code'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/tree/main/DataStructures'
-  #
-  #             - text: '– Nested Map Demo'
-  #               icon: 'nothing'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/blob/main/DataStructures/src/main/java/NestedMapDemo.java'
-  #               type: 'em'
-  #
-  #             - text: '– Iteration Demo'
-  #               icon: 'nothing'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/blob/main/DataStructures/src/main/java/IterationDemo.java'
-  #               type: 'em'
-  #
-  #             - text: '– Mutable Set Demo'
-  #               icon: 'nothing'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/blob/main/DataStructures/src/main/java/MutableSetDemo.java'
-  #               type: 'em'
-  #
-  #         - label: 'Additional Content'
-  #           dates: ''
-  #           items:
-  #             - text: 'Find Demo'
-  #               icon: 'code'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/blob/main/DataStructures/src/main/java/FindDemo.java'
-  #
-  #             - text: 'Remove Demo'
-  #               icon: 'code'
-  #               link: 'https://github.com/usf-cs212-spring2021/lectures/blob/main/DataStructures/src/main/java/RemoveDemo.java'
-  #
-  #         - <<: *assignments
-  #           items:
-  #             - file: 'quizzes'
-  #               name: 'maps'
-  #
-  #         - <<: *deadlines
-  #           items:
-  #             - file: 'attendance'
-  #               name: 'class2'
-  #
-  #             - file: 'quizzes'
-  #               name: 'paths'
-  #               type: 'bump'
-  #
-  #             - file: 'quizzes'
-  #               name: 'data'
-  #
-  #     - date: 2021-02-05
-  #       sections:
-  #         - label: 'Lab (Sync)'
-  #           items:
-  #             - text: 'Configuring Eclipse'
-  #               link: '/guides/eclipse/configuring-eclipse.html'
-  #               icon: 'website'
-  #
-  #             - text: 'Comparing Files in Eclipse'
-  #               link: '/guides/eclipse/comparing-files.html'
-  #               icon: 'website'
-  #
-  #         - <<: *assignments
-  #           items:
-  #             - file: 'homework'
-  #               name: 'simplejsonwriter'
-  #
-  #         - <<: *deadlines
-  #           items:
-  #             - file: 'attendance'
-  #               name: 'other2'
-  #
-  #             - file: 'homework'
-  #               name: 'argumentmap'
-  #
-  #             - file: 'participation'
-  #               name: 'homework_setup'
-
-      # - date: 2021-03-09
-      #   sections:
-      #     - label: 'Lecture (Sync)'
-      #       items:
-      #         - text: 'Exam 1'
-      #           icon: 'exam'
-      #           type: ['has-text-weight-bold', 'has-text-danger']
-
-      # - date: 2021-03-16
-      #   sections:
-      #     - label: 'No Class'
-      #       items:
-      #         - text: 'Spring Break'
-      #           type: *pending
-      #           icon: 'spring'
+                link: '/guides/projects/final-review.html'
+                type: 'has-text-usf-plum'
 
 rows:
   - false # top row (usually lecture items)
