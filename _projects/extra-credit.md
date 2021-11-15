@@ -38,7 +38,7 @@ Below are some extra credit options. Each option is worth 5 points of extra cred
 
   - **JSON and Stemming Logic:** Reduce the duplicate logic in your JSON writing and stemming classes using lambda expressions.
 
-  - **Inverted Index Tests:** Create custom JUnit tests for your inverted index data structure. There should be 2 tests per public method (one for an empty index and one for a full index), and at least 2 tests that expect an exception to be thrown.
+  - **Inverted Index Tests:** Create custom JUnit tests for your inverted index data structure. There should be 2 tests per public method (one for an empty index and one for a non-empty index) that do *not* expect exceptions, and at least 2 additional tests that expect an exception to be thrown.
 
   - **Custom Sorting**: Create a `Comparator` that will sort your custom search result object by score, total number of words in the file (instead of the number of matches), and then the path. Create test code to demonstrate this `Comparator` works. This test code can be a simple class with hard-coded arguments and console output; it does not need to be a unit test using JUnit.
 
