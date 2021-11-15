@@ -1756,6 +1756,10 @@ weeks:
                 name: 'project4f'
                 type: 'bump'
 
+              - file: 'quizzes'
+                name: 'servlets'
+                type: 'bump'
+
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -1848,6 +1852,10 @@ weeks:
 
               - file: 'attendance'
                 name: 'other13'
+
+              - file: 'quizzes'
+                name: 'servlets'
+                type: 'bump'
 
       - date: 2021-11-25
         sections:

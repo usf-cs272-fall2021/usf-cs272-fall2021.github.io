@@ -191,4 +191,11 @@ dynamic:
   text: 'Dynamic Web'
   date: 2021-11-19
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393224'
-  tags: ['web']
+  tags: ['servlets']
+
+servlets:
+  <<: *default
+  text: 'Servlet Contexts'
+  date: 2021-11-23
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393225'
+  tags: ['servlets']
