@@ -14,12 +14,20 @@ assignments:
     link: 'https://usfca.instructure.com/courses/1602551/assignments/7118300'
 ---
 
-Pending
+For this project, you will extend your [previous project](project-4a.html) to create a search engine web interface using embedded Jetty and servlets.
+
+**This writeup is for the search engine functionality only.** See the general [Project 4 Writeup](project-4.html) for more details.
 
 ## Eligibility
 {: .page-header }
 
-Pending
+The eligibility requirements for this project are the same [design eligibility](design.html#eligibility) requirements of the previous projects. Specifically:
+
+  - You must have a non-zero design grade for [project 3](project-3.html) on [Canvas]({{ site.data.info.links.canvas.link }}).
+
+  - You must have a non-zero functionality grade for [project 4a](project-4a.html) on [Canvas]({{ site.data.info.links.canvas.link }}).
+
+If you are missing a grade you should already have, please reach out to us on the [course forums]({{ site.data.info.links.forums.link }}).
 
 ## Functionality
 {: .page-header }
@@ -31,6 +39,10 @@ Pending
 Pending
 
 ### Additional Functionality
+
+Pending
+
+### Potential Deductions
 
 Pending
 
