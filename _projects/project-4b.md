@@ -77,7 +77,12 @@ While there are many ways to lose points, the total possible deduction is capped
 
 ### Extra Credit
 
-Pending
+You may complete additional functionality as extra credit. There is no cap on how much extra credit you can earn for this specific project, however the overall project category grade will be capped to 110% at the end of the semester.
+
+For example, suppose you lost 10% because you submitted project functionality late and completed 130% worth of extra credit on the search engine project. Instead of earning 130% &ndash; 10% = 120% in the project category, your overall project category grade will be capped to 110% instead. This is a great way to make up missed points from late submissions, as well as boost your score if you struggled in the other grade categories.
+
+Regardless of what you implemented, you will NOT earn points for the search engine core functionality if you are not passing all of the web crawler tests, and will NOT earn points for extra functionality if you have not fully implemented the core functionality!
+{: .notification .is-warning }
 
 ## Input
 {: .page-header }
