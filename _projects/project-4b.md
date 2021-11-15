@@ -76,4 +76,27 @@ The output of your inverted index and search results should be the same from the
 ## Related Content
 {: .page-header }
 
-Pending
+The following content from this semester may be helpful in completing this project:
+
+  - The `ServletBasics` and `ServletData` lecture code illustrates how to use embedded Jetty and servlets to create a basic web interface.
+
+  - The `HeaderServer` homework assignment illustrates how to use web forms with embedded Jetty and servlets.
+
+  - The `Sessions` lecture code illustrates how to enable user tracking (optional).
+
+  - `JDBC` lecture code illustrates how to connect servlets to a SQL database on campus (optional).
+
+It is strongly recommended to pass all of the homework tests before integrating them into your projects.
+
+## Hints
+{: .page-header }
+
+It is important to develop the project iteratively. Some considerations to make while developing are:
+
+  - Start with using `GET` requests for basic search functionality.
+
+  - Using `POST` requests are usually only useful for user tracking features, and it is possible to implement those features using only `GET` as well.
+
+  - To ensure multi-user support, avoid static and instance members for storing anything related to search queries and results in your servlets.
+
+The important part will be to test your code as you go. Use the JUnit tests provided for previous projects to come up with your own test cases.
