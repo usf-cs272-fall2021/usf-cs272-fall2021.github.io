@@ -1752,12 +1752,12 @@ weeks:
               - file: 'attendance'
                 name: 'other13'
 
-              - file: 'projects'
-                name: 'project4f'
-                type: 'bump'
-
               - file: 'quizzes'
                 name: 'servlets'
+                type: 'bump'
+
+              - file: 'projects'
+                name: 'project4f'
                 type: 'bump'
 
           - <<: *deadlines
