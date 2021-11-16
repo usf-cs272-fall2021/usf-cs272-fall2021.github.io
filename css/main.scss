@@ -154,6 +154,10 @@ img.is-400, img.is-600, img.is-800, img.is-size {
   width: 800px;
 }
 
+.is-auto, .content table.is-auto {
+  width: auto;
+}
+
 /* custom classes */
 
 .page-header {
@@ -165,6 +169,11 @@ img.is-400, img.is-600, img.is-800, img.is-size {
 
 .content li.bump {
   margin-top: 0.8rem;
+}
+
+.invert pre {
+  color: whitesmoke;
+  background-color: #4a4a4a;
 }
 
 /* syntax highlighter styles */
