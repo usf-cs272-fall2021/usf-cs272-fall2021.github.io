@@ -61,3 +61,9 @@ You may want to load some of the examples discussed in class into your own datab
 ```sql
 SOURCE /home/public/cs272/sql/intro.sql
 ```
+
+#### Faculty Example
+
+```sql
+SOURCE /home/public/cs272/sql/faculty.sql
+```
