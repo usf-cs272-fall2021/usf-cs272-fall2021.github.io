@@ -1783,21 +1783,48 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Cookies'
-                type: *pending
+              - text: 'HTTP Cookies'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Sessions'
 
-              - text: 'Sessions'
-                type: *pending
+              - text: '– CookieServer.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Sessions/src/main/java/CookieServer.java'
+
+              - text: '– CookieLandingServlet.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Sessions/src/main/java/CookieLandingServlet.java'
+
+              - text: '– CookieVisitServlet.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Sessions/src/main/java/CookieVisitServlet.java'
+
+              - text: 'Sessions Adventure'
+                icon: 'code'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/Sessions'
+                type: 'bump'
+
+              - text: '– AdventureServer.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Sessions/src/main/java/AdventureServer.java'
+                tube: 'https://drive.google.com/file/d/1ousizKV83c3vlSEObTdwuiyPcga2AhH4/view?usp=sharing'
+
+              - text: '– AdventureRoom.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Sessions/src/main/java/AdventureRoom.java'
+                tube: 'https://drive.google.com/file/d/1ousizKV83c3vlSEObTdwuiyPcga2AhH4/view?usp=sharing'
+
+              - text: '– AdventureServlet.java'
+                icon: 'nothing'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/Sessions/src/main/java/AdventureServlet.java'
+                tube: 'https://drive.google.com/file/d/1VUXAIoeiG6Qkya1OkkbyutjKktyRkKEo/view?usp=sharing'
 
           - <<: *assignments
             items:
-              - text: 'Pending'
-                type: *pending
-
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - text: 'Final Code Reviews'
+                icon: 'review'
+                link: '/guides/projects/final-review.html'
+                type: 'has-text-usf-plum'
 
       - date: 2021-11-19
         sections:
