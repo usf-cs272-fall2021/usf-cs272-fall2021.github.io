@@ -1868,8 +1868,43 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'SQL'
-                type: *pending
+              - text: 'Relational Databases'
+                icon: 'slides'
+                tube: 'https://drive.google.com/file/d/1L-CLDjzNTGVzZPds1CkaU9uGvHl7FtwW/view?usp=sharing'
+
+              - text: 'Structured Query Language (SQL)'
+                icon: 'slides'
+                tube: 'https://drive.google.com/file/d/1jjVGe-4dbyefIr3k_5z2ZEjXL5cPL3MH/view?usp=sharing'
+
+              - text: 'Database Accounts'
+                icon: 'website'
+                link: '/guides/sql/database-accounts.html'
+                type: 'bump has-text-weight-bold'
+
+              - text: 'SQL Introduction'
+                icon: 'website'
+                link: '/guides/sql/sql-intro-started.html'
+                type: 'bump'
+
+              - text: '– Creating Tables'
+                icon: 'nothing'
+                link: '/guides/sql/sql-intro-creating.html'
+                tube: 'https://drive.google.com/file/d/1W5pneWmLOXVkDrvxL9YWhRsZ8PwjM4vZ/view?usp=sharing'
+
+              - text: '– Joining Data'
+                icon: 'nothing'
+                link: '/guides/sql/sql-intro-joining.html'
+                tube: 'https://drive.google.com/file/d/1auHLPbiHxJq8tr_78HtNrKELu2Wi_zk4/view?usp=sharing'
+
+              - text: '– Enforcing Relationships'
+                icon: 'nothing'
+                link: '/guides/sql/sql-intro-enforcing.html'
+                tube: 'https://drive.google.com/file/d/1MOokzFUB8FXT2msoxU65PcqMlxYOsd0B/view?usp=sharing'
+
+              - text: 'SQL Faculty Demo'
+                icon: 'website'
+                link: '/guides/sql/sql-demo-intro.html'
+                type: 'bump'
 
           - <<: *assignments
             items:
