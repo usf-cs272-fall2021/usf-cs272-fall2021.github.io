@@ -5,9 +5,9 @@ layout: default
 key: 1.1
 bump: true
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
+#tags:
+#  - text: 'New'
+#    type: 'is-primary'
 
 topics:
   - text: 'Exception Handling'

@@ -5,9 +5,9 @@ layout: guides
 key: 2.0
 bump: true
 
-#tags:
-#  - text: 'New'
-#    type: 'is-primary'
+tags:
+  - text: 'New'
+    type: 'is-primary'
 ---
 
 This is another SQL demo that illustrates the process of designing tables and creating complex `SELECT` statements from those tables to get different views of the data. The primary table we want to create is as follows:

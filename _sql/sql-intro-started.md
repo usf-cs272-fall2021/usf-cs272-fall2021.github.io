@@ -5,9 +5,9 @@ layout: guides
 key: 1.0
 bump: true
 
-#tags:
-#  - text: 'New'
-#    type: 'is-primary'
+tags:
+  - text: 'New'
+    type: 'is-primary'
 ---
 
 This demo will introduce various basic SQL concepts and statements via example. The tables we will be building in this demo are:

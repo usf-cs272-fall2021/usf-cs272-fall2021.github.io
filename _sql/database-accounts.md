@@ -5,9 +5,9 @@ layout: guides
 key: 0.1
 bump: true
 
-#tags:
-#  - text: 'New'
-#    type: 'is-primary'
+tags:
+  - text: 'New'
+    type: 'is-primary'
 ---
 
 We will use [MariaDB](https://mariadb.org/) as the relational database for this course. MariaDB is an open-source fork of MySQL and we will use the `mysql` client to connect to this database from a CS lab computer.
