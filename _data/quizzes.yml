@@ -129,6 +129,7 @@ regex:
   date: 2021-10-22
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392759'
   tags: ['regexes']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394181'
 
 unit:
   <<: *default
@@ -136,6 +137,7 @@ unit:
   date: 2021-10-22
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392935'
   tags: ['testing']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394175'
 
 asserts:
   <<: *default
@@ -143,6 +145,7 @@ asserts:
   date: 2021-10-29
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393222'
   tags: ['debugging']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394183'
 
 logging:
   <<: *default
@@ -150,6 +153,7 @@ logging:
   date: 2021-10-29
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393219'
   tags: ['debugging']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394178'
 
 threads:
   <<: *default
@@ -157,6 +161,7 @@ threads:
   date: 2021-11-05
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393227'
   tags: ['threads']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394182'
 
 project3:
   <<: *default
@@ -171,6 +176,7 @@ synchronization:
   date: 2021-11-12
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393228'
   tags: ['threads']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394174'
 
 workers:
   <<: *default
@@ -178,6 +184,7 @@ workers:
   date: 2021-11-12
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393220'
   tags: ['threads']
+  tesT: 'https://usfca.instructure.com/courses/1602551/quizzes/2394173'
 
 http:
   <<: *default
@@ -185,6 +192,7 @@ http:
   date: 2021-11-19
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393226'
   tags: ['web']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394179'
 
 dynamic:
   <<: *default
@@ -192,6 +200,7 @@ dynamic:
   date: 2021-11-19
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393224'
   tags: ['servlets']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394184'
 
 servlets:
   <<: *default
@@ -199,3 +208,20 @@ servlets:
   date: 2021-11-23
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393225'
   tags: ['servlets']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394180'
+
+joins:
+  <<: *default
+  text: 'SQL Joins'
+  date: 2021-11-30
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393218'
+  tags: ['sql']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394176'
+
+groups:
+  <<: *default
+  text: 'SQL Groups'
+  date: 2021-11-30
+  link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393221'
+  tags: ['sql']
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394177'
