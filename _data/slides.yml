@@ -252,3 +252,34 @@ sql:
   tube: 'https://drive.google.com/file/d/1jjVGe-4dbyefIr3k_5z2ZEjXL5cPL3MH/view?usp=sharing'
   save: false
   link: false
+
+sqlintro1:
+  icon: 'website'
+  save: false
+  text: 'SQL Intro, Part 1'
+  link: '/guides/sql/sql-intro-started.html'
+  tube: 'https://drive.google.com/file/d/1W5pneWmLOXVkDrvxL9YWhRsZ8PwjM4vZ/view?usp=sharing'
+  tags: ['sql']
+
+sqlintro2:
+  icon: 'website'
+  save: false
+  text: 'SQL Intro, Part 2'
+  link: '/guides/sql/sql-intro-joining.html'
+  tube: 'https://drive.google.com/file/d/1auHLPbiHxJq8tr_78HtNrKELu2Wi_zk4/view?usp=sharing'
+  tags: ['sql']
+
+sqlintro3:
+  icon: 'website'
+  save: false
+  text: 'SQL Intro, Part 3'
+  link: '/guides/sql/sql-intro-enforcing.html'
+  tube: 'https://drive.google.com/file/d/1MOokzFUB8FXT2msoxU65PcqMlxYOsd0B/view?usp=sharing'
+  tags: ['sql']
+
+sqldemo:
+  icon: 'website'
+  save: false
+  text: 'SQL Faculty Demo'
+  link: '/guides/sql/sql-demo-intro.html'
+  tags: ['sql']

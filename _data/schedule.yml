@@ -1886,24 +1886,23 @@ weeks:
                 link: '/guides/sql/sql-intro-started.html'
                 type: 'bump'
 
-              - text: '– Creating Tables'
+              - file: 'slides'
+                name: 'sqlintro1'
+                text: '– Creating Tables'
                 icon: 'nothing'
-                link: '/guides/sql/sql-intro-creating.html'
-                tube: 'https://drive.google.com/file/d/1W5pneWmLOXVkDrvxL9YWhRsZ8PwjM4vZ/view?usp=sharing'
 
-              - text: '– Joining Data'
+              - file: 'slides'
+                name: 'sqlintro2'
+                text: '– Joining Data'
                 icon: 'nothing'
-                link: '/guides/sql/sql-intro-joining.html'
-                tube: 'https://drive.google.com/file/d/1auHLPbiHxJq8tr_78HtNrKELu2Wi_zk4/view?usp=sharing'
 
-              - text: '– Enforcing Relationships'
+              - file: 'slides'
+                name: 'sqlintro3'
+                text: '– Enforcing Relationships'
                 icon: 'nothing'
-                link: '/guides/sql/sql-intro-enforcing.html'
-                tube: 'https://drive.google.com/file/d/1MOokzFUB8FXT2msoxU65PcqMlxYOsd0B/view?usp=sharing'
 
-              - text: 'SQL Faculty Demo'
-                icon: 'website'
-                link: '/guides/sql/sql-demo-intro.html'
+              - file: 'slides'
+                name: 'sqldemo'
                 type: 'bump'
 
           - <<: *assignments
