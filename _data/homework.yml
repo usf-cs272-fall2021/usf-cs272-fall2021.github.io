@@ -67,21 +67,21 @@ readwritelock:
   text: 'ReadWriteLock'
   date: 2021-11-12
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7115411'
-  tags: ['multithreading']
+  tags: ['threads']
 
 primefinder:
   <<: *default
   text: 'PrimeFinder'
   date: 2021-11-12
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7115412'
-  tags: ['multithreading']
+  tags: ['threads']
 
 htmlfetcher:
   <<: *default
   text: 'HtmlFetcher'
   date: 2021-11-19
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7115413'
-  tags: ['web', 'sockets']
+  tags: ['web']
 
 headserver:
   <<: *default
