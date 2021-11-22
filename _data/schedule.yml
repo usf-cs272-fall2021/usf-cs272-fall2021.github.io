@@ -1870,13 +1870,11 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'Relational Databases'
-                icon: 'slides'
-                tube: 'https://drive.google.com/file/d/1L-CLDjzNTGVzZPds1CkaU9uGvHl7FtwW/view?usp=sharing'
+              - file: 'slides'
+                name: 'relational'
 
-              - text: 'Structured Query Language (SQL)'
-                icon: 'slides'
-                tube: 'https://drive.google.com/file/d/1jjVGe-4dbyefIr3k_5z2ZEjXL5cPL3MH/view?usp=sharing'
+              - file: 'slides'
+                name: 'sql'
 
               - text: 'Database Accounts'
                 icon: 'website'

@@ -236,3 +236,19 @@ jetty:
   text: 'Jetty and Servlets'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vS3DspX3aB4BR711c7nGCV81pAX0hfSXEGtkDL8tbqIwwO_wetgZQRQ5x_z46-9-_fp9ut3vc1GemlK/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1OtvslLGJB1FOhoQRYv1yTFMLE6OCQCCN/view?usp=sharing'
+
+relational:
+  <<: *default
+  tags: ['sql']
+  text: 'Relational Databases'
+  save: false
+  link: false
+  tube: 'https://drive.google.com/file/d/1L-CLDjzNTGVzZPds1CkaU9uGvHl7FtwW/view?usp=sharing'
+
+sql:
+  <<: *default
+  tags: ['sql']
+  text: 'Structured Query Language (SQL)'
+  tube: 'https://drive.google.com/file/d/1jjVGe-4dbyefIr3k_5z2ZEjXL5cPL3MH/view?usp=sharing'
+  save: false
+  link: false
