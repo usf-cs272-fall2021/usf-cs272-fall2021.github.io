@@ -1870,8 +1870,13 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
+              - text: 'Exam 2 Review'
+                link: '/guides/exams/exam-2.html'
+                icon: 'website'
+
               - file: 'slides'
                 name: 'relational'
+                type: 'bump'
 
               - file: 'slides'
                 name: 'sql'
