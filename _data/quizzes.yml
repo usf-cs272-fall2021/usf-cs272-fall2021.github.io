@@ -184,7 +184,7 @@ workers:
   date: 2021-11-12
   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2393220'
   tags: ['threads']
-  tesT: 'https://usfca.instructure.com/courses/1602551/quizzes/2394173'
+  test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394173'
 
 http:
   <<: *default
