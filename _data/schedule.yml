@@ -1832,8 +1832,6 @@ weeks:
 
       - date: 2021-11-19
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             dates: false
             items:
@@ -1915,6 +1913,13 @@ weeks:
               - file: 'attendance'
                 name: 'class14'
 
+              - file: 'quizzes'
+                name: 'joins'
+                type: 'bump'
+
+              - file: 'quizzes'
+                name: 'groups'
+
           - <<: *deadlines
             items:
               - file: 'attendance'
@@ -1970,6 +1975,13 @@ weeks:
             items:
               - file: 'attendance'
                 name: 'class14'
+
+              - file: 'quizzes'
+                name: 'joins'
+                type: 'bump'
+
+              - file: 'quizzes'
+                name: 'groups'
 
       - date: 2021-12-02
         sections:
