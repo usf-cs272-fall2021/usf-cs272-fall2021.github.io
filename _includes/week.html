@@ -30,10 +30,22 @@
           {%- else %}
           {%- assign item = found %}
           {%- endif %}
+          {%- assign icon = site.data.icons.pending.class %}
+          {%- if item.zoom %}
+          {%- assign icon = site.data.icons.stream.class %}
+          {%- elsif found.icon %}
+          {%- assign icon = site.data.icons[found.icon].class %}
+          {%- elsif item.icon %}
+          {%- assign icon = site.data.icons[item.icon].class %}
+          {%- endif %}
+          {%- assign text = "Pending" %}
+          {%- if found.text %}
+          {%- assign text = found.text %}
+          {%- elsif item.text %}
+          {%- assign text = item.text %}
+          {%- endif %}
           <li class="{{ item.type | join: " " }} {{ found.type | join: " " }}">
-            {%- if item.zoom %}<i class="{{ site.data.icons.stream.class }}"></i>
-            {%- elsif item.icon %}<i class="{{ site.data.icons[item.icon].class }}"></i>
-            {%- else %}<i class="{{ site.data.icons.pending.class }}"></i>{% endif %}
+            <i class="{{ icon }}"></i>
             {%- if item.show or section.dates == true and item.date %}
             {%- if item.date == day.date and item.show != true %}
             <strong>Due: </strong>
@@ -44,9 +56,9 @@
             {%- if item.zoom %}
             <a href="{{ site.data.info.streams[item.zoom].link }}">{{ site.data.info.streams[item.zoom].name }}</a>
             {%- elsif item.link %}
-            <a href="{{ item.link }}">{{ item.text }}</a>
+            <a href="{{ item.link }}">{{ text }}</a>
             {%- else %}
-            <span>{{ item.text }}</span>
+            <span>{{ text }}</span>
             {%- endif %}
             {%- if item.more %}
             {{ item.more }}
