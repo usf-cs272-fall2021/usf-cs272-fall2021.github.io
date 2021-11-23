@@ -242,7 +242,7 @@ relational:
   tags: ['sql']
   text: 'Relational Databases'
   save: false
-  link: false
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vRbPqGyndNy24E25v7NjqkgyfZ4YJNyfehWimbRq3bt2_YKGjmkPqLN_I4XeAvdfzyO4IS3slC8klRK/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1L-CLDjzNTGVzZPds1CkaU9uGvHl7FtwW/view?usp=sharing'
 
 sql:
