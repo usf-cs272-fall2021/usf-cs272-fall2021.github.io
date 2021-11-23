@@ -67,6 +67,16 @@ The exam will cover topics on the lecture content, homework assignments, and qui
 
 See below for resources and additional details.
 
+## Logistics
+
+In addition to the general [exam logistics](exam-logistics.html), you want to consider the following:
+
+  - You should bookmark your favorite regular expression, JUnit, Log4j2, HTTP, Jetty, and SQL resources. The README files of the lecture code have several recommendations for each topic.
+
+  - Make sure you can access the on-campus database. You will be able to `SOURCE` the tables from the exam and test out your SQL queries there.
+
+Everything else will be similar to the previous exam.
+
 ## Resources
 
 {% assign columns = 'slides,quizzes,homework' | split: ',' %}
