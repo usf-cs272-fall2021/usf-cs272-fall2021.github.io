@@ -241,7 +241,7 @@ relational:
   <<: *default
   tags: ['sql']
   text: 'Relational Databases'
-  save: false
+  save: true
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vRbPqGyndNy24E25v7NjqkgyfZ4YJNyfehWimbRq3bt2_YKGjmkPqLN_I4XeAvdfzyO4IS3slC8klRK/pub?start=false&loop=false&delayms=3000'
   tube: 'https://drive.google.com/file/d/1L-CLDjzNTGVzZPds1CkaU9uGvHl7FtwW/view?usp=sharing'
 
@@ -250,8 +250,8 @@ sql:
   tags: ['sql']
   text: 'Structured Query Language (SQL)'
   tube: 'https://drive.google.com/file/d/1jjVGe-4dbyefIr3k_5z2ZEjXL5cPL3MH/view?usp=sharing'
-  save: false
-  link: false
+  save: true
+  link: 'https://docs.google.com/presentation/d/e/2PACX-1vRPvlS9M0KVagEAjEvREljoAuAe5R1t6J_O5_sRlcmUefjgzldogvz-VSHcAmhJucOZEyFJDWU4jwzW/pub?start=false&loop=false&delayms=3000'
 
 sqlintro1:
   icon: 'website'
