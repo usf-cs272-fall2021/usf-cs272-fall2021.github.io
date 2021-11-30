@@ -1968,6 +1968,7 @@ weeks:
               - text: 'Exam 2'
                 icon: 'exam'
                 type: 'has-text-danger has-text-weight-bold'
+                link: 'https://usfca.instructure.com/courses/1602551/assignments/7144851'
 
           - <<: *assignments
             items:
@@ -2005,6 +2006,7 @@ weeks:
                 date: 2021-12-09
                 icon: 'exam'
                 type: 'has-text-danger has-text-weight-bold'
+                link: 'https://usfca.instructure.com/courses/1602551/assignments/7145105'
 
           - <<: *deadlines
             items:
@@ -2100,6 +2102,7 @@ weeks:
                 icon: 'exam'
                 show: true
                 type: 'bump has-text-danger has-text-weight-bold'
+                link: 'https://usfca.instructure.com/courses/1602551/assignments/7145105'
 
       - date: ''
         sections:
