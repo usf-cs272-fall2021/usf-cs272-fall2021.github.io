@@ -1997,8 +1997,8 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
-              - text: 'JDBC'
-                type: *pending
+              - file: 'slides'
+                name: 'jdbc'
 
           - <<: *assignments
             items:
