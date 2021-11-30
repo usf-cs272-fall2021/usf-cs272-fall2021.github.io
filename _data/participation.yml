@@ -78,3 +78,15 @@ midterm_survey:
   text: 'Midterm Survey'
   link: 'https://usfca.instructure.com/courses/1602551/assignments/7139677'
   date: 2021-11-05
+
+final_plan:
+  <<: *default
+  text: 'Final Grade Plan'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7145001'
+  date: 2021-12-09
+
+belonging2:
+  <<: *default
+  text: 'CS Belonging Survey 2'
+  link: 'https://usfca.instructure.com/courses/1602551/assignments/7144605'
+  date: 2021-12-09

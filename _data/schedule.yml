@@ -2008,10 +2008,12 @@ weeks:
                 type: 'has-text-danger has-text-weight-bold'
                 link: 'https://usfca.instructure.com/courses/1602551/assignments/7145105'
 
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
-                type: *pending
+              - file: 'participation'
+                name: 'final_plan'
+                type: 'bump'
+
+              - file: 'participation'
+                name: 'belonging2'
 
       - date: 2021-12-03
         sections:
@@ -2022,20 +2024,12 @@ weeks:
             items:
               - text: 'Homework Help'
                 icon: 'homework'
-                type: *pending
 
               - text: 'Project Help'
                 icon: 'project'
-                type: *pending
 
               - text: 'Code Reviews'
                 icon: 'review'
-                type: *pending
-
-          - <<: *assignments
-            items:
-              - text: 'Pending'
-                type: *pending
 
           - <<: *deadlines
             items:
@@ -2096,6 +2090,12 @@ weeks:
 
               - file: 'participation'
                 name: 'piazza_response'
+
+              - file: 'participation'
+                name: 'final_plan'
+
+              - file: 'participation'
+                name: 'belonging2'
 
               - text: 'Exam 2 Retake'
                 date: 2021-12-09
