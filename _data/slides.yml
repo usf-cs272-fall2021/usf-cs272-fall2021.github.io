@@ -285,7 +285,7 @@ sqldemo:
   tags: ['sql']
 
 jdbc:
-  save: true
+  <<: *default
   text: 'Java Database Connectivity (JDBC)'
   link: 'https://docs.google.com/presentation/d/e/2PACX-1vSEkLasouigfY7GgAHETx__MXNHd5t4y3YwxODFRVykQ0n7fOf3ZCGJNyhDkFv8fOzMebX6zDPlqgzg/pub?start=false&loop=false&delayms=3000'
   tags: ['jdbc']
