@@ -2000,6 +2000,30 @@ weeks:
               - file: 'slides'
                 name: 'jdbc'
 
+              - text: 'Faculty Contact Server'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/JDBC'
+                icon: 'code'
+
+              - text: '– SQL and HTML'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/tree/main/JDBC/src/main/resources'
+                tube: 'https://drive.google.com/file/d/1Q8jyBIsugwjbzk-JGJJZT5QF4EvAs-xN/view?usp=sharing'
+                icon: 'nothing'
+
+              - text: '– DatabaseConnector.java'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/JDBC/src/main/java/DatabaseConnector.java'
+                tube: 'https://drive.google.com/file/d/1nJ17EatO7ZeureUORtqDLfTaw6MXyIZj/view?usp=sharing'
+                icon: 'nothing'
+
+              - text: '– FacultyServer.java'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/JDBC/src/main/java/FacultyServer.java'
+                tube: 'https://drive.google.com/file/d/1yqeeCTD2j3qKz6Q_7sWn94SYkAV18_lt/view?usp=sharing'
+                icon: 'nothing'
+
+              - text: '– FacultyServlet.java'
+                link: 'https://github.com/usf-cs272-fall2021/lectures/blob/main/JDBC/src/main/java/FacultyServlet.java'
+                tube: 'https://drive.google.com/file/d/1J-buaf3BIVp4QYYm6u8M6-fzN_tXT3as/view?usp=sharing'
+                icon: 'nothing'
+
           - <<: *assignments
             items:
               - text: 'Exam 2 Retake'
