@@ -1960,8 +1960,6 @@ weeks:
     days:
       - date: 2021-11-30
         sections:
-          - <<: *lectures
-
           - label: 'Agenda'
             dates: false
             items:
@@ -1992,7 +1990,11 @@ weeks:
 
       - date: 2021-12-02
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'Lecture Recording'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/DcQZXZkqU-2sph4tAIbi_FhXM2HtqUahc_Hh58cvEmLDNYChFOIdzBVaw30Hajie.NF3pieeZMtoziF0t?startTime=1638477250000'
 
           - label: 'Agenda'
             dates: false
