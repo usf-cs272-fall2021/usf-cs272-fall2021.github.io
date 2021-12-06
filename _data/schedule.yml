@@ -2074,8 +2074,11 @@ weeks:
           - label: 'Agenda'
             dates: false
             items:
+              - text: 'Search Engine Demo'
+
               - text: 'Conclusion'
-                type: *pending
+                icon: 'slides'
+                save: true
 
           - <<: *assignments
             items:
