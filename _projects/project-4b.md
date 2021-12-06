@@ -6,8 +6,8 @@ key: 4.2
 bump: false
 
 tags:
-  - text: 'Pending'
-    type: 'is-muted'
+  - text: 'New'
+    type: 'is-primary'
 
 assignments:
   - text: 'Project 4 Search Engine'
