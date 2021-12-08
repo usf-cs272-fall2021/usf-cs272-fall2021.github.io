@@ -2043,8 +2043,6 @@ weeks:
 
       - date: 2021-12-03
         sections:
-          - <<: *labs
-
           - label: 'Agenda'
             dates: false
             items:
@@ -2069,7 +2067,15 @@ weeks:
     days:
       - date: 2021-12-07
         sections:
-          - <<: *lectures
+          - <<: *recordings
+            items:
+              - text: 'CS 272-01 Recording (First Half)'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/dl4nKZ3JJKWhCfnyZYoJrifZ0ohjBE5O80hFNki-mRklvnBNa_l2ARmWVNcfEXs.WUTk98v-5V3KXRw_?startTime=1638909332000'
+
+              - text: 'CS 272-02 Recording (Full)'
+                icon: 'video'
+                link: 'https://usfca.zoom.us/rec/share/EU-RfTFG9HGt1DXeGoFB4BBV3qe1RrM-86c8gxQKKOY2QHnBZ5JyVmPjgIVCjrc0.yNze5rwQZczdplg4?startTime=1638924294000'
 
           - label: 'Agenda'
             dates: false
